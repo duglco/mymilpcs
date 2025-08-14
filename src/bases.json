@@ -224,7 +224,7 @@
     "name": "Army Futures Command",
     "branch": "usa",
     "city": "",
-    "state": "tx",
+    "state": "TX",
     "country": "usa",
     "lat": 30.281991185664637,
     "lon": -97.7830304007043
@@ -234,7 +234,7 @@
     "name": "Army Research Lab – Orlando Simulations and Training Technology Center",
     "branch": "usa",
     "city": "",
-    "state": "fl",
+    "state": "FL",
     "country": "usa",
     "lat": 28.586185019507923,
     "lon": -81.1974856528996
@@ -244,7 +244,7 @@
     "name": "Army Research Office",
     "branch": "usa",
     "city": "",
-    "state": "nc",
+    "state": "NC",
     "country": "usa",
     "lat": 35.934680988950305,
     "lon": -78.76894060357824
@@ -394,7 +394,7 @@
     "name": "Biometric Technology Center Defense Forensics and Biometrics",
     "branch": "other",
     "city": "",
-    "state": "wv",
+    "state": "WV",
     "country": "usa",
     "lat": 39.32645017645307,
     "lon": -80.26495401559445
@@ -2244,7 +2244,7 @@
     "name": "Joint Base Anacostia-Bolling",
     "branch": "usaf",
     "city": "",
-    "state": "dc",
+    "state": "DC",
     "country": "usa",
     "lat": 38.84416880341016,
     "lon": -77.0150514063715
@@ -2284,7 +2284,7 @@
     "name": "Joint Base Elmendorf-Richardson",
     "branch": "usaf",
     "city": "",
-    "state": "ak",
+    "state": "AK",
     "country": "usa",
     "lat": 61.22943912067016,
     "lon": -149.63436851962507
@@ -2294,7 +2294,7 @@
     "name": "Joint Base Langley-Eustis",
     "branch": "usaf",
     "city": "",
-    "state": "va",
+    "state": "VA",
     "country": "usa",
     "lat": 37.132095240398336,
     "lon": -76.58863938321471
@@ -2304,7 +2304,7 @@
     "name": "Joint Base Lewis-McChord",
     "branch": "usa",
     "city": "",
-    "state": "wa",
+    "state": "WA",
     "country": "usa",
     "lat": 46.74453090640993,
     "lon": -120.16572525200642
@@ -2314,7 +2314,7 @@
     "name": "Joint Base McGuire-Dix-Lakehurst",
     "branch": "usaf",
     "city": "",
-    "state": "nj",
+    "state": "NJ",
     "country": "usa",
     "lat": 40.0100749415884,
     "lon": -74.49926179996359
@@ -2334,7 +2334,7 @@
     "name": "Joint Base Pearl Harbor-Hickam",
     "branch": "usn",
     "city": "",
-    "state": "hi",
+    "state": "HI",
     "country": "usa",
     "lat": 21.44248138617294,
     "lon": -158.1276196793904
@@ -2464,7 +2464,7 @@
     "name": "Kenai  Regional Radar Site",
     "branch": "usaf",
     "city": "",
-    "state": "ak",
+    "state": "AK",
     "country": "usa",
     "lat": 60.55977449587145,
     "lon": -151.25604954055046
@@ -3624,7 +3624,7 @@
     "name": "Naval Suffolk Facility",
     "branch": "usn",
     "city": "",
-    "state": "va",
+    "state": "VA",
     "country": "usa",
     "lat": 36.88512138217029,
     "lon": -76.42324052265101
