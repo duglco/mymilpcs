@@ -31,7 +31,7 @@ function milesDistance(lat1, lon1, lat2, lon2) {
   const R = 3958.8;
   const toRad = (d) => (d * Math.PI) / 180;
   const dLat = toRad(lat2 - lat1);
-  const dLon = toRad(lon2 - lon1);
+  const dLon = toRad(lat2 - lat1) ? toRad(lon2 - lon1) : toRad(lon2 - lon1); // ensure consistency
   const a =
     Math.sin(dLat / 2) ** 2 +
     Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
@@ -65,8 +65,6 @@ const CATEGORY_META = {
   "Homes for Sale":        { icon: Home,     weight: 0, chip: "Homes" }
 };
 const CATEGORY_LIST = Object.keys(CATEGORY_META);
-
-
 
 // ---------- NEW: helpers for state casing ----------
 const normState = (s) => (s ?? "").trim().toUpperCase(); // always 2-letter caps if input is a 2-letter code
@@ -112,11 +110,8 @@ function synthAmenitiesForBase(base) {
   return A;
 }
 
-
-
 const AMENITIES = BASES.flatMap((b) => synthAmenitiesForBase(b));
 
-function classNames(...xs) { return xs.filter(Boolean).join(" "); }
 function unique(arr) { return Array.from(new Set(arr)); }
 
 export default function MilitaryBasesDashboard() {
@@ -193,7 +188,7 @@ export default function MilitaryBasesDashboard() {
   function exportCSV() {
     const headers = ["Base", "Branch", "City", "State", "Score", ...CATEGORY_LIST.map((c) => `${c} (within ${radius}mi)`)];
     const rows = sorted.map((b) => [b.name, b.branch, b.city, normState(b.state), perBaseStats[b.id].score, ...CATEGORY_LIST.map((c) => perBaseStats[b.id].counts[c])]);
-    const csv = [headers, ...rows].map((r) => r.map((v) => `\"${String(v).replaceAll('\"', '\"\"')}\"`).join(",")).join("\\n");
+    const csv = [headers, ...rows].map((r) => r.map((v) => `"${String(v).replaceAll('"', '""')}"`).join(",")).join("\n");
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -204,7 +199,7 @@ export default function MilitaryBasesDashboard() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-slate-900/60 bg-slate-900/80 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center gap-4">
+        <div className="max-w-screen-2xl mx-auto px-4 py-4 flex items-center gap-4">
           <div className="flex items-center gap-2">
             <MapPin className="w-6 h-6" />
             <h1 className="text-xl sm:text-2xl font-semibold tracking-tight">
@@ -233,15 +228,13 @@ export default function MilitaryBasesDashboard() {
           <div className="lg:col-span-2 flex gap-2">
             {/* Branch: case-sensitive */}
             <select
-             value={branch}
-  onChange={(e) => setBranch(e.target.value)}
-  className="w-1/2 lg:w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
->
-  {["All", ...Array.from(new Set(BASES.map(b => b.branch)))].map((b) => (
-    <option key={b} value={b}>
-      {b}
-    </option>
-  ))}
+              value={branch}
+              onChange={(e) => setBranch(e.target.value)}
+              className="w-1/2 lg:w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            >
+              {["All", ...Array.from(new Set(BASES.map(b => b.branch)))].map((b) => (
+                <option key={b} value={b}>{b}</option>
+              ))}
             </select>
 
             {/* State: 2-letter caps, de-duped */}
@@ -289,63 +282,82 @@ export default function MilitaryBasesDashboard() {
         </div>
       </section>
 
-    <section className="max-w-screen-2xl mx-auto px-4 pb-10">
-  <div className="overflow-x-auto lg:overflow-x-visible rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
-    <table className="w-full text-sm">
-            <thead className="bg-slate-900/70 sticky top-0 z-10">
-              <tr className="text-left text-slate-300">
-                <Th label="Base" now={sortBy} k="name" onSort={setSort} />
-                <Th label="Branch" now={sortBy} k="branch" onSort={setSort} />
-                <Th label="State" now={sortBy} k="state" onSort={setSort} />
-                <Th label="Score" now={sortBy} k="score" onSort={setSort} />
-                {CATEGORY_LIST.map((c) => <Th key={c} label={c} now={sortBy} k={c} onSort={setSort} />)}
-              </tr>
-            </thead>
-            <tbody>
-              {sorted.map((b, idx) => {
-                const stats = perBaseStats[b.id];
-                return (
-                  <tr key={b.id} className={`border-t border-slate-800 hover:bg-slate-800/40 transition ${idx % 2 === 1 ? "bg-slate-950/20" : ""}`}>
-                    <td className="px-3 py-3">
-                      <div className="font-medium">{b.name}</div>
-                      <div className="text-xs text-slate-400 flex items-center gap-1">
-                        <MapPin className="w-3.5 h-3.5" /> {b.city}, {normState(b.state)}
-                      </div>
-                    </td>
-                    <td className="px-3 py-3">{b.branch}</td>
-                    <td className="px-3 py-3">{normState(b.state)}</td>
-                    <td className="px-3 py-3">
-                      <div className="flex items-center gap-2">
-                        <div className="w-28 h-2 rounded-full bg-slate-800 overflow-hidden">
-                          <div className="h-2 bg-indigo-500" style={{ width: `${(stats.score / maxScore) * 100}%` }} />
-                        </div>
-                        <span className="tabular-nums">{stats.score}</span>
-                      </div>
-                    </td>
-                    {CATEGORY_LIST.map((c) => {
-                      const Icon = CATEGORY_META[c].icon; const count = stats.counts[c];
-                      return (
-                        <td key={c} className="px-3 py-3">
-                          <span className={`inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs ${count > 0 ? "bg-slate-800 text-slate-100" : "bg-slate-900 text-slate-500 border border-slate-800"}`}>
-                            <Icon className="w-3.5 h-3.5" />
-                            <span className="tabular-nums">{count}</span>
-                          </span>
-                        </td>
-                      );
-                    })}
+      {/* Data table section with centered, non-overlapping sticky header */}
+      <section className="max-w-screen-2xl mx-auto px-4 pb-10">
+        <div className="mx-auto w-full">
+          <div className="relative rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
+            {/* Scroll container for sticky header; centered card */}
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm table-auto">
+                <thead className="sticky top-0 z-20 bg-slate-900">
+                  <tr className="text-left text-slate-300">
+                    <Th label="Base"   now={sortBy} k="name"  onSort={setSort} />
+                    <Th label="Branch" now={sortBy} k="branch" onSort={setSort} />
+                    <Th label="State"  now={sortBy} k="state" onSort={setSort} />
+                    <Th label="Score"  now={sortBy} k="score" onSort={setSort} />
+                    {CATEGORY_LIST.map((c) => (
+                      <Th key={c} label={c} now={sortBy} k={c} onSort={setSort} />
+                    ))}
                   </tr>
-                );
-              })}
-              {sorted.length === 0 && (
-                <tr><td colSpan={4 + CATEGORY_LIST.length} className="px-3 py-8 text-center text-slate-400">No bases match your filters.</td></tr>
-              )}
-            </tbody>
-          </table>
-        </div>
+                </thead>
 
-        <div className="mt-4 text-xs text-slate-400">
-          <p>Scoring: Hospital×3, VA×3, Airport×2, others×1 within chosen miles. Adjust weights in <code>CATEGORY_META</code>.</p>
-          <p className="mt-2">To plug in real data, replace <code>BASES</code>/<code>AMENITIES</code> or fetch JSON and map into this shape.</p>
+                <tbody>
+                  {sorted.map((b, idx) => {
+                    const stats = perBaseStats[b.id];
+                    return (
+                      <tr
+                        key={b.id}
+                        className={`border-t border-slate-800 ${idx % 2 === 1 ? "bg-slate-950/20" : ""} hover:bg-slate-800/40 transition`}
+                      >
+                        <td className="px-3 py-3">
+                          <div className="font-medium break-words">{b.name}</div>
+                          <div className="text-xs text-slate-400 flex items-center gap-1">
+                            <MapPin className="w-3.5 h-3.5" /> {b.city}, {normState(b.state)}
+                          </div>
+                        </td>
+                        <td className="px-3 py-3">{b.branch}</td>
+                        <td className="px-3 py-3">{normState(b.state)}</td>
+                        <td className="px-3 py-3">
+                          <div className="flex items-center gap-2">
+                            <div className="w-28 h-2 rounded-full bg-slate-800 overflow-hidden">
+                              <div className="h-2 bg-indigo-500" style={{ width: `${(stats.score / maxScore) * 100}%` }} />
+                            </div>
+                            <span className="tabular-nums">{stats.score}</span>
+                          </div>
+                        </td>
+
+                        {CATEGORY_LIST.map((c) => {
+                          const Icon = CATEGORY_META[c].icon;
+                          const count = stats.counts[c];
+                          return (
+                            <td key={c} className="px-3 py-3">
+                              <span className={`inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs ${count > 0 ? "bg-slate-800 text-slate-100" : "bg-slate-900 text-slate-500 border border-slate-800"}`}>
+                                <Icon className="w-3.5 h-3.5" />
+                                <span className="tabular-nums">{count}</span>
+                              </span>
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    );
+                  })}
+
+                  {sorted.length === 0 && (
+                    <tr>
+                      <td colSpan={4 + CATEGORY_LIST.length} className="px-3 py-8 text-center text-slate-400">
+                        No bases match your filters.
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="mt-4 text-xs text-slate-400">
+            <p>Scoring: Hospital×3, VA×3, Airport×2, others×1 within chosen miles. Adjust weights in <code>CATEGORY_META</code>.</p>
+            <p className="mt-2">To plug in real data, replace <code>BASES</code>/<code>AMENITIES</code> or fetch JSON and map into this shape.</p>
+          </div>
         </div>
       </section>
     </div>
