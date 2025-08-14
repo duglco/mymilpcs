@@ -220,13 +220,15 @@ export default function MilitaryBasesDashboard() {
           <div className="lg:col-span-2 flex gap-2">
             {/* Branch: case-sensitive */}
             <select
-              value={branch}
-              onChange={(e) => setBranch(e.target.value)}
-              className="w-1/2 lg:w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            >
-              {branchOptions.map((b) => (
-                <option key={b} value={b}>{b}</option>
-              ))}
+             value={branch}
+  onChange={(e) => setBranch(e.target.value)}
+  className="w-1/2 lg:w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+>
+  {["All", ...Array.from(new Set(BASES.map(b => b.branch)))].map((b) => (
+    <option key={b} value={b}>
+      {b}
+    </option>
+  ))}
             </select>
 
             {/* State: 2-letter caps, de-duped */}
