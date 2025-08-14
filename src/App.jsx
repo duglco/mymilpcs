@@ -1,5 +1,7 @@
 
 import React, { useMemo, useState } from "react";
+import BASES from './bases.json';
+
 import {
   Search,
   Filter,
@@ -44,16 +46,7 @@ const CATEGORY_META = {
 
 const CATEGORY_LIST = Object.keys(CATEGORY_META);
 
-const BASES = [
-  { id: "fort-liberty", name: "Fort Liberty", branch: "Army", city: "Fayetteville", state: "NC", lat: 35.1418, lon: -79.0009 },
-  { id: "naval-station-norfolk", name: "Naval Station Norfolk", branch: "Navy", city: "Norfolk", state: "VA", lat: 36.944, lon: -76.312 },
-  { id: "jbsa", name: "Joint Base San Antonio", branch: "Air Force", city: "San Antonio", state: "TX", lat: 29.384, lon: -98.581 },
-  { id: "camp-pendleton", name: "MCB Camp Pendleton", branch: "Marine Corps", city: "Oceanside", state: "CA", lat: 33.304, lon: -117.314 },
-  { id: "wright-patt", name: "Wright-Patterson AFB", branch: "Air Force", city: "Dayton", state: "OH", lat: 39.829, lon: -84.049 },
-  { id: "nellis-afb", name: "Nellis AFB", branch: "Air Force", city: "Las Vegas", state: "NV", lat: 36.236, lon: -115.034 },
-  { id: "fort-cavazos", name: "Fort Cavazos", branch: "Army", city: "Killeen", state: "TX", lat: 31.134, lon: -97.775 },
-  { id: "nas-pensacola", name: "NAS Pensacola", branch: "Navy", city: "Pensacola", state: "FL", lat: 30.35, lon: -87.314 },
-];
+
 
 function placeAround(base, milesEast, milesNorth) {
   const milesPerDegLat = 69;
