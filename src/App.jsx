@@ -278,7 +278,8 @@ export default function MilitaryBasesDashboard() {
                     <td className="px-3 py-3">
                       <div className="flex items-center gap-2">
                         <div className="w-28 h-2 rounded-full bg-slate-800 overflow-hidden">
-                          <div className="h-2 bg-indigo-500" style={{ width: `${(stats.score / Math.max(1, ...BASES.map(bb => perBaseStats[bb.id].score))) * 100}%` }} />
+                          <div className="h-2 bg-indigo-500" style={{ width: `${(stats.score / maxScore) * 100}%` }}
+ />
                         </div>
                         <span className="tabular-nums">{stats.score}</span>
                       </div>
