@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* basic smoothing */
-* { box-sizing: border-box; }
-html, body, #root { height: 100%; }
