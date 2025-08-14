@@ -20,6 +20,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "fetch:bases": "node scripts/fetch-bases.js",
-    "fixstates": "node src/fixStates.cjs"
+    "fixstates": "node src/fixStates.cjs",
+    "fixbranches": "node src/fixBranches.cjs"
   }
 }
