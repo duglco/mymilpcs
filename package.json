@@ -26,5 +26,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "fetch:bases": "node scripts/fetch-bases.js"
-  }
+  },
+  
+  "scripts": {
+    "fixstates": "node fixStates.cjs"
 }
