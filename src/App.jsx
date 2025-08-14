@@ -217,7 +217,7 @@ export default function MilitaryBasesDashboard() {
         </div>
       </header>
 
-      <section className="max-w-7xl mx-auto px-4 py-4">
+      <section className="max-w-screen-2xl mx-auto px-4 py-4">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-3">
           <div className="lg:col-span-4">
             <div className="relative">
@@ -289,7 +289,7 @@ export default function MilitaryBasesDashboard() {
         </div>
       </section>
 
-    <section className="max-w-7xl mx-auto px-4 pb-10">
+    <section className="max-w-screen-2xl mx-auto px-4 pb-10">
   <div className="overflow-x-auto lg:overflow-x-visible rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
     <table className="w-full text-sm">
             <thead className="bg-slate-900/70 sticky top-0 z-10">
