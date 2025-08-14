@@ -15,14 +15,11 @@ import {
   Hospital,
   Baby,
   Pill,
-  GraduationCap,
   Banknote,
   School,
-  Building,
-  Plane,
-  ShoppingCart,
-  Home,
+  Home
 } from "lucide-react";
+
 
 /**
  * Military Bases & Amenities — Single-file React prototype
@@ -43,19 +40,32 @@ function milesDistance(lat1, lon1, lat2, lon2) {
 }
 
 const CATEGORY_META = {
-  "BAH Rate E5 w/ DEP": { icon: Banknote, weight: 1, chip: "BAH Rate" },
-  "Childcare":           { icon: Baby, weight: 1, chip: "Childcare" },
-  "Pharmacies":          { icon: Pill, weight: 1, chip: "Pharmacies" },
-  "Colleges":            { icon: GraduationCap, weight: 1, chip: "Colleges" },
-  "State Tax":           { icon: Banknote, weight: 1, chip: "State Tax" },
-  "Elementary Schools":  { icon: School, weight: 1, chip: "Elementary" },
-  "Middle Schools":      { icon: School, weight: 1, chip: "Middle" },
-  "High Schools":        { icon: School, weight: 1, chip: "High" },
-  "International Airport": { icon: Plane, weight: 2, chip: "Intl Airport" },
-  "Walmarts":            { icon: ShoppingCart, weight: 1, chip: "Walmart" },
-  "Homes for Sale":      { icon: Home, weight: 1, chip: "Homes" }
+  // Keep these so the “Must have hospital/VA” filters work
+  Hospital: { icon: Hospital, weight: 3, chip: "Hospital" },
+  VA:       { icon: Building2, weight: 3, chip: "VA" },
+
+  // (Optional) keep the originals if you still want them participating in score:
+  Grocery:  { icon: ShoppingCart, weight: 1, chip: "Grocery" },
+  School:   { icon: GraduationCap, weight: 1, chip: "School" },
+  Park:     { icon: Trees, weight: 1, chip: "Park" },
+  Gym:      { icon: Dumbbell, weight: 1, chip: "Gym" },
+  Airport:  { icon: Plane, weight: 2, chip: "Airport" },
+
+  // Your new categories
+  "BAH Rate E5 w/ DEP":    { icon: Banknote, weight: 0, chip: "BAH Rate" },
+  "Childcare":             { icon: Baby,     weight: 1, chip: "Childcare" },
+  "Pharmacies":            { icon: Pill,     weight: 1, chip: "Pharmacies" },
+  "Colleges":              { icon: GraduationCap, weight: 1, chip: "Colleges" },
+  "State Tax":             { icon: Banknote, weight: 0, chip: "State Tax" },
+  "Elementary Schools":    { icon: School,   weight: 1, chip: "Elementary" },
+  "Middle Schools":        { icon: School,   weight: 1, chip: "Middle" },
+  "High Schools":          { icon: School,   weight: 1, chip: "High" },
+  "International Airport": { icon: Plane,    weight: 2, chip: "Intl Airport" },
+  "Walmarts":              { icon: ShoppingCart, weight: 1, chip: "Walmart" },
+  "Homes for Sale":        { icon: Home,     weight: 0, chip: "Homes" }
 };
 const CATEGORY_LIST = Object.keys(CATEGORY_META);
+
 
 
 // ---------- NEW: helpers for state casing ----------
@@ -78,23 +88,30 @@ function mkAmenity(base, category, label, e, n) {
 function synthAmenitiesForBase(base) {
   const A = [];
 
-  // Example dummy data — adjust distances/names as you want
+  // Ensure Hospital/VA exist (required for your two checkboxes)
+  A.push(
+    mkAmenity(base, "Hospital", `${base.city} Medical Center`, 3, 2),
+    mkAmenity(base, "VA", `VA Clinic ${base.city}`, -2.5, -1.2)
+  );
+
+  // Existing/new demo items (you already had these)
   A.push(
     mkAmenity(base, "BAH Rate E5 w/ DEP", `$${(2000 + Math.random()*1500).toFixed(0)}/mo`, 0.5, 0.5),
     mkAmenity(base, "Childcare", `${base.city} Daycare Center`, 1.2, 0.6),
     mkAmenity(base, "Pharmacies", `${base.city} Pharmacy`, -1.0, 1.0),
     mkAmenity(base, "Colleges", `${base.city} Community College`, 2.0, -0.5),
-    mkAmenity(base, "State Tax", `${base.state} State Tax Rate`, 0, 0), // This can be handled as static info
+    mkAmenity(base, "State Tax", `${normState(base.state)} State Tax Rate`, 0, 0),
     mkAmenity(base, "Elementary Schools", `${base.city} Elementary School`, 0.8, 0.4),
     mkAmenity(base, "Middle Schools", `${base.city} Middle School`, -1.0, 1.2),
     mkAmenity(base, "High Schools", `${base.city} High School`, 1.5, -0.8),
     mkAmenity(base, "International Airport", `${base.city} Intl Airport`, 20, 5),
     mkAmenity(base, "Walmarts", `Walmart Supercenter`, 3.0, -1.0),
-    mkAmenity(base, "Homes for Sale", `${base.city} Homes for Sale`, 0, 0) // can be static too
+    mkAmenity(base, "Homes for Sale", `${base.city} Homes for Sale`, 0, 0)
   );
 
   return A;
 }
+
 
 
 const AMENITIES = BASES.flatMap((b) => synthAmenitiesForBase(b));
