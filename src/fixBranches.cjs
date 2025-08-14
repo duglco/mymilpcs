@@ -1,34 +1,42 @@
-// Normalize branch names in src/bases.json to proper case (title case)
+// Map branch abbreviations to full names
 const fs = require("fs");
 const path = require("path");
 
-// Point to your data file
 const file = path.join(__dirname, "bases.json");
 
-// 1) Backup once per run
+// Create a backup the first time you run this
 const backup = file + ".bak";
 if (!fs.existsSync(backup)) {
   fs.copyFileSync(file, backup);
   console.log("📦 Backup created:", backup);
 }
 
-// 2) Load, transform, save
-const bases = JSON.parse(fs.readFileSync(file, "utf8"));
+// Mapping from abbreviations → desired output
+const branchMap = {
+  "USA": "Army",
+  "USAF": "AirForce",
+  "USN": "Navy",
+  "USMC": "USMC",
+  "USAR": "USAR",
+  "AFR": "AFR",
+  "USNR": "USNR",
+  "USMCR": "USMCR",
+  "ARMYNATIONALGUARD": "ARNG",
+  "WHS": "WHS",
+  "AIRNATIONALGUARD": "ANG"
+};
 
-function titleCase(str) {
-  return str
-    .toLowerCase()
-    .split(/\s+/)
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-}
+const bases = JSON.parse(fs.readFileSync(file, "utf8"));
 
 for (const b of bases) {
   if (b && typeof b === "object" && "branch" in b && b.branch != null) {
-    // Trim and title-case the branch name
-    b.branch = titleCase(String(b.branch).trim());
+    // Normalize key to uppercase with no spaces for mapping
+    const key = String(b.branch).replace(/\s+/g, "").toUpperCase();
+    if (branchMap[key]) {
+      b.branch = branchMap[key];
+    }
   }
 }
 
 fs.writeFileSync(file, JSON.stringify(bases, null, 2));
-console.log("✅ Branch names normalized in", file);
+console.log("✅ Branch names updated based on mapping in", file);
