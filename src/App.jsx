@@ -289,9 +289,9 @@ export default function MilitaryBasesDashboard() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 pb-10">
-        <div className="overflow-auto rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
-          <table className="min-w-full text-sm">
+    <section className="max-w-7xl mx-auto px-4 pb-10">
+  <div className="overflow-x-auto lg:overflow-x-visible rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
+    <table className="w-full text-sm">
             <thead className="bg-slate-900/70 sticky top-0 z-10">
               <tr className="text-left text-slate-300">
                 <Th label="Base" now={sortBy} k="name" onSort={setSort} />
