@@ -7,5 +7,5 @@ import react from '@vitejs/plugin-react'
 // (https://<your-username>.github.io/), set base: '/' instead.
 export default defineConfig({
   plugins: [react()],
-  base: '/bases-dashboard/'
+  base: '/mymilpcs/'
 })
