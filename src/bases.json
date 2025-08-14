@@ -1,0 +1,7282 @@
+[
+  {
+    "id": " ",
+    "name": "Aberdeen Proving Ground",
+    "branch": "usa",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.3897240639341,
+    "lon": -76.21848320121646
+  },
+  {
+    "id": " ",
+    "name": "Adelphi Laboratory Center",
+    "branch": "usa",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.03287348189279,
+    "lon": -76.96042328787966
+  },
+  {
+    "id": " ",
+    "name": "Air Force Maui Optical and Supercomputing Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 20.74884415969616,
+    "lon": -156.44006431097478
+  },
+  {
+    "id": " ",
+    "name": "Air Force Office of Scientific Research",
+    "branch": "whs",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.880851214270756,
+    "lon": -77.10859651693276
+  },
+  {
+    "id": " ",
+    "name": "Air Force Plant 4",
+    "branch": "usaf",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.77404365909051,
+    "lon": -97.45043792063161
+  },
+  {
+    "id": " ",
+    "name": "Air Force Plant 42",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.629096193245566,
+    "lon": -118.0870225270581
+  },
+  {
+    "id": " ",
+    "name": "Air Force Plant 44",
+    "branch": "usaf",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.097507306889284,
+    "lon": -110.94159447213137
+  },
+  {
+    "id": " ",
+    "name": "Air Force Plant 6",
+    "branch": "usaf",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 33.92932270741173,
+    "lon": -84.53171058082184
+  },
+  {
+    "id": " ",
+    "name": "ALF Fentress Chesapke",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.69427002694718,
+    "lon": -76.13297227030668
+  },
+  {
+    "id": " ",
+    "name": "ALF Orange",
+    "branch": "usn",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 27.896100057420945,
+    "lon": -98.04324664030469
+  },
+  {
+    "id": " ",
+    "name": "Aliamanu Military Reservation",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.36897121559428,
+    "lon": -157.90380335324792
+  },
+  {
+    "id": " ",
+    "name": "Allegany Ballistics Lab",
+    "branch": "usn",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 39.54925302082588,
+    "lon": -78.84573450759596
+  },
+  {
+    "id": " ",
+    "name": "Allen Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.230999288298555,
+    "lon": -85.65063445660651
+  },
+  {
+    "id": " ",
+    "name": "Alpena County Regional Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MI",
+    "country": "usa",
+    "lat": 45.08474952967412,
+    "lon": -83.56996297075078
+  },
+  {
+    "id": " ",
+    "name": "Altus Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 34.66376211471454,
+    "lon": -99.27453798879793
+  },
+  {
+    "id": " ",
+    "name": "Amphib Base Coronado East",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.66193753456064,
+    "lon": -117.15362405116811
+  },
+  {
+    "id": " ",
+    "name": "Amphib Base Coronado West",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.67131922566729,
+    "lon": -117.16765503054596
+  },
+  {
+    "id": " ",
+    "name": "Andersen Air Force Base",
+    "branch": "usn",
+    "city": "",
+    "state": "GU",
+    "country": "usa",
+    "lat": 13.59692296387595,
+    "lon": 144.8981435275446
+  },
+  {
+    "id": " ",
+    "name": "Anniston Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 33.65427323608596,
+    "lon": -85.96969604959206
+  },
+  {
+    "id": " ",
+    "name": "Arbuckle Airfield",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 27.652182139152913,
+    "lon": -81.34766293162397
+  },
+  {
+    "id": " ",
+    "name": "Arlington National Cemetery",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.87793380142568,
+    "lon": -77.06915203973753
+  },
+  {
+    "id": " ",
+    "name": "Arlington Service Ctr",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.867735029753725,
+    "lon": -77.07933537636238
+  },
+  {
+    "id": " ",
+    "name": "Army Futures Command",
+    "branch": "usa",
+    "city": "",
+    "state": "tx",
+    "country": "usa",
+    "lat": 30.281991185664637,
+    "lon": -97.7830304007043
+  },
+  {
+    "id": " ",
+    "name": "Army Research Lab – Orlando Simulations and Training Technology Center",
+    "branch": "usa",
+    "city": "",
+    "state": "fl",
+    "country": "usa",
+    "lat": 28.586185019507923,
+    "lon": -81.1974856528996
+  },
+  {
+    "id": " ",
+    "name": "Army Research Office",
+    "branch": "usa",
+    "city": "",
+    "state": "nc",
+    "country": "usa",
+    "lat": 35.934680988950305,
+    "lon": -78.76894060357824
+  },
+  {
+    "id": " ",
+    "name": "Arnold Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.364639214039386,
+    "lon": -86.07967167295503
+  },
+  {
+    "id": " ",
+    "name": "Atlantic City IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NJ",
+    "country": "usa",
+    "lat": 39.70565168243471,
+    "lon": -74.4343730284242
+  },
+  {
+    "id": " ",
+    "name": "Avon Park AF Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 27.64691820114239,
+    "lon": -81.27672748903312
+  },
+  {
+    "id": " ",
+    "name": "Badger AAP",
+    "branch": "usa",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 43.356669586859844,
+    "lon": -89.72338688641895
+  },
+  {
+    "id": " ",
+    "name": "Balboa Hospital",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.7262639541745,
+    "lon": -117.14502984629019
+  },
+  {
+    "id": " ",
+    "name": "Bangor IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 44.81757639792864,
+    "lon": -68.82980109829298
+  },
+  {
+    "id": " ",
+    "name": "Barin Field",
+    "branch": "usn",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 30.391474296074072,
+    "lon": -87.63227503427619
+  },
+  {
+    "id": " ",
+    "name": "Barksdale Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 32.50028095739835,
+    "lon": -93.59994133984986
+  },
+  {
+    "id": " ",
+    "name": "Barnes Map ANG",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.16936530425183,
+    "lon": -72.71799608225058
+  },
+  {
+    "id": " ",
+    "name": "Barry Goldwater Range",
+    "branch": "usmc",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.498280324686874,
+    "lon": -114.08323415596314
+  },
+  {
+    "id": " ",
+    "name": "Barry M Goldwater Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.89015956574428,
+    "lon": -112.7281954630271
+  },
+  {
+    "id": " ",
+    "name": "Barter Island Regional Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 70.12757393958317,
+    "lon": -143.62223773394177
+  },
+  {
+    "id": " ",
+    "name": "Beale Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 39.12105697267369,
+    "lon": -121.39546516121382
+  },
+  {
+    "id": " ",
+    "name": "Bellows",
+    "branch": "usaf",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.371329714275436,
+    "lon": -157.7108196513961
+  },
+  {
+    "id": " ",
+    "name": "Biometric Technology Center Defense Forensics and Biometrics",
+    "branch": "other",
+    "city": "",
+    "state": "wv",
+    "country": "usa",
+    "lat": 39.32645017645307,
+    "lon": -80.26495401559445
+  },
+  {
+    "id": " ",
+    "name": "Birch Lake Recreation Annex",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 64.31776466058481,
+    "lon": -146.64708190846792
+  },
+  {
+    "id": " ",
+    "name": "Birmingham Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 33.571059319801186,
+    "lon": -86.75413556391725
+  },
+  {
+    "id": " ",
+    "name": "Blakeslee Air Force Recreation Area",
+    "branch": "usaf",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 33.981173448984514,
+    "lon": -77.91659496937562
+  },
+  {
+    "id": " ",
+    "name": "Blue Grass Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "KY",
+    "country": "usa",
+    "lat": 37.69895426908311,
+    "lon": -84.21745462854074
+  },
+  {
+    "id": " ",
+    "name": "Boise Air Terminal",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "ID",
+    "country": "usa",
+    "lat": 43.55725033885238,
+    "lon": -116.22222888475656
+  },
+  {
+    "id": " ",
+    "name": "Bradley IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "CT",
+    "country": "usa",
+    "lat": 41.934991882102345,
+    "lon": -72.70125739858335
+  },
+  {
+    "id": " ",
+    "name": "Bratenahl",
+    "branch": "usn",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 41.54246316231101,
+    "lon": -81.62617391299915
+  },
+  {
+    "id": " ",
+    "name": "Bridgeport",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 38.37417740931338,
+    "lon": -119.54202152215133
+  },
+  {
+    "id": " ",
+    "name": "Broadway Complex",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.71365191067903,
+    "lon": -117.17201817667566
+  },
+  {
+    "id": " ",
+    "name": "Brooklyn NY",
+    "branch": "usmcr",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 40.58253459091471,
+    "lon": -73.87817969088093
+  },
+  {
+    "id": " ",
+    "name": "Brown 4b Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.386319106275018,
+    "lon": -85.9722716890637
+  },
+  {
+    "id": " ",
+    "name": "Buckley Space Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 39.7065963844132,
+    "lon": -104.7575637240507
+  },
+  {
+    "id": " ",
+    "name": "Burlington IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "VT",
+    "country": "usa",
+    "lat": 44.47443255954113,
+    "lon": -73.14791367413228
+  },
+  {
+    "id": " ",
+    "name": "Cabeza De Perro",
+    "branch": "usn",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.24827142734351,
+    "lon": -65.57774865877944
+  },
+  {
+    "id": " ",
+    "name": "Cairns Basefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.278703272309716,
+    "lon": -85.71488328759108
+  },
+  {
+    "id": " ",
+    "name": "Camp Blaz",
+    "branch": "usn",
+    "city": "",
+    "state": "GU",
+    "country": "usa",
+    "lat": 13.587329046660884,
+    "lon": 144.84492807404655
+  },
+  {
+    "id": " ",
+    "name": "Camp Dodge",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IA",
+    "country": "usa",
+    "lat": 41.825513424019555,
+    "lon": -93.7885233112161
+  },
+  {
+    "id": " ",
+    "name": "Camp Frank D Merrill",
+    "branch": "usa",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 34.62853872672526,
+    "lon": -84.10370073096631
+  },
+  {
+    "id": " ",
+    "name": "Camp Grayling",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MI",
+    "country": "usa",
+    "lat": 44.59995592128663,
+    "lon": -84.86596699243474
+  },
+  {
+    "id": " ",
+    "name": "Camp MacKall",
+    "branch": "usa",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 35.03007349939012,
+    "lon": -79.4816052000469
+  },
+  {
+    "id": " ",
+    "name": "Camp Michael Monsoor",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.6737157613859,
+    "lon": -116.44371182724177
+  },
+  {
+    "id": " ",
+    "name": "Camp Morena",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.7123618332484,
+    "lon": -116.51582216654467
+  },
+  {
+    "id": " ",
+    "name": "Camp Navajo",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 35.19498074635984,
+    "lon": -111.8506998028981
+  },
+  {
+    "id": " ",
+    "name": "Camp Roberts",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 35.781595340936796,
+    "lon": -120.78004058877524
+  },
+  {
+    "id": " ",
+    "name": "Camp Shelby",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 31.090246358824757,
+    "lon": -89.00686768925608
+  },
+  {
+    "id": " ",
+    "name": "Camp Williams",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 40.42735716554143,
+    "lon": -112.01810662986021
+  },
+  {
+    "id": " ",
+    "name": "Cannon AFB Site 2",
+    "branch": "usaf",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 34.40919177263036,
+    "lon": -103.32824448018734
+  },
+  {
+    "id": " ",
+    "name": "Cannon Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 34.38402886758975,
+    "lon": -103.3211207538357
+  },
+  {
+    "id": " ",
+    "name": "Cape Canaveral Space Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 28.477241275524005,
+    "lon": -80.56986456684194
+  },
+  {
+    "id": " ",
+    "name": "Cape Newenham Long Range Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 58.64218751848008,
+    "lon": -162.07040157902628
+  },
+  {
+    "id": " ",
+    "name": "Capital Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 39.84789392349304,
+    "lon": -89.66771948759794
+  },
+  {
+    "id": " ",
+    "name": "Carlisle Barracks",
+    "branch": "usa",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.20993983696098,
+    "lon": -77.17358645437226
+  },
+  {
+    "id": " ",
+    "name": "Cavalier Space Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "ND",
+    "country": "usa",
+    "lat": 48.724792253184816,
+    "lon": -97.90297021281641
+  },
+  {
+    "id": " ",
+    "name": "CBC Gulfport MS",
+    "branch": "usn",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 30.377948088421302,
+    "lon": -89.12639925297538
+  },
+  {
+    "id": " ",
+    "name": "Channel Islands ANG Station",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.139460102310515,
+    "lon": -119.11092547132853
+  },
+  {
+    "id": " ",
+    "name": "Charlotte/Douglas IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 35.21635815760152,
+    "lon": -80.92988279420521
+  },
+  {
+    "id": " ",
+    "name": "Cheatham Annex",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.286939510946745,
+    "lon": -76.61443787980966
+  },
+  {
+    "id": " ",
+    "name": "Chesapeake Bay Detach",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.65853711914921,
+    "lon": -76.52892570978084
+  },
+  {
+    "id": " ",
+    "name": "Cheyenne Mountain Space Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.740401263379525,
+    "lon": -104.84493607112883
+  },
+  {
+    "id": " ",
+    "name": "Cheyenne Regional Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "WY",
+    "country": "usa",
+    "lat": 41.162026009354484,
+    "lon": -104.82129156573284
+  },
+  {
+    "id": " ",
+    "name": "Chocolate Mountain Aerial Gunnery Range",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.311861122772534,
+    "lon": -115.30914326502354
+  },
+  {
+    "id": " ",
+    "name": "Clear Space Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 64.28816057791644,
+    "lon": -149.19071470433687
+  },
+  {
+    "id": " ",
+    "name": "CNI NAVMAG Indian Island",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 48.053235206836675,
+    "lon": -122.72621886774365
+  },
+  {
+    "id": " ",
+    "name": "Cold Bay Regional Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 55.26321952557951,
+    "lon": -162.8870716072872
+  },
+  {
+    "id": " ",
+    "name": "Columbus Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 33.641312101453124,
+    "lon": -88.45111878922431
+  },
+  {
+    "id": " ",
+    "name": "Combat Capabilities Development Command Soldier Center",
+    "branch": "usa",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.289939083298655,
+    "lon": -71.36242603840374
+  },
+  {
+    "id": " ",
+    "name": "Corry Station",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.40285473390058,
+    "lon": -87.29008029137412
+  },
+  {
+    "id": " ",
+    "name": "Craney Island",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.88896946624449,
+    "lon": -76.36030456545907
+  },
+  {
+    "id": " ",
+    "name": "Creech Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 36.65154082018837,
+    "lon": -115.64019930715595
+  },
+  {
+    "id": " ",
+    "name": "CSO Barbers Point HI",
+    "branch": "usn",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.303817790429598,
+    "lon": -158.0520365416352
+  },
+  {
+    "id": " ",
+    "name": "CSO NAS Alameda",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 36.78082035855763,
+    "lon": -119.70198652522193
+  },
+  {
+    "id": " ",
+    "name": "CSO NAS South Weymouth",
+    "branch": "usn",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.156113883099465,
+    "lon": -70.93375490581826
+  },
+  {
+    "id": " ",
+    "name": "Cusick Survival Training Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 48.4233826240476,
+    "lon": -117.3631966650939
+  },
+  {
+    "id": " ",
+    "name": "Dania Beach (Lauderdale)",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 26.092083941707138,
+    "lon": -80.10998257517281
+  },
+  {
+    "id": " ",
+    "name": "Dare County Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 35.714703449064515,
+    "lon": -75.87825990299537
+  },
+  {
+    "id": " ",
+    "name": "Davis-Monthan Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.160801667642154,
+    "lon": -110.8487223753331
+  },
+  {
+    "id": " ",
+    "name": "Def Gen Supply Center",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.41877182800168,
+    "lon": -77.44752919084576
+  },
+  {
+    "id": " ",
+    "name": "Defense Advanced Research Projects Agency",
+    "branch": "whs",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.87875153569654,
+    "lon": -77.10864912530279
+  },
+  {
+    "id": " ",
+    "name": "Defense Distrib Depot Susq",
+    "branch": "usa",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.20819362158141,
+    "lon": -76.83928439358206
+  },
+  {
+    "id": " ",
+    "name": "Defense Supply Center Columbus",
+    "branch": "usa",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 39.97961007646793,
+    "lon": -82.8985258244319
+  },
+  {
+    "id": " ",
+    "name": "Des Moines IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "IA",
+    "country": "usa",
+    "lat": 41.544351181648736,
+    "lon": -93.6660369732377
+  },
+  {
+    "id": " ",
+    "name": "Destin Moreno Point",
+    "branch": "usa",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.41109890525603,
+    "lon": -86.49890136541609
+  },
+  {
+    "id": " ",
+    "name": "Det Concord (BRAC)",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 37.99224576106186,
+    "lon": -121.9794607008159
+  },
+  {
+    "id": " ",
+    "name": "Det Phil Pny Annex",
+    "branch": "usn",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 39.89346721432508,
+    "lon": -75.18199006751225
+  },
+  {
+    "id": " ",
+    "name": "Detroit Arsenal",
+    "branch": "usa",
+    "city": "",
+    "state": "MI",
+    "country": "usa",
+    "lat": 42.49732857904404,
+    "lon": -83.04133425637893
+  },
+  {
+    "id": " ",
+    "name": "Devens Reserve Forces Tng Area",
+    "branch": "usar",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.49596191224233,
+    "lon": -71.65814127464908
+  },
+  {
+    "id": " ",
+    "name": "DFAS Annex",
+    "branch": "usaf",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 46.93292638919919,
+    "lon": -67.89462494657613
+  },
+  {
+    "id": " ",
+    "name": "Dillingham Mil Res",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.576353350511862,
+    "lon": -158.19882776521723
+  },
+  {
+    "id": " ",
+    "name": "Dixie Target Range",
+    "branch": "usn",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 28.09738249945184,
+    "lon": -98.72836230267369
+  },
+  {
+    "id": " ",
+    "name": "Dobbins ARB",
+    "branch": "afr",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 33.917248639684814,
+    "lon": -84.51965325825871
+  },
+  {
+    "id": " ",
+    "name": "Dover Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "DE",
+    "country": "usa",
+    "lat": 39.12776602217637,
+    "lon": -75.46688366499188
+  },
+  {
+    "id": " ",
+    "name": "Dredgers Key-Sigsbee",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 24.57854816160033,
+    "lon": -81.77359352462922
+  },
+  {
+    "id": " ",
+    "name": "Dryside",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.68487753901706,
+    "lon": -117.11946659958079
+  },
+  {
+    "id": " ",
+    "name": "Duluth IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 46.84472264579419,
+    "lon": -92.17265753240333
+  },
+  {
+    "id": " ",
+    "name": "Dyess Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.42282498764798,
+    "lon": -99.83912415066403
+  },
+  {
+    "id": " ",
+    "name": "Eareckson Air Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 52.72103789821186,
+    "lon": 174.10714335395122
+  },
+  {
+    "id": " ",
+    "name": "Edwards Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.89035996372368,
+    "lon": -117.84886935135522
+  },
+  {
+    "id": " ",
+    "name": "Eglin AFB Site 2 Santa Rosa Island",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.394460830648118,
+    "lon": -86.74274199844203
+  },
+  {
+    "id": " ",
+    "name": "Eglin Air Force Auxiliary Field 6",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.63176496941922,
+    "lon": -86.74097200957952
+  },
+  {
+    "id": " ",
+    "name": "Eglin Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.576110005862883,
+    "lon": -86.53029248768873
+  },
+  {
+    "id": " ",
+    "name": "Eielson Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 64.67355090288268,
+    "lon": -147.06000796392266
+  },
+  {
+    "id": " ",
+    "name": "Elizabeth Rvr Channel",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.86726059930906,
+    "lon": -76.33245275202981
+  },
+  {
+    "id": " ",
+    "name": "Ellington Field Joint Reserve Base",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 29.616517952711657,
+    "lon": -95.17054439361391
+  },
+  {
+    "id": " ",
+    "name": "Ellsworth AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "SD",
+    "country": "usa",
+    "lat": 44.151867325051555,
+    "lon": -103.09353110677449
+  },
+  {
+    "id": " ",
+    "name": "England Authority",
+    "branch": "usa",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 31.33487565547399,
+    "lon": -92.54054949990719
+  },
+  {
+    "id": " ",
+    "name": "EWVRA Shepherd Field",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 39.40602152462426,
+    "lon": -77.98461187708706
+  },
+  {
+    "id": " ",
+    "name": "Fairchild Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.61866262162396,
+    "lon": -117.64838430355407
+  },
+  {
+    "id": " ",
+    "name": "Fallbrook California",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.35888351196769,
+    "lon": -117.28319459649026
+  },
+  {
+    "id": " ",
+    "name": "Fallon Range Complex",
+    "branch": "usn",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 39.20584467788815,
+    "lon": -118.23217768028536
+  },
+  {
+    "id": " ",
+    "name": "Fire Fighters School",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.9215594928879,
+    "lon": -76.32273690263642
+  },
+  {
+    "id": " ",
+    "name": "FLC Fuel Depot Heckscher",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.400193056140957,
+    "lon": -81.627443330831
+  },
+  {
+    "id": " ",
+    "name": "Fleming Key Magazine",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 24.579575806615708,
+    "lon": -81.79695152247278
+  },
+  {
+    "id": " ",
+    "name": "Forbes Field ANG",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "KS",
+    "country": "usa",
+    "lat": 38.96089539099195,
+    "lon": -95.68119987266624
+  },
+  {
+    "id": " ",
+    "name": "Former NTC",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.72935393030933,
+    "lon": -117.22100161359026
+  },
+  {
+    "id": " ",
+    "name": "Fort Adams RI",
+    "branch": "usn",
+    "city": "",
+    "state": "RI",
+    "country": "usa",
+    "lat": 41.47534168978809,
+    "lon": -71.33993316476946
+  },
+  {
+    "id": " ",
+    "name": "Fort Belvoir",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.70847318853706,
+    "lon": -77.15647730487088
+  },
+  {
+    "id": " ",
+    "name": "Fort Benjamin Harrison",
+    "branch": "usa",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 39.85862194554437,
+    "lon": -86.02586610299012
+  },
+  {
+    "id": " ",
+    "name": "Fort Bliss",
+    "branch": "usa",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.27286039526196,
+    "lon": -105.96732361440687
+  },
+  {
+    "id": " ",
+    "name": "Fort Buchanan",
+    "branch": "usar",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.412806112928973,
+    "lon": -66.12148955892971
+  },
+  {
+    "id": " ",
+    "name": "Fort Campbell",
+    "branch": "usa",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 36.62215178992384,
+    "lon": -87.62454771608172
+  },
+  {
+    "id": " ",
+    "name": "Fort Carson",
+    "branch": "usa",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.55874120424357,
+    "lon": -104.8267685062385
+  },
+  {
+    "id": " ",
+    "name": "Fort Cavazos",
+    "branch": "usa",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 31.228986853157373,
+    "lon": -97.72845987202983
+  },
+  {
+    "id": " ",
+    "name": "Fort De Russy",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.281794027189434,
+    "lon": -157.83387033464135
+  },
+  {
+    "id": " ",
+    "name": "Fort Detrick",
+    "branch": "usa",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.441170565499604,
+    "lon": -77.42497877374093
+  },
+  {
+    "id": " ",
+    "name": "Fort Detrick Forest Glen Annex",
+    "branch": "usa",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.00603963170957,
+    "lon": -77.05502857931938
+  },
+  {
+    "id": " ",
+    "name": "Fort Detrick Glen Haven Annex",
+    "branch": "usa",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.03343195065243,
+    "lon": -77.04177539178482
+  },
+  {
+    "id": " ",
+    "name": "Fort Drum",
+    "branch": "usa",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 44.12481226297472,
+    "lon": -75.592066860094
+  },
+  {
+    "id": " ",
+    "name": "Fort Eisenhower",
+    "branch": "usa",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 33.35666058757817,
+    "lon": -82.23728276544492
+  },
+  {
+    "id": " ",
+    "name": "Fort Gillem Enclave Site",
+    "branch": "usa",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 33.622522278789,
+    "lon": -84.32927061773852
+  },
+  {
+    "id": " ",
+    "name": "Fort Greely",
+    "branch": "usa",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 63.966778087654674,
+    "lon": -145.71511374340733
+  },
+  {
+    "id": " ",
+    "name": "Fort Gregg-Adams",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.23574211706895,
+    "lon": -77.33265467338673
+  },
+  {
+    "id": " ",
+    "name": "Fort Hamilton",
+    "branch": "usa",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 40.608190580878436,
+    "lon": -74.0281434072268
+  },
+  {
+    "id": " ",
+    "name": "Fort Huachuca",
+    "branch": "usa",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 31.567502058615727,
+    "lon": -110.32958351931454
+  },
+  {
+    "id": " ",
+    "name": "Fort Hunter Liggett",
+    "branch": "usar",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 35.95542157083078,
+    "lon": -121.25369225553541
+  },
+  {
+    "id": " ",
+    "name": "Fort Irwin",
+    "branch": "usa",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 35.3751036236633,
+    "lon": -116.6339828703536
+  },
+  {
+    "id": " ",
+    "name": "Fort Jackson",
+    "branch": "usa",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 34.03660847941333,
+    "lon": -80.75013587425215
+  },
+  {
+    "id": " ",
+    "name": "Fort Johnson",
+    "branch": "usa",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 31.052825509021936,
+    "lon": -93.07131128399811
+  },
+  {
+    "id": " ",
+    "name": "Fort Knox",
+    "branch": "usa",
+    "city": "",
+    "state": "KY",
+    "country": "usa",
+    "lat": 37.90724551244198,
+    "lon": -85.88377425488078
+  },
+  {
+    "id": " ",
+    "name": "Fort Leavenworth",
+    "branch": "usa",
+    "city": "",
+    "state": "KS",
+    "country": "usa",
+    "lat": 39.364082232806695,
+    "lon": -94.91832935991403
+  },
+  {
+    "id": " ",
+    "name": "Fort Leonard Wood",
+    "branch": "usa",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 37.70548755564627,
+    "lon": -92.15712523733606
+  },
+  {
+    "id": " ",
+    "name": "Fort Liberty",
+    "branch": "usa",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 35.13603065833492,
+    "lon": -79.14433702959829
+  },
+  {
+    "id": " ",
+    "name": "Fort McCoy",
+    "branch": "usar",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 44.03344526666684,
+    "lon": -90.67654112489578
+  },
+  {
+    "id": " ",
+    "name": "Fort Meade",
+    "branch": "usa",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.10880864649008,
+    "lon": -76.74474340489415
+  },
+  {
+    "id": " ",
+    "name": "Fort Monmouth Main Post",
+    "branch": "usa",
+    "city": "",
+    "state": "NJ",
+    "country": "usa",
+    "lat": 40.313492565062624,
+    "lon": -74.04397681385046
+  },
+  {
+    "id": " ",
+    "name": "Fort Monroe",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.01225338416632,
+    "lon": -76.30458668752308
+  },
+  {
+    "id": " ",
+    "name": "Fort Moore",
+    "branch": "usa",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 32.399873558888935,
+    "lon": -84.80053378531956
+  },
+  {
+    "id": " ",
+    "name": "Fort Novosel",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.403919762101246,
+    "lon": -85.74729797659673
+  },
+  {
+    "id": " ",
+    "name": "Fort Riley",
+    "branch": "usa",
+    "city": "",
+    "state": "KS",
+    "country": "usa",
+    "lat": 39.18668036053768,
+    "lon": -96.82086632768788
+  },
+  {
+    "id": " ",
+    "name": "Fort Shafter",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.348096900888102,
+    "lon": -157.8815630503263
+  },
+  {
+    "id": " ",
+    "name": "Fort Sheridan",
+    "branch": "usn",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 42.20891534491394,
+    "lon": -87.80454920697034
+  },
+  {
+    "id": " ",
+    "name": "Fort Sill",
+    "branch": "usa",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 34.68226909789802,
+    "lon": -98.48338832267433
+  },
+  {
+    "id": " ",
+    "name": "Fort Smith Map",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "AR",
+    "country": "usa",
+    "lat": 35.25659376180159,
+    "lon": -94.09359780234196
+  },
+  {
+    "id": " ",
+    "name": "Fort Stewart",
+    "branch": "usa",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 31.99362593628063,
+    "lon": -81.6167737752029
+  },
+  {
+    "id": " ",
+    "name": "Fort Wainwright",
+    "branch": "usa",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 64.54439991746426,
+    "lon": -147.7084182827354
+  },
+  {
+    "id": " ",
+    "name": "Fort Walker",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.118016940272035,
+    "lon": -77.27588935426466
+  },
+  {
+    "id": " ",
+    "name": "Fort Wingate Depot Activity",
+    "branch": "usa",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 35.47681054521872,
+    "lon": -108.5958189945551
+  },
+  {
+    "id": " ",
+    "name": "Fort Yukon Long Range Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 66.56035684091725,
+    "lon": -145.2073807887377
+  },
+  {
+    "id": " ",
+    "name": "Francis E. Warren Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "WY",
+    "country": "usa",
+    "lat": 41.164803336167,
+    "lon": -104.86320744646228
+  },
+  {
+    "id": " ",
+    "name": "Francis S Gabreski Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 40.83698921655856,
+    "lon": -72.64341369220864
+  },
+  {
+    "id": " ",
+    "name": "Fresno Yosemite International ANG",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 36.766535094617744,
+    "lon": -119.71000309099877
+  },
+  {
+    "id": " ",
+    "name": "Gambrills MD",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.0567082998568,
+    "lon": -76.67627640425655
+  },
+  {
+    "id": " ",
+    "name": "Gen Mitchell IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 42.94104871429855,
+    "lon": -87.88799029080681
+  },
+  {
+    "id": " ",
+    "name": "General Wayne A Downing Peoria IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 40.66232844903562,
+    "lon": -89.70474866451369
+  },
+  {
+    "id": " ",
+    "name": "GL Camp JPJ",
+    "branch": "usn",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 42.300347607221674,
+    "lon": -87.8539196970416
+  },
+  {
+    "id": " ",
+    "name": "Glenview",
+    "branch": "usn",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 42.091617688745906,
+    "lon": -87.83680903546738
+  },
+  {
+    "id": " ",
+    "name": "Goldberg Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.415160207152557,
+    "lon": -85.46340170662997
+  },
+  {
+    "id": " ",
+    "name": "Goldwater ANGB",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 33.425832988011145,
+    "lon": -112.01168268594199
+  },
+  {
+    "id": " ",
+    "name": "Goodfellow Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 31.43218036668593,
+    "lon": -100.40438943050701
+  },
+  {
+    "id": " ",
+    "name": "Gould Island RI",
+    "branch": "usn",
+    "city": "",
+    "state": "RI",
+    "country": "usa",
+    "lat": 41.53701067713592,
+    "lon": -71.34491367591004
+  },
+  {
+    "id": " ",
+    "name": "Grand Forks AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "ND",
+    "country": "usa",
+    "lat": 47.95515323798279,
+    "lon": -97.39180873364754
+  },
+  {
+    "id": " ",
+    "name": "Grand Prairie Reserve Complex",
+    "branch": "usar",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.73995828557015,
+    "lon": -96.95644099740112
+  },
+  {
+    "id": " ",
+    "name": "Great Falls IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MT",
+    "country": "usa",
+    "lat": 47.476545551672054,
+    "lon": -111.36497945253674
+  },
+  {
+    "id": " ",
+    "name": "Green River Test Complex UT",
+    "branch": "usa",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 38.96190004876307,
+    "lon": -110.09231956329857
+  },
+  {
+    "id": " ",
+    "name": "Grissom ARB",
+    "branch": "afr",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 40.65750335253597,
+    "lon": -86.14745121190968
+  },
+  {
+    "id": " ",
+    "name": "Gulfport-Biloxi Regional Airport (ANG)",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 30.410725918477,
+    "lon": -89.06120701812749
+  },
+  {
+    "id": " ",
+    "name": "Haarp Research Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 62.40872650387487,
+    "lon": -145.15288563841074
+  },
+  {
+    "id": " ",
+    "name": "Hancock Field",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 43.10274785284398,
+    "lon": -76.10333138084799
+  },
+  {
+    "id": " ",
+    "name": "Hanscom Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.458193218176476,
+    "lon": -71.27717477100666
+  },
+  {
+    "id": " ",
+    "name": "Harbor Drive",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.729364286206966,
+    "lon": -117.20729759454807
+  },
+  {
+    "id": " ",
+    "name": "Hardwood Range",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 44.234591290355375,
+    "lon": -90.05404683378825
+  },
+  {
+    "id": " ",
+    "name": "Hawthorne Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 38.591068347826585,
+    "lon": -118.61886135522347
+  },
+  {
+    "id": " ",
+    "name": "Hector IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "ND",
+    "country": "usa",
+    "lat": 46.913702836313256,
+    "lon": -96.80442257803342
+  },
+  {
+    "id": " ",
+    "name": "Helemano Military Reservation",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.53600398461597,
+    "lon": -158.0194366202058
+  },
+  {
+    "id": " ",
+    "name": "Hickam Petrol Strg Ann",
+    "branch": "usn",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.45512339474755,
+    "lon": -158.0340247320691
+  },
+  {
+    "id": " ",
+    "name": "Highbluff Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.150700732696706,
+    "lon": -85.73758211434264
+  },
+  {
+    "id": " ",
+    "name": "Hill Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 41.12849672419368,
+    "lon": -111.99171453622537
+  },
+  {
+    "id": " ",
+    "name": "Holloman Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 32.917962910718046,
+    "lon": -106.13364367341306
+  },
+  {
+    "id": " ",
+    "name": "Holston Army Ammunition Plant",
+    "branch": "usa",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 36.515168283642815,
+    "lon": -82.65378539233946
+  },
+  {
+    "id": " ",
+    "name": "Holtville Carrier LS",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.839216154143976,
+    "lon": -115.26992537505446
+  },
+  {
+    "id": " ",
+    "name": "Homestead ARB",
+    "branch": "afr",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 25.505230242946837,
+    "lon": -80.39206599754121
+  },
+  {
+    "id": " ",
+    "name": "Hulman Fld",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 39.4539930984427,
+    "lon": -87.29444954978226
+  },
+  {
+    "id": " ",
+    "name": "Hunt Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.380159245637746,
+    "lon": -85.58011144753604
+  },
+  {
+    "id": " ",
+    "name": "Hunter Army Airfield",
+    "branch": "usa",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 32.00965650854314,
+    "lon": -81.15356010863495
+  },
+  {
+    "id": " ",
+    "name": "Hurlburt Field",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.429196981156608,
+    "lon": -86.69871210856513
+  },
+  {
+    "id": " ",
+    "name": "Imperial Beach NOLF",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.56240223115427,
+    "lon": -117.11200840367218
+  },
+  {
+    "id": " ",
+    "name": "Indian Mountain Regional Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 65.99108120734208,
+    "lon": -153.73936420300484
+  },
+  {
+    "id": " ",
+    "name": "Indiana Army Ammunition Plant",
+    "branch": "usa",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 38.452267260855855,
+    "lon": -85.60600593583338
+  },
+  {
+    "id": " ",
+    "name": "Iowa Army Ammunition Plant",
+    "branch": "usa",
+    "city": "",
+    "state": "IA",
+    "country": "usa",
+    "lat": 40.7920025885313,
+    "lon": -91.24561579323438
+  },
+  {
+    "id": " ",
+    "name": "Jackson IAP Thompson Field",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 32.324221061546545,
+    "lon": -90.0824891491581
+  },
+  {
+    "id": " ",
+    "name": "Jacksonville FL Maint",
+    "branch": "usmcr",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.4053743161994,
+    "lon": -81.6215096152249
+  },
+  {
+    "id": " ",
+    "name": "Jacksonville IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.486392333806787,
+    "lon": -81.70544033711678
+  },
+  {
+    "id": " ",
+    "name": "Jefferson Proving Ground",
+    "branch": "usa",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 38.950454607535214,
+    "lon": -85.41755017772067
+  },
+  {
+    "id": " ",
+    "name": "Jim Creek",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 48.19977766931065,
+    "lon": -121.92568068309943
+  },
+  {
+    "id": " ",
+    "name": "Joe Foss Field",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "SD",
+    "country": "usa",
+    "lat": 43.57323355467797,
+    "lon": -96.74153076065586
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Anacostia-Bolling",
+    "branch": "usaf",
+    "city": "",
+    "state": "dc",
+    "country": "usa",
+    "lat": 38.84416880341016,
+    "lon": -77.0150514063715
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Andrews",
+    "branch": "usaf",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.80516809781508,
+    "lon": -76.87446927316063
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Cape Cod",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 41.7005216955152,
+    "lon": -70.54487884513148
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Charleston",
+    "branch": "usaf",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 32.95196821714708,
+    "lon": -79.96442462269381
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Elmendorf-Richardson",
+    "branch": "usaf",
+    "city": "",
+    "state": "ak",
+    "country": "usa",
+    "lat": 61.22943912067016,
+    "lon": -149.63436851962507
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Langley-Eustis",
+    "branch": "usaf",
+    "city": "",
+    "state": "va",
+    "country": "usa",
+    "lat": 37.132095240398336,
+    "lon": -76.58863938321471
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Lewis-McChord",
+    "branch": "usa",
+    "city": "",
+    "state": "wa",
+    "country": "usa",
+    "lat": 46.74453090640993,
+    "lon": -120.16572525200642
+  },
+  {
+    "id": " ",
+    "name": "Joint Base McGuire-Dix-Lakehurst",
+    "branch": "usaf",
+    "city": "",
+    "state": "nj",
+    "country": "usa",
+    "lat": 40.0100749415884,
+    "lon": -74.49926179996359
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Myer-Henderson Hall",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.878572769889566,
+    "lon": -77.07887831308493
+  },
+  {
+    "id": " ",
+    "name": "Joint Base Pearl Harbor-Hickam",
+    "branch": "usn",
+    "city": "",
+    "state": "hi",
+    "country": "usa",
+    "lat": 21.44248138617294,
+    "lon": -158.1276196793904
+  },
+  {
+    "id": " ",
+    "name": "Joint Base San Antonio",
+    "branch": "usaf",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 29.691078510395233,
+    "lon": -98.56164573952036
+  },
+  {
+    "id": " ",
+    "name": "Joint Expeditionary Base Little Creek-Fort Story",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.923213153536814,
+    "lon": -76.01800348133128
+  },
+  {
+    "id": " ",
+    "name": "Joint Expeditionary Base Little Creek-Fort Story - Wallops Island",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.866711277304496,
+    "lon": -75.45758032983726
+  },
+  {
+    "id": " ",
+    "name": "Joint Systems Manufacturing Center - Lima",
+    "branch": "usa",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 40.6999923016686,
+    "lon": -84.13436517849787
+  },
+  {
+    "id": " ",
+    "name": "Joliet AAP Elwood",
+    "branch": "usa",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 41.34599398479626,
+    "lon": -88.07510885465807
+  },
+  {
+    "id": " ",
+    "name": "Joliet USARC/JTA",
+    "branch": "usar",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 41.424354998262636,
+    "lon": -88.14264485294781
+  },
+  {
+    "id": " ",
+    "name": "Kaena Point Space Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.56174737575046,
+    "lon": -158.24045207913406
+  },
+  {
+    "id": " ",
+    "name": "Kahuku Tng Area",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.655710439428045,
+    "lon": -157.9905220194152
+  },
+  {
+    "id": " ",
+    "name": "Kamokala Ridge",
+    "branch": "usn",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 22.039014200694307,
+    "lon": -159.75431327848125
+  },
+  {
+    "id": " ",
+    "name": "Kawaihae Mil Reserve",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 20.03188355700073,
+    "lon": -155.8299456141232
+  },
+  {
+    "id": " ",
+    "name": "Keesler AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 30.407824463578308,
+    "lon": -88.92168739291569
+  },
+  {
+    "id": " ",
+    "name": "Kegelman Air Force Auxiliary Field",
+    "branch": "usaf",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 36.73655111271796,
+    "lon": -98.1205886842867
+  },
+  {
+    "id": " ",
+    "name": "Kenai  Regional Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "ak",
+    "country": "usa",
+    "lat": 60.55977449587145,
+    "lon": -151.25604954055046
+  },
+  {
+    "id": " ",
+    "name": "Kilauea Mil Reserve",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 19.4339559795074,
+    "lon": -155.2739164358364
+  },
+  {
+    "id": " ",
+    "name": "King Salmon Long Range Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 58.69135009622557,
+    "lon": -156.6629740227458
+  },
+  {
+    "id": " ",
+    "name": "Kingsley Field Cantonement Site 1",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 42.160349536043675,
+    "lon": -121.74418761611199
+  },
+  {
+    "id": " ",
+    "name": "Kipapa Ammo Storage Site",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.448910250265463,
+    "lon": -157.99873004272638
+  },
+  {
+    "id": " ",
+    "name": "Kirtland Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 34.99762559173589,
+    "lon": -106.48175255371426
+  },
+  {
+    "id": " ",
+    "name": "Kodiak Tracking Station",
+    "branch": "usn",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 57.82128308362558,
+    "lon": -152.33256101273187
+  },
+  {
+    "id": " ",
+    "name": "Kotzebue Regional Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 66.84717537579785,
+    "lon": -162.5932020175869
+  },
+  {
+    "id": " ",
+    "name": "Lafayette Rvr Complex",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.9022678102066,
+    "lon": -76.30233880685375
+  },
+  {
+    "id": " ",
+    "name": "Lake City Army Ammunition Plant",
+    "branch": "usa",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 39.09685048455865,
+    "lon": -94.25015447419996
+  },
+  {
+    "id": " ",
+    "name": "Lake Of The Ozarks Recreation",
+    "branch": "usa",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 38.08933720360411,
+    "lon": -92.60502240381732
+  },
+  {
+    "id": " ",
+    "name": "Laughlin AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 29.35634673543099,
+    "lon": -100.78275255845962
+  },
+  {
+    "id": " ",
+    "name": "Letterkenny Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.020414707468255,
+    "lon": -77.70205438641351
+  },
+  {
+    "id": " ",
+    "name": "Lincoln Map",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NE",
+    "country": "usa",
+    "lat": 40.84102068374959,
+    "lon": -96.75387234086736
+  },
+  {
+    "id": " ",
+    "name": "Lisburne Regional Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 68.87032879339537,
+    "lon": -166.10892348257045
+  },
+  {
+    "id": " ",
+    "name": "Little Rock Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "AR",
+    "country": "usa",
+    "lat": 34.903927016179594,
+    "lon": -92.13856447616406
+  },
+  {
+    "id": " ",
+    "name": "Long Beach Fuel Complex",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.74202156673382,
+    "lon": -118.23340516814714
+  },
+  {
+    "id": " ",
+    "name": "Longhorn AAP",
+    "branch": "usa",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.682694053105436,
+    "lon": -94.1428967965667
+  },
+  {
+    "id": " ",
+    "name": "Los Angeles Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.91898008388669,
+    "lon": -118.38093013468757
+  },
+  {
+    "id": " ",
+    "name": "Los Angeles Space Force Annex No4",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.85877507770391,
+    "lon": -118.23576768146233
+  },
+  {
+    "id": " ",
+    "name": "Louisville IAP-Standiford FL Site 1",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "KY",
+    "country": "usa",
+    "lat": 38.177988559210355,
+    "lon": -85.72379449192147
+  },
+  {
+    "id": " ",
+    "name": "Louisville Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.81573322921227,
+    "lon": -85.64979862089501
+  },
+  {
+    "id": " ",
+    "name": "Luis Munoz Marin IAP",
+    "branch": "usaf",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.443523120028384,
+    "lon": -65.99235325070701
+  },
+  {
+    "id": " ",
+    "name": "Luke AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 33.53521607606557,
+    "lon": -112.37299153575874
+  },
+  {
+    "id": " ",
+    "name": "MacDill Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 27.843606609227663,
+    "lon": -82.50102450290537
+  },
+  {
+    "id": " ",
+    "name": "Makaha Ridge",
+    "branch": "usn",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 22.130389927822083,
+    "lon": -159.72538003259962
+  },
+  {
+    "id": " ",
+    "name": "Makua Mil Reserve",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.530317604290072,
+    "lon": -158.20680115796233
+  },
+  {
+    "id": " ",
+    "name": "Malmstrom Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "MT",
+    "country": "usa",
+    "lat": 47.50587379707137,
+    "lon": -111.18255743705758
+  },
+  {
+    "id": " ",
+    "name": "Manchester",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.566109682142866,
+    "lon": -122.54564118811655
+  },
+  {
+    "id": " ",
+    "name": "Mansfield Lahm Airport ANG 179th AW",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 40.81196304179688,
+    "lon": -82.51733071482006
+  },
+  {
+    "id": " ",
+    "name": "March ARB",
+    "branch": "afr",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.889639749359695,
+    "lon": -117.27759261228185
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Air Ground Combat Center Twentynine Palms",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.46192025374408,
+    "lon": -116.21084116090651
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Air Station Beaufort",
+    "branch": "usmc",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 32.332141175673904,
+    "lon": -80.69326922187082
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Air Station Cherry Point",
+    "branch": "usmc",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 35.010504189803775,
+    "lon": -76.4583249914187
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Air Station Miramar",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.87672466202129,
+    "lon": -117.08613423104809
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Air Station New River",
+    "branch": "usmc",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 34.652681207301285,
+    "lon": -77.43942964333262
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Air Station Yuma",
+    "branch": "usmc",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.64534994840563,
+    "lon": -114.602283043554
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Base Camp Lejeune",
+    "branch": "usmc",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 34.6421219634646,
+    "lon": -77.30310182482323
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Base Camp Pendleton",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.362485790422554,
+    "lon": -117.42304355788963
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Base Hawaii",
+    "branch": "usmc",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.445322029559406,
+    "lon": -157.75118226810952
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Base Hawaii, Camp H.M. Smith",
+    "branch": "usmc",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.386590676155613,
+    "lon": -157.90549864910588
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Base Quantico",
+    "branch": "usmc",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.558166359694475,
+    "lon": -77.47635478282119
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Logistics Base Albany",
+    "branch": "usmc",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 31.551173304979194,
+    "lon": -84.05473860603749
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Logistics Base Barstow",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.85956065907425,
+    "lon": -116.94455695590015
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Museum",
+    "branch": "usmc",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.52036157869114,
+    "lon": -77.36472798763818
+  },
+  {
+    "id": " ",
+    "name": "Marine Corps Support Facility Blount Island",
+    "branch": "usmc",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.401311489678942,
+    "lon": -81.52497098333664
+  },
+  {
+    "id": " ",
+    "name": "Mark Center",
+    "branch": "whs",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.82995603886715,
+    "lon": -77.11751474467572
+  },
+  {
+    "id": " ",
+    "name": "Martin State Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.33180571800818,
+    "lon": -76.4150792269591
+  },
+  {
+    "id": " ",
+    "name": "Marysville WA",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 48.12370306702202,
+    "lon": -122.17105504928816
+  },
+  {
+    "id": " ",
+    "name": "Maxwell-Gunter Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 32.38244708421874,
+    "lon": -86.35643234749536
+  },
+  {
+    "id": " ",
+    "name": "MC Trng Area Bellows",
+    "branch": "usmc",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.362151305549602,
+    "lon": -157.71828321741316
+  },
+  {
+    "id": " ",
+    "name": "McAlester Army Ammunition Plant",
+    "branch": "usa",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 34.822060681408246,
+    "lon": -95.9396138110183
+  },
+  {
+    "id": " ",
+    "name": "McClellan AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 38.66284046971867,
+    "lon": -121.40320597680575
+  },
+  {
+    "id": " ",
+    "name": "McConnell AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "KS",
+    "country": "usa",
+    "lat": 37.62175584313259,
+    "lon": -97.25640802517401
+  },
+  {
+    "id": " ",
+    "name": "McEntire Joint National Guard Base",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 33.92266636368731,
+    "lon": -80.8003386650067
+  },
+  {
+    "id": " ",
+    "name": "McGhee Tyson Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.81159395452963,
+    "lon": -84.0035432718216
+  },
+  {
+    "id": " ",
+    "name": "McLaughlin ANGB",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 38.373194448207286,
+    "lon": -81.58951946447691
+  },
+  {
+    "id": " ",
+    "name": "MCRD San Diego",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.74017168883326,
+    "lon": -117.19769900358351
+  },
+  {
+    "id": " ",
+    "name": "Melrose Air Force Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 34.28607280745992,
+    "lon": -103.77945404306026
+  },
+  {
+    "id": " ",
+    "name": "Memphis IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.025497720632714,
+    "lon": -89.96654931306414
+  },
+  {
+    "id": " ",
+    "name": "Milan AAP",
+    "branch": "usa",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.87359112351669,
+    "lon": -88.70647441274463
+  },
+  {
+    "id": " ",
+    "name": "Military Ocean Terminal Concord",
+    "branch": "usa",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 38.0501060653986,
+    "lon": -122.03325659434509
+  },
+  {
+    "id": " ",
+    "name": "Military Ocean Terminal Sunny Point",
+    "branch": "usa",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 34.00780220239412,
+    "lon": -77.98601215810103
+  },
+  {
+    "id": " ",
+    "name": "Minn-St Paul",
+    "branch": "afr",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 44.893189861018854,
+    "lon": -93.20690423912018
+  },
+  {
+    "id": " ",
+    "name": "Minot Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "ND",
+    "country": "usa",
+    "lat": 48.42108230683572,
+    "lon": -101.33833307866668
+  },
+  {
+    "id": " ",
+    "name": "Mission Gorge Rec Area",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.80484017201861,
+    "lon": -117.09400465052134
+  },
+  {
+    "id": " ",
+    "name": "Montgomery Regional Airport ANGB",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 32.30470521425026,
+    "lon": -86.4014291796243
+  },
+  {
+    "id": " ",
+    "name": "Moody Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 30.972399544213182,
+    "lon": -83.16505724201598
+  },
+  {
+    "id": " ",
+    "name": "Mountain Home Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "ID",
+    "country": "usa",
+    "lat": 43.04892760863994,
+    "lon": -115.86586152538865
+  },
+  {
+    "id": " ",
+    "name": "Muscatatuck Urban Training Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 39.05134469966342,
+    "lon": -85.52474406419618
+  },
+  {
+    "id": " ",
+    "name": "NAF El Centro",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.82539358741183,
+    "lon": -115.66815306449101
+  },
+  {
+    "id": " ",
+    "name": "NALF Goliad",
+    "branch": "usn",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 28.611180722453952,
+    "lon": -97.61215491563603
+  },
+  {
+    "id": " ",
+    "name": "NARL Barrow Camp Tr1",
+    "branch": "usn",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 71.31727757620904,
+    "lon": -156.6526350626238
+  },
+  {
+    "id": " ",
+    "name": "NAS Brunswick ME",
+    "branch": "usn",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 43.88628818124162,
+    "lon": -69.93253075214923
+  },
+  {
+    "id": " ",
+    "name": "NAS Fort Worth JRB TX",
+    "branch": "usnr",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.76887590912832,
+    "lon": -97.4337375285285
+  },
+  {
+    "id": " ",
+    "name": "NAS Jacksonville FL",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.219505425503634,
+    "lon": -81.68498875314894
+  },
+  {
+    "id": " ",
+    "name": "NAS JRB Willow Grove PA",
+    "branch": "usn",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.199782518972285,
+    "lon": -75.14789909030789
+  },
+  {
+    "id": " ",
+    "name": "NAS Key West FL",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 24.573259356551123,
+    "lon": -81.6918671336572
+  },
+  {
+    "id": " ",
+    "name": "NAS Kingsville TX",
+    "branch": "usn",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 27.49717592015867,
+    "lon": -97.81305639027573
+  },
+  {
+    "id": " ",
+    "name": "NAS Lemoore CA",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 36.3190871508479,
+    "lon": -119.9340692289841
+  },
+  {
+    "id": " ",
+    "name": "NAS Pensacola FL",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.352859386090273,
+    "lon": -87.30613003489772
+  },
+  {
+    "id": " ",
+    "name": "NAS Whiting Field Milton FL",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.71115846985748,
+    "lon": -87.01978598172784
+  },
+  {
+    "id": " ",
+    "name": "Nashville IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 36.111004603251395,
+    "lon": -86.67497218257817
+  },
+  {
+    "id": " ",
+    "name": "National City",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.672091312778555,
+    "lon": -117.11326767466888
+  },
+  {
+    "id": " ",
+    "name": "NAVACAD North Severn",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.989827131961704,
+    "lon": -76.46242390839997
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Station Corpus Christi",
+    "branch": "usn",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 27.692424463384324,
+    "lon": -97.27930744401007
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Station Joint Reserve Base New Orleans",
+    "branch": "usnr",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 29.831313279361613,
+    "lon": -90.02070161595421
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Station Meridian",
+    "branch": "usn",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 32.55320666804872,
+    "lon": -88.56944972151013
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Station Oceana",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.81372273801617,
+    "lon": -76.03098522407812
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Station Oceana Dam Neck Annex",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.78878313905767,
+    "lon": -75.96571902773573
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Station Patuxent River",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.28199121191926,
+    "lon": -76.42025574206255
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Station Whidbey Island",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 48.33855195034563,
+    "lon": -122.66036287114156
+  },
+  {
+    "id": " ",
+    "name": "Naval Air Weapons Station China Lake",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 35.93435331422943,
+    "lon": -117.64391910426534
+  },
+  {
+    "id": " ",
+    "name": "Naval Base Guam",
+    "branch": "usn",
+    "city": "",
+    "state": "GU",
+    "country": "usa",
+    "lat": 13.359423656991874,
+    "lon": 144.6922899926471
+  },
+  {
+    "id": " ",
+    "name": "Naval Base Kitsap - Keyport",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.69747609029841,
+    "lon": -122.62130016139382
+  },
+  {
+    "id": " ",
+    "name": "Naval Base Kitsap Bangor",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.72339214953727,
+    "lon": -122.71483976996448
+  },
+  {
+    "id": " ",
+    "name": "Naval Base Kitsap Bremerton WA",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.55722719226062,
+    "lon": -122.64467193473803
+  },
+  {
+    "id": " ",
+    "name": "Naval Base Point Loma",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.695617569708745,
+    "lon": -117.24575265785414
+  },
+  {
+    "id": " ",
+    "name": "Naval Base San Diego",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.675702617492924,
+    "lon": -117.1230087334122
+  },
+  {
+    "id": " ",
+    "name": "Naval Base Ventura County – Point Mugu Operating Facility",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.11232678974366,
+    "lon": -119.1100137766243
+  },
+  {
+    "id": " ",
+    "name": "Naval Base Ventura County – Port Hueneme Operating Facility",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.16290448869356,
+    "lon": -119.20841148422107
+  },
+  {
+    "id": " ",
+    "name": "Naval Logistics Support Activity - Ketchikan",
+    "branch": "usn",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 55.54147145334605,
+    "lon": -131.76043328048664
+  },
+  {
+    "id": " ",
+    "name": "Naval Logistics Support Activity LaMoure",
+    "branch": "usn",
+    "city": "",
+    "state": "ND",
+    "country": "usa",
+    "lat": 46.365438465462375,
+    "lon": -98.33597215183578
+  },
+  {
+    "id": " ",
+    "name": "Naval Logistics Support Annex Orlando",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 28.584090587538075,
+    "lon": -81.19679465407074
+  },
+  {
+    "id": " ",
+    "name": "Naval Logistics Support Facility Aguada",
+    "branch": "usn",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.398251217081082,
+    "lon": -67.17914027361385
+  },
+  {
+    "id": " ",
+    "name": "Naval Logistics Support Facility Cutler",
+    "branch": "usn",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 44.64892935190763,
+    "lon": -67.28478140234216
+  },
+  {
+    "id": " ",
+    "name": "Naval Observatory",
+    "branch": "usn",
+    "city": "",
+    "state": "DC",
+    "country": "usa",
+    "lat": 38.92142651840107,
+    "lon": -77.06703486264627
+  },
+  {
+    "id": " ",
+    "name": "Naval Research Laboratory",
+    "branch": "usn",
+    "city": "",
+    "state": "DC",
+    "country": "usa",
+    "lat": 38.82425690951235,
+    "lon": -77.02448720323275
+  },
+  {
+    "id": " ",
+    "name": "Naval Research Laboratory – Blossom Point",
+    "branch": "usa",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.421819014805735,
+    "lon": -77.0922515849797
+  },
+  {
+    "id": " ",
+    "name": "Naval Research Laboratory – Stennis Space Center",
+    "branch": "usn",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 30.37952218674258,
+    "lon": -89.60266969760504
+  },
+  {
+    "id": " ",
+    "name": "Naval Research Laboratory – Tilghman",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.67834241825577,
+    "lon": -76.34354549527013
+  },
+  {
+    "id": " ",
+    "name": "Naval Station Great Lakes IL",
+    "branch": "usn",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 42.31344879606511,
+    "lon": -87.83763178951331
+  },
+  {
+    "id": " ",
+    "name": "Naval Station Newport",
+    "branch": "usn",
+    "city": "",
+    "state": "RI",
+    "country": "usa",
+    "lat": 41.5184388100164,
+    "lon": -71.32136766630933
+  },
+  {
+    "id": " ",
+    "name": "Naval Station Norfolk",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.94330800157626,
+    "lon": -76.30151368848301
+  },
+  {
+    "id": " ",
+    "name": "Naval Submarine Base Kings Bay",
+    "branch": "usn",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 30.790447974253834,
+    "lon": -81.53805217334052
+  },
+  {
+    "id": " ",
+    "name": "Naval Submarine Base New London",
+    "branch": "usn",
+    "city": "",
+    "state": "CT",
+    "country": "usa",
+    "lat": 41.39947042400027,
+    "lon": -72.08630936869267
+  },
+  {
+    "id": " ",
+    "name": "Naval Suffolk Facility",
+    "branch": "usn",
+    "city": "",
+    "state": "va",
+    "country": "usa",
+    "lat": 36.88512138217029,
+    "lon": -76.42324052265101
+  },
+  {
+    "id": " ",
+    "name": "Naval Support Activity Crane",
+    "branch": "usn",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 38.86825695762584,
+    "lon": -86.79713377294712
+  },
+  {
+    "id": " ",
+    "name": "Naval Support Activity Panama City",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.172517606431175,
+    "lon": -85.75224295602975
+  },
+  {
+    "id": " ",
+    "name": "Naval Support Activity Philadelphia",
+    "branch": "usn",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.041303121193344,
+    "lon": -75.0945813634831
+  },
+  {
+    "id": " ",
+    "name": "Naval Support Activity Wash",
+    "branch": "usn",
+    "city": "",
+    "state": "DC",
+    "country": "usa",
+    "lat": 38.87402582213748,
+    "lon": -76.99508381134193
+  },
+  {
+    "id": " ",
+    "name": "Naval Support Facility Carderock",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.974883385939705,
+    "lon": -77.19240337665482
+  },
+  {
+    "id": " ",
+    "name": "Naval Support Facility Dahlgren",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.33982312206738,
+    "lon": -77.03254380027413
+  },
+  {
+    "id": " ",
+    "name": "Naval Support Facility Indian Head",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.58498244815737,
+    "lon": -77.18351505080447
+  },
+  {
+    "id": " ",
+    "name": "Naval Surface Warfare Center Carderock Division – Acoustic Research Detachment",
+    "branch": "usn",
+    "city": "",
+    "state": "ID",
+    "country": "usa",
+    "lat": 47.97740211538314,
+    "lon": -116.56152595227478
+  },
+  {
+    "id": " ",
+    "name": "Naval Weapons Station Earle NJ",
+    "branch": "usn",
+    "city": "",
+    "state": "NJ",
+    "country": "usa",
+    "lat": 40.26036003251127,
+    "lon": -74.13921487613341
+  },
+  {
+    "id": " ",
+    "name": "Naval Weapons Station Seal Beach Detachment Norco",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.92376766107688,
+    "lon": -117.56946289464301
+  },
+  {
+    "id": " ",
+    "name": "Naval Weapons Station Yorktown",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.24480579649078,
+    "lon": -76.58559025430017
+  },
+  {
+    "id": " ",
+    "name": "Naval Weapons Systems Training Facility Boardman",
+    "branch": "usn",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 45.719359358846894,
+    "lon": -119.69089905997647
+  },
+  {
+    "id": " ",
+    "name": "NAVBASE Coronado",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.70001947142295,
+    "lon": -117.20708971518582
+  },
+  {
+    "id": " ",
+    "name": "NAVMEDCEN Portsmouth VA",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.84612664769658,
+    "lon": -76.30800472480281
+  },
+  {
+    "id": " ",
+    "name": "NAVOBSSTA Flagstaff AZ",
+    "branch": "usn",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 35.18752569750127,
+    "lon": -111.74160077837982
+  },
+  {
+    "id": " ",
+    "name": "NAVPMOSSP Magna Utah",
+    "branch": "usn",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 40.6783886606709,
+    "lon": -112.0733041666453
+  },
+  {
+    "id": " ",
+    "name": "NAVPMOSSP Mtn View",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 37.41291470443417,
+    "lon": -122.02839917230378
+  },
+  {
+    "id": " ",
+    "name": "NAVSTA Everett WA",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.987201051692104,
+    "lon": -122.22420346273557
+  },
+  {
+    "id": " ",
+    "name": "NAVSTA Mayport FL",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.384413996693926,
+    "lon": -81.41638316445926
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPACT Annapolis",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.98203737804986,
+    "lon": -76.4838543834572
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPACT Bethesda MD",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.00191994230042,
+    "lon": -77.09038616048034
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPACT Hampton Roads VA",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.925059865972656,
+    "lon": -76.29962843537767
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPACT Mechanicsburg PA",
+    "branch": "usn",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.22749555839144,
+    "lon": -76.98645964618717
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPACT Midsouth Memphis TN",
+    "branch": "usn",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.331424140778076,
+    "lon": -89.8707836620722
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPACT Monterey CA",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 36.59734257514481,
+    "lon": -121.87340347423626
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPACT Norfolk NSY",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.81647880430465,
+    "lon": -76.2994110789987
+  },
+  {
+    "id": " ",
+    "name": "NAVSUPPFAC Beaufort SC",
+    "branch": "usn",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 32.389001132902315,
+    "lon": -80.68198810941485
+  },
+  {
+    "id": " ",
+    "name": "NAVWPNSTA Seal Beach",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.750451309925126,
+    "lon": -118.06422155316511
+  },
+  {
+    "id": " ",
+    "name": "Navy Annex",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 36.59164975348014,
+    "lon": -121.86079774810497
+  },
+  {
+    "id": " ",
+    "name": "Nellis Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 36.2435054515643,
+    "lon": -114.99315540031861
+  },
+  {
+    "id": " ",
+    "name": "Nevada Test and Training Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 37.497886426482346,
+    "lon": -116.50433405081277
+  },
+  {
+    "id": " ",
+    "name": "New Boston Air Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "NH",
+    "country": "usa",
+    "lat": 42.93717050122082,
+    "lon": -71.64125305432593
+  },
+  {
+    "id": " ",
+    "name": "New Castle Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "DE",
+    "country": "usa",
+    "lat": 39.68654984157155,
+    "lon": -75.59759391838091
+  },
+  {
+    "id": " ",
+    "name": "Newington Defense Fuel Support Point",
+    "branch": "usaf",
+    "city": "",
+    "state": "NH",
+    "country": "usa",
+    "lat": 43.10618612628002,
+    "lon": -70.7959226086014
+  },
+  {
+    "id": " ",
+    "name": "NG AASF02 Birmingham",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 33.571048928964,
+    "lon": -86.75014602649671
+  },
+  {
+    "id": " ",
+    "name": "NG Alcantra Armory Complex",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 61.603050402703225,
+    "lon": -149.37484995475526
+  },
+  {
+    "id": " ",
+    "name": "NG Anthony Cometa Complex",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 36.01738214725688,
+    "lon": -115.20067510577795
+  },
+  {
+    "id": " ",
+    "name": "NG Arden Hills Army Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 45.0948832265345,
+    "lon": -93.16110920543184
+  },
+  {
+    "id": " ",
+    "name": "NG Atlanta United Ave",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 33.7218043600611,
+    "lon": -84.35961648016766
+  },
+  {
+    "id": " ",
+    "name": "NG Auburn Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 44.08629329278988,
+    "lon": -70.28279826624286
+  },
+  {
+    "id": " ",
+    "name": "NG Ayer",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.54894123541589,
+    "lon": -71.58449788682935
+  },
+  {
+    "id": " ",
+    "name": "NG Bangor Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 44.80983036439533,
+    "lon": -68.8413489684981
+  },
+  {
+    "id": " ",
+    "name": "NG Baton Rouge AFRC",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 30.357232981012153,
+    "lon": -91.1414746463335
+  },
+  {
+    "id": " ",
+    "name": "NG Beauregard Training Range",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 31.439273588125353,
+    "lon": -92.29541280754657
+  },
+  {
+    "id": " ",
+    "name": "NG Beightler Armory",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 40.08921377100139,
+    "lon": -83.0674417343455
+  },
+  {
+    "id": " ",
+    "name": "NG Bend Cotef",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 44.02579244117873,
+    "lon": -121.12827927730008
+  },
+  {
+    "id": " ",
+    "name": "NG Bergstrom - (Abia)",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 30.17630450471618,
+    "lon": -97.67209476970653
+  },
+  {
+    "id": " ",
+    "name": "NG Bethany Beach Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "DE",
+    "country": "usa",
+    "lat": 38.547584537011765,
+    "lon": -75.06329804750155
+  },
+  {
+    "id": " ",
+    "name": "NG Biak Training Center COUTES",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 44.200389652312,
+    "lon": -121.11671719680609
+  },
+  {
+    "id": " ",
+    "name": "NG Bismarck RJB Complex",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ND",
+    "country": "usa",
+    "lat": 46.83007540411007,
+    "lon": -100.71957209604005
+  },
+  {
+    "id": " ",
+    "name": "NG Bog Brook Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 44.39555117591909,
+    "lon": -70.93691627982392
+  },
+  {
+    "id": " ",
+    "name": "NG Bremerton",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.55270846599896,
+    "lon": -122.68131921768628
+  },
+  {
+    "id": " ",
+    "name": "NG Buckeye TS",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 33.46440544732884,
+    "lon": -112.6018119864069
+  },
+  {
+    "id": " ",
+    "name": "NG Cambridge Springs Readiness Center and FMS 5",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 41.79378131309968,
+    "lon": -80.048017661636
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Adair Corvallis",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 44.71433606841786,
+    "lon": -123.27069587667164
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Ashland",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NE",
+    "country": "usa",
+    "lat": 41.079004850698375,
+    "lon": -96.33629043314653
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Atterbury",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 39.29758050148174,
+    "lon": -86.04641697690644
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Beauregard",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 31.377657707585534,
+    "lon": -92.38668524318395
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Bowie (State)",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 31.639855482101602,
+    "lon": -98.93548246354257
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Fogarty Tng Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "RI",
+    "country": "usa",
+    "lat": 41.615687172824714,
+    "lon": -71.49922231870346
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Grafton",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ND",
+    "country": "usa",
+    "lat": 47.6924877193649,
+    "lon": -98.66275331292684
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Gruber",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 35.69820041621567,
+    "lon": -95.16726656489554
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Hartell",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "CT",
+    "country": "usa",
+    "lat": 41.94209578633352,
+    "lon": -72.66586362216674
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Joseph T Robinson",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AR",
+    "country": "usa",
+    "lat": 34.90025445851346,
+    "lon": -92.30698376174053
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Mabry",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 30.31861057028458,
+    "lon": -97.76157269199732
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Maxey",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 33.79908435311733,
+    "lon": -95.56028704279284
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Minden Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 32.5589202789893,
+    "lon": -93.3940534580746
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Nett",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "CT",
+    "country": "usa",
+    "lat": 41.33139034494515,
+    "lon": -72.18794100039307
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Orchard Cantonement Area",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ID",
+    "country": "usa",
+    "lat": 43.29628005287875,
+    "lon": -116.05741800807415
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Perry Joint Training Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 41.542366967575006,
+    "lon": -83.02164582667179
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Rapid",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "SD",
+    "country": "usa",
+    "lat": 44.080135021911374,
+    "lon": -103.26695946531673
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Ravenna Joint Military Training Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 41.1971700472858,
+    "lon": -81.0848176506834
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Ripley",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 46.20957911017091,
+    "lon": -94.4230941155611
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Sherman Joint Training Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 39.35563419290627,
+    "lon": -82.9509547482347
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Smith Tng Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 41.311750476249586,
+    "lon": -73.95068232662453
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Swift",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 30.261671602333088,
+    "lon": -97.29455810057377
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Villere",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 30.32376038796528,
+    "lon": -89.8088123213835
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Williams Tomah MTA",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 43.92802215400377,
+    "lon": -90.26950592014417
+  },
+  {
+    "id": " ",
+    "name": "NG Camp Withycombe Clackamas",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 45.41244731502598,
+    "lon": -122.55796045929849
+  },
+  {
+    "id": " ",
+    "name": "NG Carville Gillis Long Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 30.201120181321013,
+    "lon": -91.12895063845664
+  },
+  {
+    "id": " ",
+    "name": "NG Clarke Range Complex",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 33.71791897579049,
+    "lon": -85.95019196889763
+  },
+  {
+    "id": " ",
+    "name": "NG Collegeville FMS 4",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.21461595235797,
+    "lon": -75.42841981609598
+  },
+  {
+    "id": " ",
+    "name": "NG CTA Camp Mccain",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 33.710882142453684,
+    "lon": -89.68593353092368
+  },
+  {
+    "id": " ",
+    "name": "NG CTC Camp Dawson-Kingwood",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 39.3976599679482,
+    "lon": -79.65409816563849
+  },
+  {
+    "id": " ",
+    "name": "NG CTC Fort Custer Trng Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MI",
+    "country": "usa",
+    "lat": 42.299441361024,
+    "lon": -85.31772140917383
+  },
+  {
+    "id": " ",
+    "name": "NG Cumming",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 34.22434170799361,
+    "lon": -84.1130585082569
+  },
+  {
+    "id": " ",
+    "name": "NG Duluth NG Armory",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 46.833699181781654,
+    "lon": -92.15883087473081
+  },
+  {
+    "id": " ",
+    "name": "NG Edgemeade TS Mtn Home",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ID",
+    "country": "usa",
+    "lat": 43.14424326993162,
+    "lon": -115.65253463055033
+  },
+  {
+    "id": " ",
+    "name": "NG Elkins AFRC",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 38.95450412499321,
+    "lon": -79.97911546850538
+  },
+  {
+    "id": " ",
+    "name": "NG Esler Field",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 31.397733944333787,
+    "lon": -92.29728272283562
+  },
+  {
+    "id": " ",
+    "name": "NG Ethan Allen AFB MTA",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "VT",
+    "country": "usa",
+    "lat": 44.50990197330054,
+    "lon": -73.16356644289895
+  },
+  {
+    "id": " ",
+    "name": "NG Florence Military Reservation",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 33.10067398413752,
+    "lon": -111.34692769837878
+  },
+  {
+    "id": " ",
+    "name": "NG Floyd Edsall Training Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 36.29092129346479,
+    "lon": -115.04125540491302
+  },
+  {
+    "id": " ",
+    "name": "NG Fort Barfoot MTC & FMS 15",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.037375985346735,
+    "lon": -77.910555235274
+  },
+  {
+    "id": " ",
+    "name": "NG Fort Chaffee MTC",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AR",
+    "country": "usa",
+    "lat": 35.25568799259909,
+    "lon": -94.16248547978925
+  },
+  {
+    "id": " ",
+    "name": "NG Fort Indiantown Gap",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.436021516059384,
+    "lon": -76.62949673310315
+  },
+  {
+    "id": " ",
+    "name": "NG Fort McClellan ARNG Tng Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 33.73352697460299,
+    "lon": -85.7881769718434
+  },
+  {
+    "id": " ",
+    "name": "NG Fort Wolters",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.86486796177546,
+    "lon": -98.02961091226229
+  },
+  {
+    "id": " ",
+    "name": "NG Fort Worth - Shoreview",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.778193984891196,
+    "lon": -97.45861348354372
+  },
+  {
+    "id": " ",
+    "name": "NG Frankfort Boone NG Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "KY",
+    "country": "usa",
+    "lat": 38.18531333156122,
+    "lon": -84.9089967350594
+  },
+  {
+    "id": " ",
+    "name": "NG Ft Allen Rq 177",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.013037149663123,
+    "lon": -66.50565375628932
+  },
+  {
+    "id": " ",
+    "name": "NG Ft Ruger",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.262823615411275,
+    "lon": -157.8051232497332
+  },
+  {
+    "id": " ",
+    "name": "NG General Lucius D Clay National Guard Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 33.9136254482341,
+    "lon": -84.5290219196836
+  },
+  {
+    "id": " ",
+    "name": "NG Grand Island AASF/RC",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NE",
+    "country": "usa",
+    "lat": 40.96181716360554,
+    "lon": -98.29879150668548
+  },
+  {
+    "id": " ",
+    "name": "NG Greenlief TS/UTES 01",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NE",
+    "country": "usa",
+    "lat": 40.54594602779655,
+    "lon": -98.2756248464308
+  },
+  {
+    "id": " ",
+    "name": "NG GUARNG Barrigada Complex",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "GU",
+    "country": "usa",
+    "lat": 13.474073417410349,
+    "lon": 144.80988505179508
+  },
+  {
+    "id": " ",
+    "name": "NG Gulfport AVCRAD",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 30.41618704323639,
+    "lon": -89.06287488335154
+  },
+  {
+    "id": " ",
+    "name": "NG Hammond Airport",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 30.523953330890468,
+    "lon": -90.41228166731044
+  },
+  {
+    "id": " ",
+    "name": "NG Havre De Grace Military Res",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.53267063743852,
+    "lon": -76.10411871907074
+  },
+  {
+    "id": " ",
+    "name": "NG Helena Aviation RC- AASF- C12",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MT",
+    "country": "usa",
+    "lat": 46.60843917306139,
+    "lon": -111.97105029888814
+  },
+  {
+    "id": " ",
+    "name": "NG Hollidaysburg Readiness Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.43909014700364,
+    "lon": -78.41481636666973
+  },
+  {
+    "id": " ",
+    "name": "NG Hollis Plains Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 43.66878919885014,
+    "lon": -70.66374945305557
+  },
+  {
+    "id": " ",
+    "name": "NG Indianapolis 38 ID",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 39.74437855315007,
+    "lon": -86.22816505756747
+  },
+  {
+    "id": " ",
+    "name": "NG ITC Camp San Luis Obisbo",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 35.345922570929254,
+    "lon": -120.6944937519861
+  },
+  {
+    "id": " ",
+    "name": "NG Jackson Airport Armory",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.598146279552786,
+    "lon": -88.91295900101575
+  },
+  {
+    "id": " ",
+    "name": "NG Jackson Bks",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 29.968073408700374,
+    "lon": -90.00180012749826
+  },
+  {
+    "id": " ",
+    "name": "NG Jackson County AFRC",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 38.892228515122945,
+    "lon": -81.82738647290887
+  },
+  {
+    "id": " ",
+    "name": "NG JFHQ-Kansas",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "KS",
+    "country": "usa",
+    "lat": 39.02017528100985,
+    "lon": -95.68324700362473
+  },
+  {
+    "id": " ",
+    "name": "NG Johnson City Gray",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 36.42133103102062,
+    "lon": -82.48876346444767
+  },
+  {
+    "id": " ",
+    "name": "NG Kalaeloa",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.319097240972777,
+    "lon": -158.06213865213172
+  },
+  {
+    "id": " ",
+    "name": "NG Knightstown",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 39.7713455121123,
+    "lon": -85.51686947507336
+  },
+  {
+    "id": " ",
+    "name": "NG Lane County AFRC FMS 5",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 44.06567034230869,
+    "lon": -122.97779009813284
+  },
+  {
+    "id": " ",
+    "name": "NG Lansing Joint Forces Readiness Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MI",
+    "country": "usa",
+    "lat": 42.76815770017348,
+    "lon": -84.57132029448536
+  },
+  {
+    "id": " ",
+    "name": "NG Las Cruces",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 32.276155468263866,
+    "lon": -106.93519333427503
+  },
+  {
+    "id": " ",
+    "name": "NG Lawrenceville",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NJ",
+    "country": "usa",
+    "lat": 40.269810511913754,
+    "lon": -74.74467819234526
+  },
+  {
+    "id": " ",
+    "name": "NG Lexington AASF No 1",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 35.02501049500322,
+    "lon": -97.23119668466127
+  },
+  {
+    "id": " ",
+    "name": "NG Lincoln AASF/Readiness Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NE",
+    "country": "usa",
+    "lat": 40.837277096776994,
+    "lon": -96.75497274833663
+  },
+  {
+    "id": " ",
+    "name": "NG Los Alamitos JFTB",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.79121129310665,
+    "lon": -118.05222678918636
+  },
+  {
+    "id": " ",
+    "name": "NG Macon Readiness Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 32.861397762839154,
+    "lon": -83.6056577983652
+  },
+  {
+    "id": " ",
+    "name": "NG Macon TS",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 39.698754847486356,
+    "lon": -92.49072371009329
+  },
+  {
+    "id": " ",
+    "name": "NG Marseilles (MTA Tng Area)",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 41.28708604517018,
+    "lon": -88.68148923156924
+  },
+  {
+    "id": " ",
+    "name": "NG Martindale - AASF",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 29.431752649905885,
+    "lon": -98.37943081968294
+  },
+  {
+    "id": " ",
+    "name": "NG McConnelsville Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 39.66143895645243,
+    "lon": -81.83949818151626
+  },
+  {
+    "id": " ",
+    "name": "NG McNary Field Salem AASF",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 44.911737740649386,
+    "lon": -122.99982225067652
+  },
+  {
+    "id": " ",
+    "name": "NG Mead TS/FMS 06/Utes 02",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NE",
+    "country": "usa",
+    "lat": 41.19368799244637,
+    "lon": -96.43792123250823
+  },
+  {
+    "id": " ",
+    "name": "NG Mitchell Complex",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "SD",
+    "country": "usa",
+    "lat": 43.76187439205423,
+    "lon": -98.04389466835492
+  },
+  {
+    "id": " ",
+    "name": "NG Montgomery JFHQ AFRC / CSMS 01",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 32.405825894827245,
+    "lon": -86.25935953818053
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Camp Butner",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 36.20154799636846,
+    "lon": -78.80135329911461
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Camp Clark Nevada",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 37.82027443391141,
+    "lon": -94.29145198359608
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Camp Crowder Neosho",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 36.794003881127786,
+    "lon": -94.36424806675213
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Camp Curtis Guil",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.54469775348378,
+    "lon": -71.07266132798148
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Camp Fretterd",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.498001123651655,
+    "lon": -76.84570107793449
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Camp Rilea",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 46.128743543076325,
+    "lon": -123.9442150864956
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Camp Santiago",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.028769985690637,
+    "lon": -66.28360920005804
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Clarks Hill Reservation",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 33.79444066474561,
+    "lon": -82.27776959310677
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Ft Wm Henry Harrison",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MT",
+    "country": "usa",
+    "lat": 46.626115973561184,
+    "lon": -112.14626570174316
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Gunpowder Military Reservation",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 39.4323852985372,
+    "lon": -76.5050156995854
+  },
+  {
+    "id": " ",
+    "name": "NG MTA Limestone Hills",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MT",
+    "country": "usa",
+    "lat": 46.27407055658991,
+    "lon": -111.57982822340858
+  },
+  {
+    "id": " ",
+    "name": "NG MTCH Camp Guernsey",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WY",
+    "country": "usa",
+    "lat": 42.40349334628138,
+    "lon": -104.81105289158131
+  },
+  {
+    "id": " ",
+    "name": "NG Muskogee AFRC",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 35.66037056741634,
+    "lon": -95.3735306126797
+  },
+  {
+    "id": " ",
+    "name": "NG Nashville",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 36.09947198553695,
+    "lon": -86.75836472127119
+  },
+  {
+    "id": " ",
+    "name": "NG New Castle Readiness Center/FMS 9",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.979396867108846,
+    "lon": -80.32478430015234
+  },
+  {
+    "id": " ",
+    "name": "NG Norman CSMS",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 35.26520174225177,
+    "lon": -97.48081781697925
+  },
+  {
+    "id": " ",
+    "name": "NG Oglethorpe Armory",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 33.617389414810454,
+    "lon": -84.30992742887014
+  },
+  {
+    "id": " ",
+    "name": "NG Papago Military Reservation",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 33.46930029387657,
+    "lon": -111.96097654910665
+  },
+  {
+    "id": " ",
+    "name": "NG Picacho Aviation TS",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.66292151533398,
+    "lon": -111.48804372152529
+  },
+  {
+    "id": " ",
+    "name": "NG Raleigh",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 35.80976235086393,
+    "lon": -78.7119107982418
+  },
+  {
+    "id": " ",
+    "name": "NG Rickenbacker",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 39.80503083997413,
+    "lon": -82.95146223026319
+  },
+  {
+    "id": " ",
+    "name": "NG Rio Rancho TS",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 35.3734788021937,
+    "lon": -106.65202623215829
+  },
+  {
+    "id": " ",
+    "name": "NG River Road Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "DE",
+    "country": "usa",
+    "lat": 39.633507772903805,
+    "lon": -75.60725839838588
+  },
+  {
+    "id": " ",
+    "name": "NG Rochester NGA and OMS 2",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 43.99695369163215,
+    "lon": -92.43166823741134
+  },
+  {
+    "id": " ",
+    "name": "NG Rosemount NG Armory",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 44.74774605782104,
+    "lon": -93.12760038981749
+  },
+  {
+    "id": " ",
+    "name": "NG RW Shepherd Hope Hull",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 32.287226531686464,
+    "lon": -86.39503599584484
+  },
+  {
+    "id": " ",
+    "name": "NG Saginaw",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 32.85509237233616,
+    "lon": -97.35036229065415
+  },
+  {
+    "id": " ",
+    "name": "NG Saint George/FMS 5B",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 37.03376838111151,
+    "lon": -113.54714149595435
+  },
+  {
+    "id": " ",
+    "name": "NG Salina KS Training Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "KS",
+    "country": "usa",
+    "lat": 38.78508740536334,
+    "lon": -97.64169676083051
+  },
+  {
+    "id": " ",
+    "name": "NG Sandson AASF",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.494147349405175,
+    "lon": -77.31266215756604
+  },
+  {
+    "id": " ",
+    "name": "NG Santa Fe - Onate Complex TS",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 35.56822053589077,
+    "lon": -106.0848721299926
+  },
+  {
+    "id": " ",
+    "name": "NG Sea Girt  NJ NGTC",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NJ",
+    "country": "usa",
+    "lat": 40.12379489805023,
+    "lon": -74.03726560457432
+  },
+  {
+    "id": " ",
+    "name": "NG Shelbyville",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IN",
+    "country": "usa",
+    "lat": 39.578959652723874,
+    "lon": -85.81102367052785
+  },
+  {
+    "id": " ",
+    "name": "NG Silver Bell Army Heliport",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.52287687244381,
+    "lon": -111.33347268421905
+  },
+  {
+    "id": " ",
+    "name": "NG Sioux Falls Benson Rd Complex",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "SD",
+    "country": "usa",
+    "lat": 43.57526867734914,
+    "lon": -96.68961618574015
+  },
+  {
+    "id": " ",
+    "name": "NG Snake Creek TS Miramar",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 25.962467550004938,
+    "lon": -80.30482413634446
+  },
+  {
+    "id": " ",
+    "name": "NG Sparta Armory",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 38.159912770047036,
+    "lon": -89.72395509897572
+  },
+  {
+    "id": " ",
+    "name": "NG Spring City Readiness Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.189877421160794,
+    "lon": -75.5564009366401
+  },
+  {
+    "id": " ",
+    "name": "NG Springfield (TS Cp Lincoln)",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 39.823656073668786,
+    "lon": -89.67001297059987
+  },
+  {
+    "id": " ",
+    "name": "NG Springfield AVCRAD (New)",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 37.253278620042394,
+    "lon": -93.39095901923088
+  },
+  {
+    "id": " ",
+    "name": "NG St Cloud AASF",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 45.53907647737749,
+    "lon": -94.05578893421713
+  },
+  {
+    "id": " ",
+    "name": "NG St Cloud NG Armory",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 45.56488037217112,
+    "lon": -94.17742768962772
+  },
+  {
+    "id": " ",
+    "name": "NG State Military Reservation Camp Pendleton",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.81605320484187,
+    "lon": -75.97934206508396
+  },
+  {
+    "id": " ",
+    "name": "NG Stones Ranch Military Res",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "CT",
+    "country": "usa",
+    "lat": 41.36630685454626,
+    "lon": -72.27248775278937
+  },
+  {
+    "id": " ",
+    "name": "NG Thunderbird Youth Academy",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 36.29569391511026,
+    "lon": -95.29212707112916
+  },
+  {
+    "id": " ",
+    "name": "NG Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NH",
+    "country": "usa",
+    "lat": 43.27781033793056,
+    "lon": -71.12221968895251
+  },
+  {
+    "id": " ",
+    "name": "NG TS Camp Johnson",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "VT",
+    "country": "usa",
+    "lat": 44.49962443677217,
+    "lon": -73.16462074558486
+  },
+  {
+    "id": " ",
+    "name": "NG TS Ethan Allen Range",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "VT",
+    "country": "usa",
+    "lat": 44.471713930359,
+    "lon": -72.89620596871585
+  },
+  {
+    "id": " ",
+    "name": "NG TS Ike Skelton Jefferson City",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 38.551526880878825,
+    "lon": -92.06843163957004
+  },
+  {
+    "id": " ",
+    "name": "NG TS Keaukaha Mil Res",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 19.706616486261684,
+    "lon": -155.03857308159635
+  },
+  {
+    "id": " ",
+    "name": "NG TS Mark Twain Natl Forest Wapp",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 36.89151861217112,
+    "lon": -90.27996648188739
+  },
+  {
+    "id": " ",
+    "name": "NG Volkstone",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 39.45479717440001,
+    "lon": -79.66925067067848
+  },
+  {
+    "id": " ",
+    "name": "NG VTS Catoosa",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 34.93095589678808,
+    "lon": -85.05921334620976
+  },
+  {
+    "id": " ",
+    "name": "NG VTS Milan",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.861981448254696,
+    "lon": -88.70212039112384
+  },
+  {
+    "id": " ",
+    "name": "NG VTS Smyrna",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 36.017899955491906,
+    "lon": -86.50351913534463
+  },
+  {
+    "id": " ",
+    "name": "NG West Camp",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "SD",
+    "country": "usa",
+    "lat": 44.07318734101973,
+    "lon": -103.30683921717443
+  },
+  {
+    "id": " ",
+    "name": "NG Westminster Training Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "VT",
+    "country": "usa",
+    "lat": 43.085905714693446,
+    "lon": -72.45124854946897
+  },
+  {
+    "id": " ",
+    "name": "NG WH Ford Regional Tng Ctr",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "KY",
+    "country": "usa",
+    "lat": 37.27578461081417,
+    "lon": -87.18222568301665
+  },
+  {
+    "id": " ",
+    "name": "NG Williamstown",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "WV",
+    "country": "usa",
+    "lat": 39.3530796387454,
+    "lon": -81.44231490702703
+  },
+  {
+    "id": " ",
+    "name": "NG Youngstown Tng Site",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 43.237498970176404,
+    "lon": -78.97269132440219
+  },
+  {
+    "id": " ",
+    "name": "NGA Arnold Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 38.416180313139265,
+    "lon": -90.39860209900827
+  },
+  {
+    "id": " ",
+    "name": "Niagara Falls",
+    "branch": "afr",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 43.11322639323078,
+    "lon": -78.95008008833557
+  },
+  {
+    "id": " ",
+    "name": "NMIC Suitland",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.84884367151367,
+    "lon": -76.93668981988414
+  },
+  {
+    "id": " ",
+    "name": "NNSY South Gate",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.80370999761853,
+    "lon": -76.29535856098774
+  },
+  {
+    "id": " ",
+    "name": "NNSY St Helena",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.82554668990164,
+    "lon": -76.28926737951292
+  },
+  {
+    "id": " ",
+    "name": "NOLF Brewton",
+    "branch": "usn",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.048646287309108,
+    "lon": -87.0644694212081
+  },
+  {
+    "id": " ",
+    "name": "NOLF Choctaw",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.50619922685169,
+    "lon": -86.9569005518475
+  },
+  {
+    "id": " ",
+    "name": "NOLF Evergreen",
+    "branch": "usn",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.4152193947041,
+    "lon": -87.0424556392238
+  },
+  {
+    "id": " ",
+    "name": "NOLF Holley",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.425382213550865,
+    "lon": -86.89252723066248
+  },
+  {
+    "id": " ",
+    "name": "NOLF Santa Rosa",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.609278073946626,
+    "lon": -86.93880590381711
+  },
+  {
+    "id": " ",
+    "name": "NOLF Silverhill",
+    "branch": "usn",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 30.561807262451573,
+    "lon": -87.80953196709841
+  },
+  {
+    "id": " ",
+    "name": "NOLF Spencer",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.625337222906445,
+    "lon": -87.13978008009302
+  },
+  {
+    "id": " ",
+    "name": "NOLF Summerdale",
+    "branch": "usn",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 30.507973661302515,
+    "lon": -87.64620042438426
+  },
+  {
+    "id": " ",
+    "name": "NOLF Wolf",
+    "branch": "usn",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 30.344332607963633,
+    "lon": -87.54104071407427
+  },
+  {
+    "id": " ",
+    "name": "Northside Mid-South",
+    "branch": "usn",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.34281462654448,
+    "lon": -89.85981945629231
+  },
+  {
+    "id": " ",
+    "name": "Northwest Chesapeake VA",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.55909854188863,
+    "lon": -76.26748546433764
+  },
+  {
+    "id": " ",
+    "name": "Norwalk 2",
+    "branch": "afr",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.89318498214263,
+    "lon": -118.0701710632509
+  },
+  {
+    "id": " ",
+    "name": "NRC Solomons",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.33642427239164,
+    "lon": -76.47105468310676
+  },
+  {
+    "id": " ",
+    "name": "NSA Saratoga Springs NY",
+    "branch": "usn",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 43.07982837512922,
+    "lon": -73.82131513248827
+  },
+  {
+    "id": " ",
+    "name": "NSGA Sabana Seca PR",
+    "branch": "usn",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.42720235718272,
+    "lon": -66.1881568381461
+  },
+  {
+    "id": " ",
+    "name": "NSWC Carderock Div",
+    "branch": "usn",
+    "city": "",
+    "state": "TN",
+    "country": "usa",
+    "lat": 35.088346719018176,
+    "lon": -90.14137600342116
+  },
+  {
+    "id": " ",
+    "name": "NWIRP Bedford MA",
+    "branch": "usn",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.47728836140023,
+    "lon": -71.28917919441123
+  },
+  {
+    "id": " ",
+    "name": "Offutt Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "NE",
+    "country": "usa",
+    "lat": 41.118565909130076,
+    "lon": -95.90867647219756
+  },
+  {
+    "id": " ",
+    "name": "Old Town Site 1",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.74867541076112,
+    "lon": -117.1970126918173
+  },
+  {
+    "id": " ",
+    "name": "OLF Bravo",
+    "branch": "usn",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 32.79713641317048,
+    "lon": -88.83136480989502
+  },
+  {
+    "id": " ",
+    "name": "OLF Bronson",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.38360123944219,
+    "lon": -87.41311883133586
+  },
+  {
+    "id": " ",
+    "name": "OLF Coupeville",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 48.189411851140605,
+    "lon": -122.63200986116986
+  },
+  {
+    "id": " ",
+    "name": "OLF Whitehouse",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.355352382546137,
+    "lon": -81.86983899861926
+  },
+  {
+    "id": " ",
+    "name": "Oliktok Long Range Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 70.49500671534905,
+    "lon": -149.88044715583362
+  },
+  {
+    "id": " ",
+    "name": "Orchard Combat Training Center",
+    "branch": "armyNationalGuard",
+    "city": "",
+    "state": "ID",
+    "country": "usa",
+    "lat": 43.23007616680171,
+    "lon": -116.14290724355428
+  },
+  {
+    "id": " ",
+    "name": "Ozol Defense Fuel Support Point",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 38.026019782438134,
+    "lon": -122.16800276350746
+  },
+  {
+    "id": " ",
+    "name": "Pacific Missile Range Facility",
+    "branch": "usn",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 22.02513889209129,
+    "lon": -159.7738324630119
+  },
+  {
+    "id": " ",
+    "name": "Parks Reserve Forces Tng Area",
+    "branch": "usar",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 37.730826467951694,
+    "lon": -121.8964967086316
+  },
+  {
+    "id": " ",
+    "name": "Patrick Space Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 28.23357030290055,
+    "lon": -80.60841341086625
+  },
+  {
+    "id": " ",
+    "name": "Pearl City Annex",
+    "branch": "usmc",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.383557276727814,
+    "lon": -157.97137269083873
+  },
+  {
+    "id": " ",
+    "name": "Pease ANGB NH",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NH",
+    "country": "usa",
+    "lat": 43.089085495906204,
+    "lon": -70.8187308021789
+  },
+  {
+    "id": " ",
+    "name": "Pentagon",
+    "branch": "whs",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.87461068516241,
+    "lon": -77.05259117242782
+  },
+  {
+    "id": " ",
+    "name": "Peterson Space Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.824389590827934,
+    "lon": -104.69478844012579
+  },
+  {
+    "id": " ",
+    "name": "Picatinny Arsenal",
+    "branch": "usa",
+    "city": "",
+    "state": "NJ",
+    "country": "usa",
+    "lat": 40.95442145251974,
+    "lon": -74.54449034157595
+  },
+  {
+    "id": " ",
+    "name": "Pico Del Este - AFWTF",
+    "branch": "usn",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.268385180396866,
+    "lon": -65.75836294292311
+  },
+  {
+    "id": " ",
+    "name": "Pillar Point Space Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 37.49895752775922,
+    "lon": -122.49801727266167
+  },
+  {
+    "id": " ",
+    "name": "Pine Bluff Arsenal",
+    "branch": "usa",
+    "city": "",
+    "state": "AR",
+    "country": "usa",
+    "lat": 34.3257690766427,
+    "lon": -92.08499802436272
+  },
+  {
+    "id": " ",
+    "name": "Pineros Island",
+    "branch": "usn",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.251549248845063,
+    "lon": -65.5916879816984
+  },
+  {
+    "id": " ",
+    "name": "Piñon Canyon Maneuver Site",
+    "branch": "usa",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 37.49758934200391,
+    "lon": -103.91806448489845
+  },
+  {
+    "id": " ",
+    "name": "Pittsburgh IAP ANG",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.49303439118105,
+    "lon": -80.21050035732843
+  },
+  {
+    "id": " ",
+    "name": "Pittsburgh IAP ARS",
+    "branch": "afr",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 40.49358131084353,
+    "lon": -80.2110528245101
+  },
+  {
+    "id": " ",
+    "name": "Pohakuloa Training Area",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 19.714910880476502,
+    "lon": -155.627033387464
+  },
+  {
+    "id": " ",
+    "name": "Poinsett Electronic Combat Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 33.796125492827414,
+    "lon": -80.48179602847179
+  },
+  {
+    "id": " ",
+    "name": "Point Arena Air Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 38.89184069782364,
+    "lon": -123.54658121916621
+  },
+  {
+    "id": " ",
+    "name": "Point Barrow Long Range Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 71.32754915268615,
+    "lon": -156.62728865692984
+  },
+  {
+    "id": " ",
+    "name": "Portland IAP ANG",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OR",
+    "country": "usa",
+    "lat": 45.578380017940155,
+    "lon": -122.59552336138972
+  },
+  {
+    "id": " ",
+    "name": "Portsmouth Naval Shipyard",
+    "branch": "usn",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 43.08010560488764,
+    "lon": -70.73425453140034
+  },
+  {
+    "id": " ",
+    "name": "Presidio of Monterey",
+    "branch": "usa",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 36.60323717886881,
+    "lon": -121.91215423215367
+  },
+  {
+    "id": " ",
+    "name": "Pueblo Chemical Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.31714892056296,
+    "lon": -104.33242088929386
+  },
+  {
+    "id": " ",
+    "name": "Pumpkin Neck",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.30198710292061,
+    "lon": -77.04219449068471
+  },
+  {
+    "id": " ",
+    "name": "Puuloa-Oahu",
+    "branch": "usmc",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.318250851972255,
+    "lon": -157.9880690465877
+  },
+  {
+    "id": " ",
+    "name": "Quonset State Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "RI",
+    "country": "usa",
+    "lat": 41.59692997344944,
+    "lon": -71.41849621281932
+  },
+  {
+    "id": " ",
+    "name": "Radford Army Ammunition Plant",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.18151513223329,
+    "lon": -80.53914562701705
+  },
+  {
+    "id": " ",
+    "name": "Ramey AF Solar Observatory Research Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.509433068732,
+    "lon": -67.09913009652037
+  },
+  {
+    "id": " ",
+    "name": "Red River Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 33.43374132669953,
+    "lon": -94.35567151129715
+  },
+  {
+    "id": " ",
+    "name": "Redington Township",
+    "branch": "usn",
+    "city": "",
+    "state": "ME",
+    "country": "usa",
+    "lat": 44.9909932747197,
+    "lon": -70.45335220783984
+  },
+  {
+    "id": " ",
+    "name": "Redstone Arsenal",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 34.63274155350609,
+    "lon": -86.65721081112311
+  },
+  {
+    "id": " ",
+    "name": "Reno Tahoe IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 39.500162577483806,
+    "lon": -119.77512745640263
+  },
+  {
+    "id": " ",
+    "name": "Rickenbacker",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 39.81273217159023,
+    "lon": -82.94411926496423
+  },
+  {
+    "id": " ",
+    "name": "Rivanna Station",
+    "branch": "usa",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 38.155489360128435,
+    "lon": -78.41368450685324
+  },
+  {
+    "id": " ",
+    "name": "Riverbank AAP",
+    "branch": "usa",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 37.71687641933731,
+    "lon": -120.91933742116187
+  },
+  {
+    "id": " ",
+    "name": "Robins AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 32.61754723023885,
+    "lon": -83.58157908258481
+  },
+  {
+    "id": " ",
+    "name": "Rock Island Arsenal",
+    "branch": "usa",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 41.5170711967558,
+    "lon": -90.54075542980783
+  },
+  {
+    "id": " ",
+    "name": "Rocky Mountain Arsenal",
+    "branch": "usa",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 39.84145548766126,
+    "lon": -104.84572193778799
+  },
+  {
+    "id": " ",
+    "name": "Romanzof Regional Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 61.784018348349896,
+    "lon": -165.98599823661112
+  },
+  {
+    "id": " ",
+    "name": "Rome Research Laboratory",
+    "branch": "usaf",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 43.22163821969348,
+    "lon": -75.41086469033098
+  },
+  {
+    "id": " ",
+    "name": "Rosecrans MAP (139AG)",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 39.7665752453224,
+    "lon": -94.90199850920386
+  },
+  {
+    "id": " ",
+    "name": "Runkle Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.340385523035184,
+    "lon": -86.09188826701943
+  },
+  {
+    "id": " ",
+    "name": "Salt Lake City IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 40.789634666165725,
+    "lon": -111.95665840483787
+  },
+  {
+    "id": " ",
+    "name": "San Clemente IS NALF",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.9001459995629,
+    "lon": -118.4852256408163
+  },
+  {
+    "id": " ",
+    "name": "San Nicolas Island",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.247854756107266,
+    "lon": -119.50595286452334
+  },
+  {
+    "id": " ",
+    "name": "San Pedro Fuel Depot",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.77305344784594,
+    "lon": -118.30102803005511
+  },
+  {
+    "id": " ",
+    "name": "Santa Cruz Island",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.99480245861502,
+    "lon": -119.63322386591719
+  },
+  {
+    "id": " ",
+    "name": "Saufley Field",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.470641257944408,
+    "lon": -87.34117803497215
+  },
+  {
+    "id": " ",
+    "name": "Savanna Depot Act",
+    "branch": "usa",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 42.22994911320028,
+    "lon": -90.3413295373832
+  },
+  {
+    "id": " ",
+    "name": "Savannah/Hilton Head IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 32.12642409476387,
+    "lon": -81.18976181222385
+  },
+  {
+    "id": " ",
+    "name": "Saylor Creek Air Force Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "ID",
+    "country": "usa",
+    "lat": 42.7401596830197,
+    "lon": -115.56319304507431
+  },
+  {
+    "id": " ",
+    "name": "Schenectady ANG MAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 42.85298389132801,
+    "lon": -73.9219288205507
+  },
+  {
+    "id": " ",
+    "name": "Schriever Space Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.80579234182674,
+    "lon": -104.52047443811038
+  },
+  {
+    "id": " ",
+    "name": "Scott Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "IL",
+    "country": "usa",
+    "lat": 38.54147469648752,
+    "lon": -89.85369764727052
+  },
+  {
+    "id": " ",
+    "name": "Scranton Army Ammunition Plant",
+    "branch": "usa",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 41.404178576618484,
+    "lon": -75.66590722526244
+  },
+  {
+    "id": " ",
+    "name": "SDA Area",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.92004269118394,
+    "lon": -76.31663737385968
+  },
+  {
+    "id": " ",
+    "name": "Sea Plane Base",
+    "branch": "usn",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 48.2942162445126,
+    "lon": -122.60090395820994
+  },
+  {
+    "id": " ",
+    "name": "Selfridge ANGB",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MI",
+    "country": "usa",
+    "lat": 42.61158895216734,
+    "lon": -82.8314261481459
+  },
+  {
+    "id": " ",
+    "name": "Sewage Evaporation Pond",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 36.24376457182608,
+    "lon": -119.88352868955846
+  },
+  {
+    "id": " ",
+    "name": "Seward Recreation Area",
+    "branch": "usa",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 60.13331692680873,
+    "lon": -149.43313187502815
+  },
+  {
+    "id": " ",
+    "name": "Seymour Johnson Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "NC",
+    "country": "usa",
+    "lat": 35.347902418524285,
+    "lon": -77.96257755089559
+  },
+  {
+    "id": " ",
+    "name": "Shaw Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "SC",
+    "country": "usa",
+    "lat": 33.975411593871414,
+    "lon": -80.46996627956197
+  },
+  {
+    "id": " ",
+    "name": "Shell Basefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.36260152923877,
+    "lon": -85.84898139765112
+  },
+  {
+    "id": " ",
+    "name": "Sheppard AFB",
+    "branch": "usaf",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 33.98455816512705,
+    "lon": -98.49969077358598
+  },
+  {
+    "id": " ",
+    "name": "Sierra Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 40.20694798745263,
+    "lon": -120.12445047965407
+  },
+  {
+    "id": " ",
+    "name": "Silver Strand South",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.59696753851175,
+    "lon": -117.1281709075493
+  },
+  {
+    "id": " ",
+    "name": "Sioux Gateway Airport (ANG)",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "IA",
+    "country": "usa",
+    "lat": 42.39494349285684,
+    "lon": -96.37289439426863
+  },
+  {
+    "id": " ",
+    "name": "Skelly Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.285734663647137,
+    "lon": -86.1298417386491
+  },
+  {
+    "id": " ",
+    "name": "Smoky Hill ANG Range",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "KS",
+    "country": "usa",
+    "lat": 38.698673015090975,
+    "lon": -97.83169706783647
+  },
+  {
+    "id": " ",
+    "name": "South Point",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.66777765348735,
+    "lon": -117.24051795674109
+  },
+  {
+    "id": " ",
+    "name": "Sparrevohn RRS",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 61.10370294872118,
+    "lon": -155.58093443152072
+  },
+  {
+    "id": " ",
+    "name": "Springfield Beckley",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 39.84907965204166,
+    "lon": -83.83547909094465
+  },
+  {
+    "id": " ",
+    "name": "St Juliens Creek East",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 36.78795976010325,
+    "lon": -76.31017360004373
+  },
+  {
+    "id": " ",
+    "name": "St Louis Air Force Station",
+    "branch": "usaf",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 38.59177652456422,
+    "lon": -90.2089425628947
+  },
+  {
+    "id": " ",
+    "name": "Stewart Annex",
+    "branch": "usa",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 41.4925876230363,
+    "lon": -74.09433625285013
+  },
+  {
+    "id": " ",
+    "name": "Stewart IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 41.5014053013749,
+    "lon": -74.08434538939211
+  },
+  {
+    "id": " ",
+    "name": "Stinson 5AB Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.359581961584535,
+    "lon": -86.01394574501782
+  },
+  {
+    "id": " ",
+    "name": "Stump Neck Area",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.5483182092683,
+    "lon": -77.216874315026
+  },
+  {
+    "id": " ",
+    "name": "Syracuse MCRC",
+    "branch": "usmcr",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 43.09628287166828,
+    "lon": -76.12493766289873
+  },
+  {
+    "id": " ",
+    "name": "Tac X Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.122537544059004,
+    "lon": -85.97909695317999
+  },
+  {
+    "id": " ",
+    "name": "Target 101 Shade Tree",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 32.948956679113714,
+    "lon": -115.75065659411246
+  },
+  {
+    "id": " ",
+    "name": "Tatalina LRRS",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 62.91070631950924,
+    "lon": -155.9943487458944
+  },
+  {
+    "id": " ",
+    "name": "The Barry M Goldwater Air Force Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.640618506580104,
+    "lon": -113.05587856948085
+  },
+  {
+    "id": " ",
+    "name": "The Farish Memorial Recreational Annex",
+    "branch": "usaf",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.999137636789705,
+    "lon": -104.99966432821634
+  },
+  {
+    "id": " ",
+    "name": "Tin City Long Range Radar Site",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 65.56351133992386,
+    "lon": -167.94672624545822
+  },
+  {
+    "id": " ",
+    "name": "Tinker Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 35.4154028595709,
+    "lon": -97.39045422858628
+  },
+  {
+    "id": " ",
+    "name": "Tobyhanna Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "PA",
+    "country": "usa",
+    "lat": 41.19760249132081,
+    "lon": -75.42951977870995
+  },
+  {
+    "id": " ",
+    "name": "Toledo/Exp Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 41.58652597349049,
+    "lon": -83.79196523639847
+  },
+  {
+    "id": " ",
+    "name": "Tooele Army Depot",
+    "branch": "usa",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 40.52739462417448,
+    "lon": -112.41115495897866
+  },
+  {
+    "id": " ",
+    "name": "Toth Stagefield AL",
+    "branch": "usa",
+    "city": "",
+    "state": "AL",
+    "country": "usa",
+    "lat": 31.22858438092943,
+    "lon": -85.5587092187361
+  },
+  {
+    "id": " ",
+    "name": "Townsend Bombing Range",
+    "branch": "usmc",
+    "city": "",
+    "state": "GA",
+    "country": "usa",
+    "lat": 31.544820204442868,
+    "lon": -81.59613902530346
+  },
+  {
+    "id": " ",
+    "name": "Travis Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 38.26409364105236,
+    "lon": -121.94229266878587
+  },
+  {
+    "id": " ",
+    "name": "Travis System Annex No 2",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 38.32550021692313,
+    "lon": -121.92357132215147
+  },
+  {
+    "id": " ",
+    "name": "Tripler Army Medical Center",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.361989634076412,
+    "lon": -157.88968362443296
+  },
+  {
+    "id": " ",
+    "name": "Tropic Regions Test Center",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.494498420726647,
+    "lon": -158.0955575190579
+  },
+  {
+    "id": " ",
+    "name": "Truax ANGB",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 43.13065614920959,
+    "lon": -89.33610652629488
+  },
+  {
+    "id": " ",
+    "name": "Truman Annex",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 24.546571236162677,
+    "lon": -81.8047377972558
+  },
+  {
+    "id": " ",
+    "name": "Trumbo Point Annex",
+    "branch": "usn",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 24.564361522694508,
+    "lon": -81.7912113621284
+  },
+  {
+    "id": " ",
+    "name": "Tucson IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 32.13140399399774,
+    "lon": -110.94925062463291
+  },
+  {
+    "id": " ",
+    "name": "Tulsa IAP",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 36.21701262243871,
+    "lon": -95.8747701813408
+  },
+  {
+    "id": " ",
+    "name": "Twin Cities AAP",
+    "branch": "usa",
+    "city": "",
+    "state": "MN",
+    "country": "usa",
+    "lat": 45.098152017935014,
+    "lon": -93.17423565324759
+  },
+  {
+    "id": " ",
+    "name": "Tyndall Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "FL",
+    "country": "usa",
+    "lat": 30.045704524090684,
+    "lon": -85.5516557297548
+  },
+  {
+    "id": " ",
+    "name": "Upper Yard Annapolis",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.98866233627141,
+    "lon": -76.49437180081327
+  },
+  {
+    "id": " ",
+    "name": "USA Field Station Kunia",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.474818295205125,
+    "lon": -158.05366284638453
+  },
+  {
+    "id": " ",
+    "name": "USAF Academy Auxiliary Airfield",
+    "branch": "usaf",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.76028858114534,
+    "lon": -104.30134217237925
+  },
+  {
+    "id": " ",
+    "name": "USAF Academy Site 2",
+    "branch": "usaf",
+    "city": "",
+    "state": "CO",
+    "country": "usa",
+    "lat": 38.99849282244044,
+    "lon": -104.870070558255
+  },
+  {
+    "id": " ",
+    "name": "USMCB Camp Pendleton",
+    "branch": "usar",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.21307449476495,
+    "lon": -117.39725712699776
+  },
+  {
+    "id": " ",
+    "name": "Utah Test and Training Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "NV",
+    "country": "usa",
+    "lat": 40.50059213286577,
+    "lon": -113.57466178084522
+  },
+  {
+    "id": " ",
+    "name": "Vance Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 36.33804253179123,
+    "lon": -97.91445365840531
+  },
+  {
+    "id": " ",
+    "name": "Vandenberg Space Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.7136907555685,
+    "lon": -120.55792221955784
+  },
+  {
+    "id": " ",
+    "name": "Verona Defense Fuel Support Point",
+    "branch": "usaf",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 43.12692307946685,
+    "lon": -75.59124415698658
+  },
+  {
+    "id": " ",
+    "name": "Vieques West PR",
+    "branch": "usn",
+    "city": "",
+    "state": "PR",
+    "country": "usa",
+    "lat": 18.096223694041566,
+    "lon": -65.51222592078844
+  },
+  {
+    "id": " ",
+    "name": "Volk ANGB",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 44.23459128908022,
+    "lon": -90.05404683120246
+  },
+  {
+    "id": " ",
+    "name": "W K Kellogg",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "MI",
+    "country": "usa",
+    "lat": 42.31526082615324,
+    "lon": -85.25176502477274
+  },
+  {
+    "id": " ",
+    "name": "W Silver Spring Complex",
+    "branch": "usar",
+    "city": "",
+    "state": "WI",
+    "country": "usa",
+    "lat": 43.12280432318304,
+    "lon": -87.97728199479154
+  },
+  {
+    "id": " ",
+    "name": "Waianae Kai Military Reservation",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.4467075495732,
+    "lon": -158.19091179139963
+  },
+  {
+    "id": " ",
+    "name": "Warner Springs Rts",
+    "branch": "usn",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 33.32717974530103,
+    "lon": -116.69923283573118
+  },
+  {
+    "id": " ",
+    "name": "Waterfront",
+    "branch": "usn",
+    "city": "",
+    "state": "NJ",
+    "country": "usa",
+    "lat": 40.42204418770409,
+    "lon": -74.07043542352196
+  },
+  {
+    "id": " ",
+    "name": "Watervliet Arsenal",
+    "branch": "usa",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 42.71948533444034,
+    "lon": -73.70730076758566
+  },
+  {
+    "id": " ",
+    "name": "Webster Field",
+    "branch": "usn",
+    "city": "",
+    "state": "MD",
+    "country": "usa",
+    "lat": 38.144615608882944,
+    "lon": -76.4287342005378
+  },
+  {
+    "id": " ",
+    "name": "West Bank",
+    "branch": "usn",
+    "city": "",
+    "state": "LA",
+    "country": "usa",
+    "lat": 29.95026901463795,
+    "lon": -90.03595232075912
+  },
+  {
+    "id": " ",
+    "name": "West Desert Test Center",
+    "branch": "usa",
+    "city": "",
+    "state": "UT",
+    "country": "usa",
+    "lat": 40.154531019252055,
+    "lon": -113.2840829203177
+  },
+  {
+    "id": " ",
+    "name": "West Point Military Reservation",
+    "branch": "usa",
+    "city": "",
+    "state": "NY",
+    "country": "usa",
+    "lat": 41.36148108675385,
+    "lon": -74.02476452449235
+  },
+  {
+    "id": " ",
+    "name": "Westover ARB",
+    "branch": "afr",
+    "city": "",
+    "state": "MA",
+    "country": "usa",
+    "lat": 42.19909938360321,
+    "lon": -72.53649839324692
+  },
+  {
+    "id": " ",
+    "name": "Wheeler Army Airfield",
+    "branch": "usa",
+    "city": "",
+    "state": "HI",
+    "country": "usa",
+    "lat": 21.475537227135657,
+    "lon": -158.03549211319105
+  },
+  {
+    "id": " ",
+    "name": "White Bluff",
+    "branch": "usaf",
+    "city": "",
+    "state": "WA",
+    "country": "usa",
+    "lat": 47.70266053972532,
+    "lon": -117.5774667298309
+  },
+  {
+    "id": " ",
+    "name": "White Sands Missile Range",
+    "branch": "usa",
+    "city": "",
+    "state": "NM",
+    "country": "usa",
+    "lat": 33.15950856017696,
+    "lon": -106.42569274705019
+  },
+  {
+    "id": " ",
+    "name": "Whiteman Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "MO",
+    "country": "usa",
+    "lat": 38.729309782861286,
+    "lon": -93.55185159937982
+  },
+  {
+    "id": " ",
+    "name": "Will Rogers World Airport",
+    "branch": "airNationalGuard",
+    "city": "",
+    "state": "OK",
+    "country": "usa",
+    "lat": 35.40765862344848,
+    "lon": -97.61167297480188
+  },
+  {
+    "id": " ",
+    "name": "Woolmarket (De Soto)",
+    "branch": "usn",
+    "city": "",
+    "state": "MS",
+    "country": "usa",
+    "lat": 30.541702116291006,
+    "lon": -88.97182109541505
+  },
+  {
+    "id": " ",
+    "name": "Wright-Patterson Air Force Base",
+    "branch": "usaf",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 39.81744231783834,
+    "lon": -84.05069229830704
+  },
+  {
+    "id": " ",
+    "name": "Yankee Target Range",
+    "branch": "usn",
+    "city": "",
+    "state": "TX",
+    "country": "usa",
+    "lat": 28.246277842723384,
+    "lon": -98.72391000569087
+  },
+  {
+    "id": " ",
+    "name": "Yermo Area",
+    "branch": "usmc",
+    "city": "",
+    "state": "CA",
+    "country": "usa",
+    "lat": 34.89040751000037,
+    "lon": -116.87098860596811
+  },
+  {
+    "id": " ",
+    "name": "Yorktown Fuel Depot",
+    "branch": "usn",
+    "city": "",
+    "state": "VA",
+    "country": "usa",
+    "lat": 37.21590785060814,
+    "lon": -76.48604171734365
+  },
+  {
+    "id": " ",
+    "name": "Youngstown",
+    "branch": "afr",
+    "city": "",
+    "state": "OH",
+    "country": "usa",
+    "lat": 41.26560059112961,
+    "lon": -80.68618146388272
+  },
+  {
+    "id": " ",
+    "name": "Yukon Weapons Range",
+    "branch": "usaf",
+    "city": "",
+    "state": "AK",
+    "country": "usa",
+    "lat": 64.76800913486429,
+    "lon": -146.8899216134794
+  },
+  {
+    "id": " ",
+    "name": "Yuma Proving Ground",
+    "branch": "usa",
+    "city": "",
+    "state": "AZ",
+    "country": "usa",
+    "lat": 33.10532100043558,
+    "lon": -114.21360581500856
+  }
+]
