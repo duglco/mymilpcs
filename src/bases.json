@@ -2,7 +2,7 @@
   {
     "id": " ",
     "name": "Aberdeen Proving Ground",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -12,7 +12,7 @@
   {
     "id": " ",
     "name": "Adelphi Laboratory Center",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -22,7 +22,7 @@
   {
     "id": " ",
     "name": "Air Force Maui Optical and Supercomputing Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -32,7 +32,7 @@
   {
     "id": " ",
     "name": "Air Force Office of Scientific Research",
-    "branch": "Whs",
+    "branch": "WHS",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -42,7 +42,7 @@
   {
     "id": " ",
     "name": "Air Force Plant 4",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -52,7 +52,7 @@
   {
     "id": " ",
     "name": "Air Force Plant 42",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -62,7 +62,7 @@
   {
     "id": " ",
     "name": "Air Force Plant 44",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -72,7 +72,7 @@
   {
     "id": " ",
     "name": "Air Force Plant 6",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -82,7 +82,7 @@
   {
     "id": " ",
     "name": "ALF Fentress Chesapke",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -92,7 +92,7 @@
   {
     "id": " ",
     "name": "ALF Orange",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -102,7 +102,7 @@
   {
     "id": " ",
     "name": "Aliamanu Military Reservation",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -112,7 +112,7 @@
   {
     "id": " ",
     "name": "Allegany Ballistics Lab",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -122,7 +122,7 @@
   {
     "id": " ",
     "name": "Allen Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -132,7 +132,7 @@
   {
     "id": " ",
     "name": "Alpena County Regional Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MI",
     "country": "usa",
@@ -142,7 +142,7 @@
   {
     "id": " ",
     "name": "Altus Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -152,7 +152,7 @@
   {
     "id": " ",
     "name": "Amphib Base Coronado East",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -162,7 +162,7 @@
   {
     "id": " ",
     "name": "Amphib Base Coronado West",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -172,7 +172,7 @@
   {
     "id": " ",
     "name": "Andersen Air Force Base",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "GU",
     "country": "usa",
@@ -182,7 +182,7 @@
   {
     "id": " ",
     "name": "Anniston Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -192,7 +192,7 @@
   {
     "id": " ",
     "name": "Arbuckle Airfield",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -202,7 +202,7 @@
   {
     "id": " ",
     "name": "Arlington National Cemetery",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -212,7 +212,7 @@
   {
     "id": " ",
     "name": "Arlington Service Ctr",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -222,7 +222,7 @@
   {
     "id": " ",
     "name": "Army Futures Command",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -232,7 +232,7 @@
   {
     "id": " ",
     "name": "Army Research Lab – Orlando Simulations and Training Technology Center",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -242,7 +242,7 @@
   {
     "id": " ",
     "name": "Army Research Office",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -252,7 +252,7 @@
   {
     "id": " ",
     "name": "Arnold Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -262,7 +262,7 @@
   {
     "id": " ",
     "name": "Atlantic City IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -272,7 +272,7 @@
   {
     "id": " ",
     "name": "Avon Park AF Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -282,7 +282,7 @@
   {
     "id": " ",
     "name": "Badger AAP",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -292,7 +292,7 @@
   {
     "id": " ",
     "name": "Balboa Hospital",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -302,7 +302,7 @@
   {
     "id": " ",
     "name": "Bangor IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -312,7 +312,7 @@
   {
     "id": " ",
     "name": "Barin Field",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -322,7 +322,7 @@
   {
     "id": " ",
     "name": "Barksdale Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -332,7 +332,7 @@
   {
     "id": " ",
     "name": "Barnes Map ANG",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -342,7 +342,7 @@
   {
     "id": " ",
     "name": "Barry Goldwater Range",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -352,7 +352,7 @@
   {
     "id": " ",
     "name": "Barry M Goldwater Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -362,7 +362,7 @@
   {
     "id": " ",
     "name": "Barter Island Regional Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -372,7 +372,7 @@
   {
     "id": " ",
     "name": "Beale Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -382,7 +382,7 @@
   {
     "id": " ",
     "name": "Bellows",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -402,7 +402,7 @@
   {
     "id": " ",
     "name": "Birch Lake Recreation Annex",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -412,7 +412,7 @@
   {
     "id": " ",
     "name": "Birmingham Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -422,7 +422,7 @@
   {
     "id": " ",
     "name": "Blakeslee Air Force Recreation Area",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -432,7 +432,7 @@
   {
     "id": " ",
     "name": "Blue Grass Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "KY",
     "country": "usa",
@@ -442,7 +442,7 @@
   {
     "id": " ",
     "name": "Boise Air Terminal",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "ID",
     "country": "usa",
@@ -452,7 +452,7 @@
   {
     "id": " ",
     "name": "Bradley IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "CT",
     "country": "usa",
@@ -462,7 +462,7 @@
   {
     "id": " ",
     "name": "Bratenahl",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -472,7 +472,7 @@
   {
     "id": " ",
     "name": "Bridgeport",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -482,7 +482,7 @@
   {
     "id": " ",
     "name": "Broadway Complex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -492,7 +492,7 @@
   {
     "id": " ",
     "name": "Brooklyn NY",
-    "branch": "Usmcr",
+    "branch": "USMCR",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -502,7 +502,7 @@
   {
     "id": " ",
     "name": "Brown 4b Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -512,7 +512,7 @@
   {
     "id": " ",
     "name": "Buckley Space Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -522,7 +522,7 @@
   {
     "id": " ",
     "name": "Burlington IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "VT",
     "country": "usa",
@@ -532,7 +532,7 @@
   {
     "id": " ",
     "name": "Cabeza De Perro",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -542,7 +542,7 @@
   {
     "id": " ",
     "name": "Cairns Basefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -552,7 +552,7 @@
   {
     "id": " ",
     "name": "Camp Blaz",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "GU",
     "country": "usa",
@@ -562,7 +562,7 @@
   {
     "id": " ",
     "name": "Camp Dodge",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IA",
     "country": "usa",
@@ -572,7 +572,7 @@
   {
     "id": " ",
     "name": "Camp Frank D Merrill",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -582,7 +582,7 @@
   {
     "id": " ",
     "name": "Camp Grayling",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MI",
     "country": "usa",
@@ -592,7 +592,7 @@
   {
     "id": " ",
     "name": "Camp MacKall",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -602,7 +602,7 @@
   {
     "id": " ",
     "name": "Camp Michael Monsoor",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -612,7 +612,7 @@
   {
     "id": " ",
     "name": "Camp Morena",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -622,7 +622,7 @@
   {
     "id": " ",
     "name": "Camp Navajo",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -632,7 +632,7 @@
   {
     "id": " ",
     "name": "Camp Roberts",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -642,7 +642,7 @@
   {
     "id": " ",
     "name": "Camp Shelby",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -652,7 +652,7 @@
   {
     "id": " ",
     "name": "Camp Williams",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -662,7 +662,7 @@
   {
     "id": " ",
     "name": "Cannon AFB Site 2",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -672,7 +672,7 @@
   {
     "id": " ",
     "name": "Cannon Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -682,7 +682,7 @@
   {
     "id": " ",
     "name": "Cape Canaveral Space Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -692,7 +692,7 @@
   {
     "id": " ",
     "name": "Cape Newenham Long Range Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -702,7 +702,7 @@
   {
     "id": " ",
     "name": "Capital Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -712,7 +712,7 @@
   {
     "id": " ",
     "name": "Carlisle Barracks",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -722,7 +722,7 @@
   {
     "id": " ",
     "name": "Cavalier Space Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "ND",
     "country": "usa",
@@ -732,7 +732,7 @@
   {
     "id": " ",
     "name": "CBC Gulfport MS",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -742,7 +742,7 @@
   {
     "id": " ",
     "name": "Channel Islands ANG Station",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -752,7 +752,7 @@
   {
     "id": " ",
     "name": "Charlotte/Douglas IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -762,7 +762,7 @@
   {
     "id": " ",
     "name": "Cheatham Annex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -772,7 +772,7 @@
   {
     "id": " ",
     "name": "Chesapeake Bay Detach",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -782,7 +782,7 @@
   {
     "id": " ",
     "name": "Cheyenne Mountain Space Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -792,7 +792,7 @@
   {
     "id": " ",
     "name": "Cheyenne Regional Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "WY",
     "country": "usa",
@@ -802,7 +802,7 @@
   {
     "id": " ",
     "name": "Chocolate Mountain Aerial Gunnery Range",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -812,7 +812,7 @@
   {
     "id": " ",
     "name": "Clear Space Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -822,7 +822,7 @@
   {
     "id": " ",
     "name": "CNI NAVMAG Indian Island",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -832,7 +832,7 @@
   {
     "id": " ",
     "name": "Cold Bay Regional Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -842,7 +842,7 @@
   {
     "id": " ",
     "name": "Columbus Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -852,7 +852,7 @@
   {
     "id": " ",
     "name": "Combat Capabilities Development Command Soldier Center",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -862,7 +862,7 @@
   {
     "id": " ",
     "name": "Corry Station",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -872,7 +872,7 @@
   {
     "id": " ",
     "name": "Craney Island",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -882,7 +882,7 @@
   {
     "id": " ",
     "name": "Creech Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -892,7 +892,7 @@
   {
     "id": " ",
     "name": "CSO Barbers Point HI",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -902,7 +902,7 @@
   {
     "id": " ",
     "name": "CSO NAS Alameda",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -912,7 +912,7 @@
   {
     "id": " ",
     "name": "CSO NAS South Weymouth",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -922,7 +922,7 @@
   {
     "id": " ",
     "name": "Cusick Survival Training Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -932,7 +932,7 @@
   {
     "id": " ",
     "name": "Dania Beach (Lauderdale)",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -942,7 +942,7 @@
   {
     "id": " ",
     "name": "Dare County Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -952,7 +952,7 @@
   {
     "id": " ",
     "name": "Davis-Monthan Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -962,7 +962,7 @@
   {
     "id": " ",
     "name": "Def Gen Supply Center",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -972,7 +972,7 @@
   {
     "id": " ",
     "name": "Defense Advanced Research Projects Agency",
-    "branch": "Whs",
+    "branch": "WHS",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -982,7 +982,7 @@
   {
     "id": " ",
     "name": "Defense Distrib Depot Susq",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -992,7 +992,7 @@
   {
     "id": " ",
     "name": "Defense Supply Center Columbus",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -1002,7 +1002,7 @@
   {
     "id": " ",
     "name": "Des Moines IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "IA",
     "country": "usa",
@@ -1012,7 +1012,7 @@
   {
     "id": " ",
     "name": "Destin Moreno Point",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -1022,7 +1022,7 @@
   {
     "id": " ",
     "name": "Det Concord (BRAC)",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1032,7 +1032,7 @@
   {
     "id": " ",
     "name": "Det Phil Pny Annex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -1042,7 +1042,7 @@
   {
     "id": " ",
     "name": "Detroit Arsenal",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MI",
     "country": "usa",
@@ -1052,7 +1052,7 @@
   {
     "id": " ",
     "name": "Devens Reserve Forces Tng Area",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -1062,7 +1062,7 @@
   {
     "id": " ",
     "name": "DFAS Annex",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -1072,7 +1072,7 @@
   {
     "id": " ",
     "name": "Dillingham Mil Res",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -1082,7 +1082,7 @@
   {
     "id": " ",
     "name": "Dixie Target Range",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -1092,7 +1092,7 @@
   {
     "id": " ",
     "name": "Dobbins ARB",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -1102,7 +1102,7 @@
   {
     "id": " ",
     "name": "Dover Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "DE",
     "country": "usa",
@@ -1112,7 +1112,7 @@
   {
     "id": " ",
     "name": "Dredgers Key-Sigsbee",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -1122,7 +1122,7 @@
   {
     "id": " ",
     "name": "Dryside",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1132,7 +1132,7 @@
   {
     "id": " ",
     "name": "Duluth IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -1142,7 +1142,7 @@
   {
     "id": " ",
     "name": "Dyess Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -1152,7 +1152,7 @@
   {
     "id": " ",
     "name": "Eareckson Air Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -1162,7 +1162,7 @@
   {
     "id": " ",
     "name": "Edwards Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1172,7 +1172,7 @@
   {
     "id": " ",
     "name": "Eglin AFB Site 2 Santa Rosa Island",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -1182,7 +1182,7 @@
   {
     "id": " ",
     "name": "Eglin Air Force Auxiliary Field 6",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -1192,7 +1192,7 @@
   {
     "id": " ",
     "name": "Eglin Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -1202,7 +1202,7 @@
   {
     "id": " ",
     "name": "Eielson Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -1212,7 +1212,7 @@
   {
     "id": " ",
     "name": "Elizabeth Rvr Channel",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -1222,7 +1222,7 @@
   {
     "id": " ",
     "name": "Ellington Field Joint Reserve Base",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -1232,7 +1232,7 @@
   {
     "id": " ",
     "name": "Ellsworth AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "SD",
     "country": "usa",
@@ -1242,7 +1242,7 @@
   {
     "id": " ",
     "name": "England Authority",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -1252,7 +1252,7 @@
   {
     "id": " ",
     "name": "EWVRA Shepherd Field",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -1262,7 +1262,7 @@
   {
     "id": " ",
     "name": "Fairchild Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -1272,7 +1272,7 @@
   {
     "id": " ",
     "name": "Fallbrook California",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1282,7 +1282,7 @@
   {
     "id": " ",
     "name": "Fallon Range Complex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -1292,7 +1292,7 @@
   {
     "id": " ",
     "name": "Fire Fighters School",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -1302,7 +1302,7 @@
   {
     "id": " ",
     "name": "FLC Fuel Depot Heckscher",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -1312,7 +1312,7 @@
   {
     "id": " ",
     "name": "Fleming Key Magazine",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -1322,7 +1322,7 @@
   {
     "id": " ",
     "name": "Forbes Field ANG",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "KS",
     "country": "usa",
@@ -1332,7 +1332,7 @@
   {
     "id": " ",
     "name": "Former NTC",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1342,7 +1342,7 @@
   {
     "id": " ",
     "name": "Fort Adams RI",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "RI",
     "country": "usa",
@@ -1352,7 +1352,7 @@
   {
     "id": " ",
     "name": "Fort Belvoir",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -1362,7 +1362,7 @@
   {
     "id": " ",
     "name": "Fort Benjamin Harrison",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -1372,7 +1372,7 @@
   {
     "id": " ",
     "name": "Fort Bliss",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -1382,7 +1382,7 @@
   {
     "id": " ",
     "name": "Fort Buchanan",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -1392,7 +1392,7 @@
   {
     "id": " ",
     "name": "Fort Campbell",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -1402,7 +1402,7 @@
   {
     "id": " ",
     "name": "Fort Carson",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -1412,7 +1412,7 @@
   {
     "id": " ",
     "name": "Fort Cavazos",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -1422,7 +1422,7 @@
   {
     "id": " ",
     "name": "Fort De Russy",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -1432,7 +1432,7 @@
   {
     "id": " ",
     "name": "Fort Detrick",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -1442,7 +1442,7 @@
   {
     "id": " ",
     "name": "Fort Detrick Forest Glen Annex",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -1452,7 +1452,7 @@
   {
     "id": " ",
     "name": "Fort Detrick Glen Haven Annex",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -1462,7 +1462,7 @@
   {
     "id": " ",
     "name": "Fort Drum",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -1472,7 +1472,7 @@
   {
     "id": " ",
     "name": "Fort Eisenhower",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -1482,7 +1482,7 @@
   {
     "id": " ",
     "name": "Fort Gillem Enclave Site",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -1492,7 +1492,7 @@
   {
     "id": " ",
     "name": "Fort Greely",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -1502,7 +1502,7 @@
   {
     "id": " ",
     "name": "Fort Gregg-Adams",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -1512,7 +1512,7 @@
   {
     "id": " ",
     "name": "Fort Hamilton",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -1522,7 +1522,7 @@
   {
     "id": " ",
     "name": "Fort Huachuca",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -1532,7 +1532,7 @@
   {
     "id": " ",
     "name": "Fort Hunter Liggett",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1542,7 +1542,7 @@
   {
     "id": " ",
     "name": "Fort Irwin",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1552,7 +1552,7 @@
   {
     "id": " ",
     "name": "Fort Jackson",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -1562,7 +1562,7 @@
   {
     "id": " ",
     "name": "Fort Johnson",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -1572,7 +1572,7 @@
   {
     "id": " ",
     "name": "Fort Knox",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "KY",
     "country": "usa",
@@ -1582,7 +1582,7 @@
   {
     "id": " ",
     "name": "Fort Leavenworth",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "KS",
     "country": "usa",
@@ -1592,7 +1592,7 @@
   {
     "id": " ",
     "name": "Fort Leonard Wood",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -1602,7 +1602,7 @@
   {
     "id": " ",
     "name": "Fort Liberty",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -1612,7 +1612,7 @@
   {
     "id": " ",
     "name": "Fort McCoy",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -1622,7 +1622,7 @@
   {
     "id": " ",
     "name": "Fort Meade",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -1632,7 +1632,7 @@
   {
     "id": " ",
     "name": "Fort Monmouth Main Post",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -1642,7 +1642,7 @@
   {
     "id": " ",
     "name": "Fort Monroe",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -1652,7 +1652,7 @@
   {
     "id": " ",
     "name": "Fort Moore",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -1662,7 +1662,7 @@
   {
     "id": " ",
     "name": "Fort Novosel",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -1672,7 +1672,7 @@
   {
     "id": " ",
     "name": "Fort Riley",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "KS",
     "country": "usa",
@@ -1682,7 +1682,7 @@
   {
     "id": " ",
     "name": "Fort Shafter",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -1692,7 +1692,7 @@
   {
     "id": " ",
     "name": "Fort Sheridan",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -1702,7 +1702,7 @@
   {
     "id": " ",
     "name": "Fort Sill",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -1712,7 +1712,7 @@
   {
     "id": " ",
     "name": "Fort Smith Map",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "AR",
     "country": "usa",
@@ -1722,7 +1722,7 @@
   {
     "id": " ",
     "name": "Fort Stewart",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -1732,7 +1732,7 @@
   {
     "id": " ",
     "name": "Fort Wainwright",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -1742,7 +1742,7 @@
   {
     "id": " ",
     "name": "Fort Walker",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -1752,7 +1752,7 @@
   {
     "id": " ",
     "name": "Fort Wingate Depot Activity",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -1762,7 +1762,7 @@
   {
     "id": " ",
     "name": "Fort Yukon Long Range Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -1772,7 +1772,7 @@
   {
     "id": " ",
     "name": "Francis E. Warren Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "WY",
     "country": "usa",
@@ -1782,7 +1782,7 @@
   {
     "id": " ",
     "name": "Francis S Gabreski Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -1792,7 +1792,7 @@
   {
     "id": " ",
     "name": "Fresno Yosemite International ANG",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1802,7 +1802,7 @@
   {
     "id": " ",
     "name": "Gambrills MD",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -1812,7 +1812,7 @@
   {
     "id": " ",
     "name": "Gen Mitchell IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -1822,7 +1822,7 @@
   {
     "id": " ",
     "name": "General Wayne A Downing Peoria IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -1832,7 +1832,7 @@
   {
     "id": " ",
     "name": "GL Camp JPJ",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -1842,7 +1842,7 @@
   {
     "id": " ",
     "name": "Glenview",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -1852,7 +1852,7 @@
   {
     "id": " ",
     "name": "Goldberg Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -1862,7 +1862,7 @@
   {
     "id": " ",
     "name": "Goldwater ANGB",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -1872,7 +1872,7 @@
   {
     "id": " ",
     "name": "Goodfellow Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -1882,7 +1882,7 @@
   {
     "id": " ",
     "name": "Gould Island RI",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "RI",
     "country": "usa",
@@ -1892,7 +1892,7 @@
   {
     "id": " ",
     "name": "Grand Forks AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "ND",
     "country": "usa",
@@ -1902,7 +1902,7 @@
   {
     "id": " ",
     "name": "Grand Prairie Reserve Complex",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -1912,7 +1912,7 @@
   {
     "id": " ",
     "name": "Great Falls IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MT",
     "country": "usa",
@@ -1922,7 +1922,7 @@
   {
     "id": " ",
     "name": "Green River Test Complex UT",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -1932,7 +1932,7 @@
   {
     "id": " ",
     "name": "Grissom ARB",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -1942,7 +1942,7 @@
   {
     "id": " ",
     "name": "Gulfport-Biloxi Regional Airport (ANG)",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -1952,7 +1952,7 @@
   {
     "id": " ",
     "name": "Haarp Research Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -1962,7 +1962,7 @@
   {
     "id": " ",
     "name": "Hancock Field",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -1972,7 +1972,7 @@
   {
     "id": " ",
     "name": "Hanscom Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -1982,7 +1982,7 @@
   {
     "id": " ",
     "name": "Harbor Drive",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -1992,7 +1992,7 @@
   {
     "id": " ",
     "name": "Hardwood Range",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -2002,7 +2002,7 @@
   {
     "id": " ",
     "name": "Hawthorne Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -2012,7 +2012,7 @@
   {
     "id": " ",
     "name": "Hector IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "ND",
     "country": "usa",
@@ -2022,7 +2022,7 @@
   {
     "id": " ",
     "name": "Helemano Military Reservation",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2032,7 +2032,7 @@
   {
     "id": " ",
     "name": "Hickam Petrol Strg Ann",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2042,7 +2042,7 @@
   {
     "id": " ",
     "name": "Highbluff Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -2052,7 +2052,7 @@
   {
     "id": " ",
     "name": "Hill Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -2062,7 +2062,7 @@
   {
     "id": " ",
     "name": "Holloman Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -2072,7 +2072,7 @@
   {
     "id": " ",
     "name": "Holston Army Ammunition Plant",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -2082,7 +2082,7 @@
   {
     "id": " ",
     "name": "Holtville Carrier LS",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2092,7 +2092,7 @@
   {
     "id": " ",
     "name": "Homestead ARB",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -2102,7 +2102,7 @@
   {
     "id": " ",
     "name": "Hulman Fld",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -2112,7 +2112,7 @@
   {
     "id": " ",
     "name": "Hunt Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -2122,7 +2122,7 @@
   {
     "id": " ",
     "name": "Hunter Army Airfield",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -2132,7 +2132,7 @@
   {
     "id": " ",
     "name": "Hurlburt Field",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -2142,7 +2142,7 @@
   {
     "id": " ",
     "name": "Imperial Beach NOLF",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2152,7 +2152,7 @@
   {
     "id": " ",
     "name": "Indian Mountain Regional Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -2162,7 +2162,7 @@
   {
     "id": " ",
     "name": "Indiana Army Ammunition Plant",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -2172,7 +2172,7 @@
   {
     "id": " ",
     "name": "Iowa Army Ammunition Plant",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "IA",
     "country": "usa",
@@ -2182,7 +2182,7 @@
   {
     "id": " ",
     "name": "Jackson IAP Thompson Field",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -2192,7 +2192,7 @@
   {
     "id": " ",
     "name": "Jacksonville FL Maint",
-    "branch": "Usmcr",
+    "branch": "USMCR",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -2202,7 +2202,7 @@
   {
     "id": " ",
     "name": "Jacksonville IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -2212,7 +2212,7 @@
   {
     "id": " ",
     "name": "Jefferson Proving Ground",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -2222,7 +2222,7 @@
   {
     "id": " ",
     "name": "Jim Creek",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -2232,7 +2232,7 @@
   {
     "id": " ",
     "name": "Joe Foss Field",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "SD",
     "country": "usa",
@@ -2242,7 +2242,7 @@
   {
     "id": " ",
     "name": "Joint Base Anacostia-Bolling",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "DC",
     "country": "usa",
@@ -2252,7 +2252,7 @@
   {
     "id": " ",
     "name": "Joint Base Andrews",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -2262,7 +2262,7 @@
   {
     "id": " ",
     "name": "Joint Base Cape Cod",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -2272,7 +2272,7 @@
   {
     "id": " ",
     "name": "Joint Base Charleston",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -2282,7 +2282,7 @@
   {
     "id": " ",
     "name": "Joint Base Elmendorf-Richardson",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -2292,7 +2292,7 @@
   {
     "id": " ",
     "name": "Joint Base Langley-Eustis",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2302,7 +2302,7 @@
   {
     "id": " ",
     "name": "Joint Base Lewis-McChord",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -2312,7 +2312,7 @@
   {
     "id": " ",
     "name": "Joint Base McGuire-Dix-Lakehurst",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -2322,7 +2322,7 @@
   {
     "id": " ",
     "name": "Joint Base Myer-Henderson Hall",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2332,7 +2332,7 @@
   {
     "id": " ",
     "name": "Joint Base Pearl Harbor-Hickam",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2342,7 +2342,7 @@
   {
     "id": " ",
     "name": "Joint Base San Antonio",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -2352,7 +2352,7 @@
   {
     "id": " ",
     "name": "Joint Expeditionary Base Little Creek-Fort Story",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2362,7 +2362,7 @@
   {
     "id": " ",
     "name": "Joint Expeditionary Base Little Creek-Fort Story - Wallops Island",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2372,7 +2372,7 @@
   {
     "id": " ",
     "name": "Joint Systems Manufacturing Center - Lima",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -2382,7 +2382,7 @@
   {
     "id": " ",
     "name": "Joliet AAP Elwood",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -2392,7 +2392,7 @@
   {
     "id": " ",
     "name": "Joliet USARC/JTA",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -2402,7 +2402,7 @@
   {
     "id": " ",
     "name": "Kaena Point Space Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2412,7 +2412,7 @@
   {
     "id": " ",
     "name": "Kahuku Tng Area",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2422,7 +2422,7 @@
   {
     "id": " ",
     "name": "Kamokala Ridge",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2432,7 +2432,7 @@
   {
     "id": " ",
     "name": "Kawaihae Mil Reserve",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2442,7 +2442,7 @@
   {
     "id": " ",
     "name": "Keesler AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -2452,7 +2452,7 @@
   {
     "id": " ",
     "name": "Kegelman Air Force Auxiliary Field",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -2462,7 +2462,7 @@
   {
     "id": " ",
     "name": "Kenai  Regional Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -2472,7 +2472,7 @@
   {
     "id": " ",
     "name": "Kilauea Mil Reserve",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2482,7 +2482,7 @@
   {
     "id": " ",
     "name": "King Salmon Long Range Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -2492,7 +2492,7 @@
   {
     "id": " ",
     "name": "Kingsley Field Cantonement Site 1",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -2502,7 +2502,7 @@
   {
     "id": " ",
     "name": "Kipapa Ammo Storage Site",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2512,7 +2512,7 @@
   {
     "id": " ",
     "name": "Kirtland Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -2522,7 +2522,7 @@
   {
     "id": " ",
     "name": "Kodiak Tracking Station",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -2532,7 +2532,7 @@
   {
     "id": " ",
     "name": "Kotzebue Regional Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -2542,7 +2542,7 @@
   {
     "id": " ",
     "name": "Lafayette Rvr Complex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2552,7 +2552,7 @@
   {
     "id": " ",
     "name": "Lake City Army Ammunition Plant",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -2562,7 +2562,7 @@
   {
     "id": " ",
     "name": "Lake Of The Ozarks Recreation",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -2572,7 +2572,7 @@
   {
     "id": " ",
     "name": "Laughlin AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -2582,7 +2582,7 @@
   {
     "id": " ",
     "name": "Letterkenny Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -2592,7 +2592,7 @@
   {
     "id": " ",
     "name": "Lincoln Map",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NE",
     "country": "usa",
@@ -2602,7 +2602,7 @@
   {
     "id": " ",
     "name": "Lisburne Regional Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -2612,7 +2612,7 @@
   {
     "id": " ",
     "name": "Little Rock Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AR",
     "country": "usa",
@@ -2622,7 +2622,7 @@
   {
     "id": " ",
     "name": "Long Beach Fuel Complex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2632,7 +2632,7 @@
   {
     "id": " ",
     "name": "Longhorn AAP",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -2642,7 +2642,7 @@
   {
     "id": " ",
     "name": "Los Angeles Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2652,7 +2652,7 @@
   {
     "id": " ",
     "name": "Los Angeles Space Force Annex No4",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2662,7 +2662,7 @@
   {
     "id": " ",
     "name": "Louisville IAP-Standiford FL Site 1",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "KY",
     "country": "usa",
@@ -2672,7 +2672,7 @@
   {
     "id": " ",
     "name": "Louisville Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -2682,7 +2682,7 @@
   {
     "id": " ",
     "name": "Luis Munoz Marin IAP",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -2692,7 +2692,7 @@
   {
     "id": " ",
     "name": "Luke AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -2702,7 +2702,7 @@
   {
     "id": " ",
     "name": "MacDill Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -2712,7 +2712,7 @@
   {
     "id": " ",
     "name": "Makaha Ridge",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2722,7 +2722,7 @@
   {
     "id": " ",
     "name": "Makua Mil Reserve",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2732,7 +2732,7 @@
   {
     "id": " ",
     "name": "Malmstrom Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MT",
     "country": "usa",
@@ -2742,7 +2742,7 @@
   {
     "id": " ",
     "name": "Manchester",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -2752,7 +2752,7 @@
   {
     "id": " ",
     "name": "Mansfield Lahm Airport ANG 179th AW",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -2762,7 +2762,7 @@
   {
     "id": " ",
     "name": "March ARB",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2772,7 +2772,7 @@
   {
     "id": " ",
     "name": "Marine Corps Air Ground Combat Center Twentynine Palms",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2782,7 +2782,7 @@
   {
     "id": " ",
     "name": "Marine Corps Air Station Beaufort",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -2792,7 +2792,7 @@
   {
     "id": " ",
     "name": "Marine Corps Air Station Cherry Point",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -2802,7 +2802,7 @@
   {
     "id": " ",
     "name": "Marine Corps Air Station Miramar",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2812,7 +2812,7 @@
   {
     "id": " ",
     "name": "Marine Corps Air Station New River",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -2822,7 +2822,7 @@
   {
     "id": " ",
     "name": "Marine Corps Air Station Yuma",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -2832,7 +2832,7 @@
   {
     "id": " ",
     "name": "Marine Corps Base Camp Lejeune",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -2842,7 +2842,7 @@
   {
     "id": " ",
     "name": "Marine Corps Base Camp Pendleton",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2852,7 +2852,7 @@
   {
     "id": " ",
     "name": "Marine Corps Base Hawaii",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2862,7 +2862,7 @@
   {
     "id": " ",
     "name": "Marine Corps Base Hawaii, Camp H.M. Smith",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2872,7 +2872,7 @@
   {
     "id": " ",
     "name": "Marine Corps Base Quantico",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2882,7 +2882,7 @@
   {
     "id": " ",
     "name": "Marine Corps Logistics Base Albany",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -2892,7 +2892,7 @@
   {
     "id": " ",
     "name": "Marine Corps Logistics Base Barstow",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2902,7 +2902,7 @@
   {
     "id": " ",
     "name": "Marine Corps Museum",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2912,7 +2912,7 @@
   {
     "id": " ",
     "name": "Marine Corps Support Facility Blount Island",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -2922,7 +2922,7 @@
   {
     "id": " ",
     "name": "Mark Center",
-    "branch": "Whs",
+    "branch": "WHS",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -2932,7 +2932,7 @@
   {
     "id": " ",
     "name": "Martin State Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -2942,7 +2942,7 @@
   {
     "id": " ",
     "name": "Marysville WA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -2952,7 +2952,7 @@
   {
     "id": " ",
     "name": "Maxwell-Gunter Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -2962,7 +2962,7 @@
   {
     "id": " ",
     "name": "MC Trng Area Bellows",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -2972,7 +2972,7 @@
   {
     "id": " ",
     "name": "McAlester Army Ammunition Plant",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -2982,7 +2982,7 @@
   {
     "id": " ",
     "name": "McClellan AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -2992,7 +2992,7 @@
   {
     "id": " ",
     "name": "McConnell AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "KS",
     "country": "usa",
@@ -3002,7 +3002,7 @@
   {
     "id": " ",
     "name": "McEntire Joint National Guard Base",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -3012,7 +3012,7 @@
   {
     "id": " ",
     "name": "McGhee Tyson Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -3022,7 +3022,7 @@
   {
     "id": " ",
     "name": "McLaughlin ANGB",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -3032,7 +3032,7 @@
   {
     "id": " ",
     "name": "MCRD San Diego",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3042,7 +3042,7 @@
   {
     "id": " ",
     "name": "Melrose Air Force Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -3052,7 +3052,7 @@
   {
     "id": " ",
     "name": "Memphis IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -3062,7 +3062,7 @@
   {
     "id": " ",
     "name": "Milan AAP",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -3072,7 +3072,7 @@
   {
     "id": " ",
     "name": "Military Ocean Terminal Concord",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3082,7 +3082,7 @@
   {
     "id": " ",
     "name": "Military Ocean Terminal Sunny Point",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -3092,7 +3092,7 @@
   {
     "id": " ",
     "name": "Minn-St Paul",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -3102,7 +3102,7 @@
   {
     "id": " ",
     "name": "Minot Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "ND",
     "country": "usa",
@@ -3112,7 +3112,7 @@
   {
     "id": " ",
     "name": "Mission Gorge Rec Area",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3122,7 +3122,7 @@
   {
     "id": " ",
     "name": "Montgomery Regional Airport ANGB",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -3132,7 +3132,7 @@
   {
     "id": " ",
     "name": "Moody Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -3142,7 +3142,7 @@
   {
     "id": " ",
     "name": "Mountain Home Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "ID",
     "country": "usa",
@@ -3152,7 +3152,7 @@
   {
     "id": " ",
     "name": "Muscatatuck Urban Training Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -3162,7 +3162,7 @@
   {
     "id": " ",
     "name": "NAF El Centro",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3172,7 +3172,7 @@
   {
     "id": " ",
     "name": "NALF Goliad",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -3182,7 +3182,7 @@
   {
     "id": " ",
     "name": "NARL Barrow Camp Tr1",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -3192,7 +3192,7 @@
   {
     "id": " ",
     "name": "NAS Brunswick ME",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -3202,7 +3202,7 @@
   {
     "id": " ",
     "name": "NAS Fort Worth JRB TX",
-    "branch": "Usnr",
+    "branch": "USNR",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -3212,7 +3212,7 @@
   {
     "id": " ",
     "name": "NAS Jacksonville FL",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -3222,7 +3222,7 @@
   {
     "id": " ",
     "name": "NAS JRB Willow Grove PA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -3232,7 +3232,7 @@
   {
     "id": " ",
     "name": "NAS Key West FL",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -3242,7 +3242,7 @@
   {
     "id": " ",
     "name": "NAS Kingsville TX",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -3252,7 +3252,7 @@
   {
     "id": " ",
     "name": "NAS Lemoore CA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3262,7 +3262,7 @@
   {
     "id": " ",
     "name": "NAS Pensacola FL",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -3272,7 +3272,7 @@
   {
     "id": " ",
     "name": "NAS Whiting Field Milton FL",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -3282,7 +3282,7 @@
   {
     "id": " ",
     "name": "Nashville IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -3292,7 +3292,7 @@
   {
     "id": " ",
     "name": "National City",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3302,7 +3302,7 @@
   {
     "id": " ",
     "name": "NAVACAD North Severn",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3312,7 +3312,7 @@
   {
     "id": " ",
     "name": "Naval Air Station Corpus Christi",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -3322,7 +3322,7 @@
   {
     "id": " ",
     "name": "Naval Air Station Joint Reserve Base New Orleans",
-    "branch": "Usnr",
+    "branch": "USNR",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -3332,7 +3332,7 @@
   {
     "id": " ",
     "name": "Naval Air Station Meridian",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -3342,7 +3342,7 @@
   {
     "id": " ",
     "name": "Naval Air Station Oceana",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3352,7 +3352,7 @@
   {
     "id": " ",
     "name": "Naval Air Station Oceana Dam Neck Annex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3362,7 +3362,7 @@
   {
     "id": " ",
     "name": "Naval Air Station Patuxent River",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3372,7 +3372,7 @@
   {
     "id": " ",
     "name": "Naval Air Station Whidbey Island",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -3382,7 +3382,7 @@
   {
     "id": " ",
     "name": "Naval Air Weapons Station China Lake",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3392,7 +3392,7 @@
   {
     "id": " ",
     "name": "Naval Base Guam",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "GU",
     "country": "usa",
@@ -3402,7 +3402,7 @@
   {
     "id": " ",
     "name": "Naval Base Kitsap - Keyport",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -3412,7 +3412,7 @@
   {
     "id": " ",
     "name": "Naval Base Kitsap Bangor",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -3422,7 +3422,7 @@
   {
     "id": " ",
     "name": "Naval Base Kitsap Bremerton WA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -3432,7 +3432,7 @@
   {
     "id": " ",
     "name": "Naval Base Point Loma",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3442,7 +3442,7 @@
   {
     "id": " ",
     "name": "Naval Base San Diego",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3452,7 +3452,7 @@
   {
     "id": " ",
     "name": "Naval Base Ventura County – Point Mugu Operating Facility",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3462,7 +3462,7 @@
   {
     "id": " ",
     "name": "Naval Base Ventura County – Port Hueneme Operating Facility",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3472,7 +3472,7 @@
   {
     "id": " ",
     "name": "Naval Logistics Support Activity - Ketchikan",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -3482,7 +3482,7 @@
   {
     "id": " ",
     "name": "Naval Logistics Support Activity LaMoure",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "ND",
     "country": "usa",
@@ -3492,7 +3492,7 @@
   {
     "id": " ",
     "name": "Naval Logistics Support Annex Orlando",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -3502,7 +3502,7 @@
   {
     "id": " ",
     "name": "Naval Logistics Support Facility Aguada",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -3512,7 +3512,7 @@
   {
     "id": " ",
     "name": "Naval Logistics Support Facility Cutler",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -3522,7 +3522,7 @@
   {
     "id": " ",
     "name": "Naval Observatory",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "DC",
     "country": "usa",
@@ -3532,7 +3532,7 @@
   {
     "id": " ",
     "name": "Naval Research Laboratory",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "DC",
     "country": "usa",
@@ -3542,7 +3542,7 @@
   {
     "id": " ",
     "name": "Naval Research Laboratory – Blossom Point",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3552,7 +3552,7 @@
   {
     "id": " ",
     "name": "Naval Research Laboratory – Stennis Space Center",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -3562,7 +3562,7 @@
   {
     "id": " ",
     "name": "Naval Research Laboratory – Tilghman",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3572,7 +3572,7 @@
   {
     "id": " ",
     "name": "Naval Station Great Lakes IL",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -3582,7 +3582,7 @@
   {
     "id": " ",
     "name": "Naval Station Newport",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "RI",
     "country": "usa",
@@ -3592,7 +3592,7 @@
   {
     "id": " ",
     "name": "Naval Station Norfolk",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3602,7 +3602,7 @@
   {
     "id": " ",
     "name": "Naval Submarine Base Kings Bay",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -3612,7 +3612,7 @@
   {
     "id": " ",
     "name": "Naval Submarine Base New London",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CT",
     "country": "usa",
@@ -3622,7 +3622,7 @@
   {
     "id": " ",
     "name": "Naval Suffolk Facility",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3632,7 +3632,7 @@
   {
     "id": " ",
     "name": "Naval Support Activity Crane",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -3642,7 +3642,7 @@
   {
     "id": " ",
     "name": "Naval Support Activity Panama City",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -3652,7 +3652,7 @@
   {
     "id": " ",
     "name": "Naval Support Activity Philadelphia",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -3662,7 +3662,7 @@
   {
     "id": " ",
     "name": "Naval Support Activity Wash",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "DC",
     "country": "usa",
@@ -3672,7 +3672,7 @@
   {
     "id": " ",
     "name": "Naval Support Facility Carderock",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3682,7 +3682,7 @@
   {
     "id": " ",
     "name": "Naval Support Facility Dahlgren",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3692,7 +3692,7 @@
   {
     "id": " ",
     "name": "Naval Support Facility Indian Head",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3702,7 +3702,7 @@
   {
     "id": " ",
     "name": "Naval Surface Warfare Center Carderock Division – Acoustic Research Detachment",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "ID",
     "country": "usa",
@@ -3712,7 +3712,7 @@
   {
     "id": " ",
     "name": "Naval Weapons Station Earle NJ",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -3722,7 +3722,7 @@
   {
     "id": " ",
     "name": "Naval Weapons Station Seal Beach Detachment Norco",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3732,7 +3732,7 @@
   {
     "id": " ",
     "name": "Naval Weapons Station Yorktown",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3742,7 +3742,7 @@
   {
     "id": " ",
     "name": "Naval Weapons Systems Training Facility Boardman",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -3752,7 +3752,7 @@
   {
     "id": " ",
     "name": "NAVBASE Coronado",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3762,7 +3762,7 @@
   {
     "id": " ",
     "name": "NAVMEDCEN Portsmouth VA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3772,7 +3772,7 @@
   {
     "id": " ",
     "name": "NAVOBSSTA Flagstaff AZ",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -3782,7 +3782,7 @@
   {
     "id": " ",
     "name": "NAVPMOSSP Magna Utah",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -3792,7 +3792,7 @@
   {
     "id": " ",
     "name": "NAVPMOSSP Mtn View",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3802,7 +3802,7 @@
   {
     "id": " ",
     "name": "NAVSTA Everett WA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -3812,7 +3812,7 @@
   {
     "id": " ",
     "name": "NAVSTA Mayport FL",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -3822,7 +3822,7 @@
   {
     "id": " ",
     "name": "NAVSUPPACT Annapolis",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3832,7 +3832,7 @@
   {
     "id": " ",
     "name": "NAVSUPPACT Bethesda MD",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -3842,7 +3842,7 @@
   {
     "id": " ",
     "name": "NAVSUPPACT Hampton Roads VA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3852,7 +3852,7 @@
   {
     "id": " ",
     "name": "NAVSUPPACT Mechanicsburg PA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -3862,7 +3862,7 @@
   {
     "id": " ",
     "name": "NAVSUPPACT Midsouth Memphis TN",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -3872,7 +3872,7 @@
   {
     "id": " ",
     "name": "NAVSUPPACT Monterey CA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3882,7 +3882,7 @@
   {
     "id": " ",
     "name": "NAVSUPPACT Norfolk NSY",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -3892,7 +3892,7 @@
   {
     "id": " ",
     "name": "NAVSUPPFAC Beaufort SC",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -3902,7 +3902,7 @@
   {
     "id": " ",
     "name": "NAVWPNSTA Seal Beach",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3912,7 +3912,7 @@
   {
     "id": " ",
     "name": "Navy Annex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -3922,7 +3922,7 @@
   {
     "id": " ",
     "name": "Nellis Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -3932,7 +3932,7 @@
   {
     "id": " ",
     "name": "Nevada Test and Training Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -3942,7 +3942,7 @@
   {
     "id": " ",
     "name": "New Boston Air Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NH",
     "country": "usa",
@@ -3952,7 +3952,7 @@
   {
     "id": " ",
     "name": "New Castle Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "DE",
     "country": "usa",
@@ -3962,7 +3962,7 @@
   {
     "id": " ",
     "name": "Newington Defense Fuel Support Point",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NH",
     "country": "usa",
@@ -3972,7 +3972,7 @@
   {
     "id": " ",
     "name": "NG AASF02 Birmingham",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -3982,7 +3982,7 @@
   {
     "id": " ",
     "name": "NG Alcantra Armory Complex",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -3992,7 +3992,7 @@
   {
     "id": " ",
     "name": "NG Anthony Cometa Complex",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -4002,7 +4002,7 @@
   {
     "id": " ",
     "name": "NG Arden Hills Army Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -4012,7 +4012,7 @@
   {
     "id": " ",
     "name": "NG Atlanta United Ave",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -4022,7 +4022,7 @@
   {
     "id": " ",
     "name": "NG Auburn Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -4032,7 +4032,7 @@
   {
     "id": " ",
     "name": "NG Ayer",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -4042,7 +4042,7 @@
   {
     "id": " ",
     "name": "NG Bangor Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -4052,7 +4052,7 @@
   {
     "id": " ",
     "name": "NG Baton Rouge AFRC",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4062,7 +4062,7 @@
   {
     "id": " ",
     "name": "NG Beauregard Training Range",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4072,7 +4072,7 @@
   {
     "id": " ",
     "name": "NG Beightler Armory",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -4082,7 +4082,7 @@
   {
     "id": " ",
     "name": "NG Bend Cotef",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -4092,7 +4092,7 @@
   {
     "id": " ",
     "name": "NG Bergstrom - (Abia)",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4102,7 +4102,7 @@
   {
     "id": " ",
     "name": "NG Bethany Beach Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "DE",
     "country": "usa",
@@ -4112,7 +4112,7 @@
   {
     "id": " ",
     "name": "NG Biak Training Center COUTES",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -4122,7 +4122,7 @@
   {
     "id": " ",
     "name": "NG Bismarck RJB Complex",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ND",
     "country": "usa",
@@ -4132,7 +4132,7 @@
   {
     "id": " ",
     "name": "NG Bog Brook Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -4142,7 +4142,7 @@
   {
     "id": " ",
     "name": "NG Bremerton",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -4152,7 +4152,7 @@
   {
     "id": " ",
     "name": "NG Buckeye TS",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -4162,7 +4162,7 @@
   {
     "id": " ",
     "name": "NG Cambridge Springs Readiness Center and FMS 5",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -4172,7 +4172,7 @@
   {
     "id": " ",
     "name": "NG Camp Adair Corvallis",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -4182,7 +4182,7 @@
   {
     "id": " ",
     "name": "NG Camp Ashland",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NE",
     "country": "usa",
@@ -4192,7 +4192,7 @@
   {
     "id": " ",
     "name": "NG Camp Atterbury",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -4202,7 +4202,7 @@
   {
     "id": " ",
     "name": "NG Camp Beauregard",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4212,7 +4212,7 @@
   {
     "id": " ",
     "name": "NG Camp Bowie (State)",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4222,7 +4222,7 @@
   {
     "id": " ",
     "name": "NG Camp Fogarty Tng Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "RI",
     "country": "usa",
@@ -4232,7 +4232,7 @@
   {
     "id": " ",
     "name": "NG Camp Grafton",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ND",
     "country": "usa",
@@ -4242,7 +4242,7 @@
   {
     "id": " ",
     "name": "NG Camp Gruber",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -4252,7 +4252,7 @@
   {
     "id": " ",
     "name": "NG Camp Hartell",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "CT",
     "country": "usa",
@@ -4262,7 +4262,7 @@
   {
     "id": " ",
     "name": "NG Camp Joseph T Robinson",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AR",
     "country": "usa",
@@ -4272,7 +4272,7 @@
   {
     "id": " ",
     "name": "NG Camp Mabry",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4282,7 +4282,7 @@
   {
     "id": " ",
     "name": "NG Camp Maxey",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4292,7 +4292,7 @@
   {
     "id": " ",
     "name": "NG Camp Minden Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4302,7 +4302,7 @@
   {
     "id": " ",
     "name": "NG Camp Nett",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "CT",
     "country": "usa",
@@ -4312,7 +4312,7 @@
   {
     "id": " ",
     "name": "NG Camp Orchard Cantonement Area",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ID",
     "country": "usa",
@@ -4322,7 +4322,7 @@
   {
     "id": " ",
     "name": "NG Camp Perry Joint Training Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -4332,7 +4332,7 @@
   {
     "id": " ",
     "name": "NG Camp Rapid",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "SD",
     "country": "usa",
@@ -4342,7 +4342,7 @@
   {
     "id": " ",
     "name": "NG Camp Ravenna Joint Military Training Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -4352,7 +4352,7 @@
   {
     "id": " ",
     "name": "NG Camp Ripley",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -4362,7 +4362,7 @@
   {
     "id": " ",
     "name": "NG Camp Sherman Joint Training Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -4372,7 +4372,7 @@
   {
     "id": " ",
     "name": "NG Camp Smith Tng Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -4382,7 +4382,7 @@
   {
     "id": " ",
     "name": "NG Camp Swift",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4392,7 +4392,7 @@
   {
     "id": " ",
     "name": "NG Camp Villere",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4402,7 +4402,7 @@
   {
     "id": " ",
     "name": "NG Camp Williams Tomah MTA",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -4412,7 +4412,7 @@
   {
     "id": " ",
     "name": "NG Camp Withycombe Clackamas",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -4422,7 +4422,7 @@
   {
     "id": " ",
     "name": "NG Carville Gillis Long Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4432,7 +4432,7 @@
   {
     "id": " ",
     "name": "NG Clarke Range Complex",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -4442,7 +4442,7 @@
   {
     "id": " ",
     "name": "NG Collegeville FMS 4",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -4452,7 +4452,7 @@
   {
     "id": " ",
     "name": "NG CTA Camp Mccain",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -4462,7 +4462,7 @@
   {
     "id": " ",
     "name": "NG CTC Camp Dawson-Kingwood",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -4472,7 +4472,7 @@
   {
     "id": " ",
     "name": "NG CTC Fort Custer Trng Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MI",
     "country": "usa",
@@ -4482,7 +4482,7 @@
   {
     "id": " ",
     "name": "NG Cumming",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -4492,7 +4492,7 @@
   {
     "id": " ",
     "name": "NG Duluth NG Armory",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -4502,7 +4502,7 @@
   {
     "id": " ",
     "name": "NG Edgemeade TS Mtn Home",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ID",
     "country": "usa",
@@ -4512,7 +4512,7 @@
   {
     "id": " ",
     "name": "NG Elkins AFRC",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -4522,7 +4522,7 @@
   {
     "id": " ",
     "name": "NG Esler Field",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4532,7 +4532,7 @@
   {
     "id": " ",
     "name": "NG Ethan Allen AFB MTA",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "VT",
     "country": "usa",
@@ -4542,7 +4542,7 @@
   {
     "id": " ",
     "name": "NG Florence Military Reservation",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -4552,7 +4552,7 @@
   {
     "id": " ",
     "name": "NG Floyd Edsall Training Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -4562,7 +4562,7 @@
   {
     "id": " ",
     "name": "NG Fort Barfoot MTC & FMS 15",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -4572,7 +4572,7 @@
   {
     "id": " ",
     "name": "NG Fort Chaffee MTC",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AR",
     "country": "usa",
@@ -4582,7 +4582,7 @@
   {
     "id": " ",
     "name": "NG Fort Indiantown Gap",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -4592,7 +4592,7 @@
   {
     "id": " ",
     "name": "NG Fort McClellan ARNG Tng Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -4602,7 +4602,7 @@
   {
     "id": " ",
     "name": "NG Fort Wolters",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4612,7 +4612,7 @@
   {
     "id": " ",
     "name": "NG Fort Worth - Shoreview",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4622,7 +4622,7 @@
   {
     "id": " ",
     "name": "NG Frankfort Boone NG Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "KY",
     "country": "usa",
@@ -4632,7 +4632,7 @@
   {
     "id": " ",
     "name": "NG Ft Allen Rq 177",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -4642,7 +4642,7 @@
   {
     "id": " ",
     "name": "NG Ft Ruger",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -4652,7 +4652,7 @@
   {
     "id": " ",
     "name": "NG General Lucius D Clay National Guard Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -4662,7 +4662,7 @@
   {
     "id": " ",
     "name": "NG Grand Island AASF/RC",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NE",
     "country": "usa",
@@ -4672,7 +4672,7 @@
   {
     "id": " ",
     "name": "NG Greenlief TS/UTES 01",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NE",
     "country": "usa",
@@ -4682,7 +4682,7 @@
   {
     "id": " ",
     "name": "NG GUARNG Barrigada Complex",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "GU",
     "country": "usa",
@@ -4692,7 +4692,7 @@
   {
     "id": " ",
     "name": "NG Gulfport AVCRAD",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -4702,7 +4702,7 @@
   {
     "id": " ",
     "name": "NG Hammond Airport",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4712,7 +4712,7 @@
   {
     "id": " ",
     "name": "NG Havre De Grace Military Res",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -4722,7 +4722,7 @@
   {
     "id": " ",
     "name": "NG Helena Aviation RC- AASF- C12",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MT",
     "country": "usa",
@@ -4732,7 +4732,7 @@
   {
     "id": " ",
     "name": "NG Hollidaysburg Readiness Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -4742,7 +4742,7 @@
   {
     "id": " ",
     "name": "NG Hollis Plains Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -4752,7 +4752,7 @@
   {
     "id": " ",
     "name": "NG Indianapolis 38 ID",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -4762,7 +4762,7 @@
   {
     "id": " ",
     "name": "NG ITC Camp San Luis Obisbo",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -4772,7 +4772,7 @@
   {
     "id": " ",
     "name": "NG Jackson Airport Armory",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -4782,7 +4782,7 @@
   {
     "id": " ",
     "name": "NG Jackson Bks",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -4792,7 +4792,7 @@
   {
     "id": " ",
     "name": "NG Jackson County AFRC",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -4802,7 +4802,7 @@
   {
     "id": " ",
     "name": "NG JFHQ-Kansas",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "KS",
     "country": "usa",
@@ -4812,7 +4812,7 @@
   {
     "id": " ",
     "name": "NG Johnson City Gray",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -4822,7 +4822,7 @@
   {
     "id": " ",
     "name": "NG Kalaeloa",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -4832,7 +4832,7 @@
   {
     "id": " ",
     "name": "NG Knightstown",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -4842,7 +4842,7 @@
   {
     "id": " ",
     "name": "NG Lane County AFRC FMS 5",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -4852,7 +4852,7 @@
   {
     "id": " ",
     "name": "NG Lansing Joint Forces Readiness Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MI",
     "country": "usa",
@@ -4862,7 +4862,7 @@
   {
     "id": " ",
     "name": "NG Las Cruces",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -4872,7 +4872,7 @@
   {
     "id": " ",
     "name": "NG Lawrenceville",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -4882,7 +4882,7 @@
   {
     "id": " ",
     "name": "NG Lexington AASF No 1",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -4892,7 +4892,7 @@
   {
     "id": " ",
     "name": "NG Lincoln AASF/Readiness Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NE",
     "country": "usa",
@@ -4902,7 +4902,7 @@
   {
     "id": " ",
     "name": "NG Los Alamitos JFTB",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -4912,7 +4912,7 @@
   {
     "id": " ",
     "name": "NG Macon Readiness Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -4922,7 +4922,7 @@
   {
     "id": " ",
     "name": "NG Macon TS",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -4932,7 +4932,7 @@
   {
     "id": " ",
     "name": "NG Marseilles (MTA Tng Area)",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -4942,7 +4942,7 @@
   {
     "id": " ",
     "name": "NG Martindale - AASF",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -4952,7 +4952,7 @@
   {
     "id": " ",
     "name": "NG McConnelsville Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -4962,7 +4962,7 @@
   {
     "id": " ",
     "name": "NG McNary Field Salem AASF",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -4972,7 +4972,7 @@
   {
     "id": " ",
     "name": "NG Mead TS/FMS 06/Utes 02",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NE",
     "country": "usa",
@@ -4982,7 +4982,7 @@
   {
     "id": " ",
     "name": "NG Mitchell Complex",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "SD",
     "country": "usa",
@@ -4992,7 +4992,7 @@
   {
     "id": " ",
     "name": "NG Montgomery JFHQ AFRC / CSMS 01",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -5002,7 +5002,7 @@
   {
     "id": " ",
     "name": "NG MTA Camp Butner",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -5012,7 +5012,7 @@
   {
     "id": " ",
     "name": "NG MTA Camp Clark Nevada",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -5022,7 +5022,7 @@
   {
     "id": " ",
     "name": "NG MTA Camp Crowder Neosho",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -5032,7 +5032,7 @@
   {
     "id": " ",
     "name": "NG MTA Camp Curtis Guil",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -5042,7 +5042,7 @@
   {
     "id": " ",
     "name": "NG MTA Camp Fretterd",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -5052,7 +5052,7 @@
   {
     "id": " ",
     "name": "NG MTA Camp Rilea",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -5062,7 +5062,7 @@
   {
     "id": " ",
     "name": "NG MTA Camp Santiago",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -5072,7 +5072,7 @@
   {
     "id": " ",
     "name": "NG MTA Clarks Hill Reservation",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -5082,7 +5082,7 @@
   {
     "id": " ",
     "name": "NG MTA Ft Wm Henry Harrison",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MT",
     "country": "usa",
@@ -5092,7 +5092,7 @@
   {
     "id": " ",
     "name": "NG MTA Gunpowder Military Reservation",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -5102,7 +5102,7 @@
   {
     "id": " ",
     "name": "NG MTA Limestone Hills",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MT",
     "country": "usa",
@@ -5112,7 +5112,7 @@
   {
     "id": " ",
     "name": "NG MTCH Camp Guernsey",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WY",
     "country": "usa",
@@ -5122,7 +5122,7 @@
   {
     "id": " ",
     "name": "NG Muskogee AFRC",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -5132,7 +5132,7 @@
   {
     "id": " ",
     "name": "NG Nashville",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -5142,7 +5142,7 @@
   {
     "id": " ",
     "name": "NG New Castle Readiness Center/FMS 9",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -5152,7 +5152,7 @@
   {
     "id": " ",
     "name": "NG Norman CSMS",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -5162,7 +5162,7 @@
   {
     "id": " ",
     "name": "NG Oglethorpe Armory",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -5172,7 +5172,7 @@
   {
     "id": " ",
     "name": "NG Papago Military Reservation",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -5182,7 +5182,7 @@
   {
     "id": " ",
     "name": "NG Picacho Aviation TS",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -5192,7 +5192,7 @@
   {
     "id": " ",
     "name": "NG Raleigh",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -5202,7 +5202,7 @@
   {
     "id": " ",
     "name": "NG Rickenbacker",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -5212,7 +5212,7 @@
   {
     "id": " ",
     "name": "NG Rio Rancho TS",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -5222,7 +5222,7 @@
   {
     "id": " ",
     "name": "NG River Road Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "DE",
     "country": "usa",
@@ -5232,7 +5232,7 @@
   {
     "id": " ",
     "name": "NG Rochester NGA and OMS 2",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -5242,7 +5242,7 @@
   {
     "id": " ",
     "name": "NG Rosemount NG Armory",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -5252,7 +5252,7 @@
   {
     "id": " ",
     "name": "NG RW Shepherd Hope Hull",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -5262,7 +5262,7 @@
   {
     "id": " ",
     "name": "NG Saginaw",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -5272,7 +5272,7 @@
   {
     "id": " ",
     "name": "NG Saint George/FMS 5B",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -5282,7 +5282,7 @@
   {
     "id": " ",
     "name": "NG Salina KS Training Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "KS",
     "country": "usa",
@@ -5292,7 +5292,7 @@
   {
     "id": " ",
     "name": "NG Sandson AASF",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -5302,7 +5302,7 @@
   {
     "id": " ",
     "name": "NG Santa Fe - Onate Complex TS",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -5312,7 +5312,7 @@
   {
     "id": " ",
     "name": "NG Sea Girt  NJ NGTC",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -5322,7 +5322,7 @@
   {
     "id": " ",
     "name": "NG Shelbyville",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IN",
     "country": "usa",
@@ -5332,7 +5332,7 @@
   {
     "id": " ",
     "name": "NG Silver Bell Army Heliport",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -5342,7 +5342,7 @@
   {
     "id": " ",
     "name": "NG Sioux Falls Benson Rd Complex",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "SD",
     "country": "usa",
@@ -5352,7 +5352,7 @@
   {
     "id": " ",
     "name": "NG Snake Creek TS Miramar",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5362,7 +5362,7 @@
   {
     "id": " ",
     "name": "NG Sparta Armory",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -5372,7 +5372,7 @@
   {
     "id": " ",
     "name": "NG Spring City Readiness Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -5382,7 +5382,7 @@
   {
     "id": " ",
     "name": "NG Springfield (TS Cp Lincoln)",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -5392,7 +5392,7 @@
   {
     "id": " ",
     "name": "NG Springfield AVCRAD (New)",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -5402,7 +5402,7 @@
   {
     "id": " ",
     "name": "NG St Cloud AASF",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -5412,7 +5412,7 @@
   {
     "id": " ",
     "name": "NG St Cloud NG Armory",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -5422,7 +5422,7 @@
   {
     "id": " ",
     "name": "NG State Military Reservation Camp Pendleton",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -5432,7 +5432,7 @@
   {
     "id": " ",
     "name": "NG Stones Ranch Military Res",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "CT",
     "country": "usa",
@@ -5442,7 +5442,7 @@
   {
     "id": " ",
     "name": "NG Thunderbird Youth Academy",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -5452,7 +5452,7 @@
   {
     "id": " ",
     "name": "NG Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NH",
     "country": "usa",
@@ -5462,7 +5462,7 @@
   {
     "id": " ",
     "name": "NG TS Camp Johnson",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "VT",
     "country": "usa",
@@ -5472,7 +5472,7 @@
   {
     "id": " ",
     "name": "NG TS Ethan Allen Range",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "VT",
     "country": "usa",
@@ -5482,7 +5482,7 @@
   {
     "id": " ",
     "name": "NG TS Ike Skelton Jefferson City",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -5492,7 +5492,7 @@
   {
     "id": " ",
     "name": "NG TS Keaukaha Mil Res",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -5502,7 +5502,7 @@
   {
     "id": " ",
     "name": "NG TS Mark Twain Natl Forest Wapp",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -5512,7 +5512,7 @@
   {
     "id": " ",
     "name": "NG Volkstone",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -5522,7 +5522,7 @@
   {
     "id": " ",
     "name": "NG VTS Catoosa",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -5532,7 +5532,7 @@
   {
     "id": " ",
     "name": "NG VTS Milan",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -5542,7 +5542,7 @@
   {
     "id": " ",
     "name": "NG VTS Smyrna",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -5552,7 +5552,7 @@
   {
     "id": " ",
     "name": "NG West Camp",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "SD",
     "country": "usa",
@@ -5562,7 +5562,7 @@
   {
     "id": " ",
     "name": "NG Westminster Training Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "VT",
     "country": "usa",
@@ -5572,7 +5572,7 @@
   {
     "id": " ",
     "name": "NG WH Ford Regional Tng Ctr",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "KY",
     "country": "usa",
@@ -5582,7 +5582,7 @@
   {
     "id": " ",
     "name": "NG Williamstown",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "WV",
     "country": "usa",
@@ -5592,7 +5592,7 @@
   {
     "id": " ",
     "name": "NG Youngstown Tng Site",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -5602,7 +5602,7 @@
   {
     "id": " ",
     "name": "NGA Arnold Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -5612,7 +5612,7 @@
   {
     "id": " ",
     "name": "Niagara Falls",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -5622,7 +5622,7 @@
   {
     "id": " ",
     "name": "NMIC Suitland",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -5632,7 +5632,7 @@
   {
     "id": " ",
     "name": "NNSY South Gate",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -5642,7 +5642,7 @@
   {
     "id": " ",
     "name": "NNSY St Helena",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -5652,7 +5652,7 @@
   {
     "id": " ",
     "name": "NOLF Brewton",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -5662,7 +5662,7 @@
   {
     "id": " ",
     "name": "NOLF Choctaw",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5672,7 +5672,7 @@
   {
     "id": " ",
     "name": "NOLF Evergreen",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -5682,7 +5682,7 @@
   {
     "id": " ",
     "name": "NOLF Holley",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5692,7 +5692,7 @@
   {
     "id": " ",
     "name": "NOLF Santa Rosa",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5702,7 +5702,7 @@
   {
     "id": " ",
     "name": "NOLF Silverhill",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -5712,7 +5712,7 @@
   {
     "id": " ",
     "name": "NOLF Spencer",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5722,7 +5722,7 @@
   {
     "id": " ",
     "name": "NOLF Summerdale",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -5732,7 +5732,7 @@
   {
     "id": " ",
     "name": "NOLF Wolf",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -5742,7 +5742,7 @@
   {
     "id": " ",
     "name": "Northside Mid-South",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -5752,7 +5752,7 @@
   {
     "id": " ",
     "name": "Northwest Chesapeake VA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -5762,7 +5762,7 @@
   {
     "id": " ",
     "name": "Norwalk 2",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -5772,7 +5772,7 @@
   {
     "id": " ",
     "name": "NRC Solomons",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -5782,7 +5782,7 @@
   {
     "id": " ",
     "name": "NSA Saratoga Springs NY",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -5792,7 +5792,7 @@
   {
     "id": " ",
     "name": "NSGA Sabana Seca PR",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -5802,7 +5802,7 @@
   {
     "id": " ",
     "name": "NSWC Carderock Div",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TN",
     "country": "usa",
@@ -5812,7 +5812,7 @@
   {
     "id": " ",
     "name": "NWIRP Bedford MA",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -5822,7 +5822,7 @@
   {
     "id": " ",
     "name": "Offutt Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NE",
     "country": "usa",
@@ -5832,7 +5832,7 @@
   {
     "id": " ",
     "name": "Old Town Site 1",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -5842,7 +5842,7 @@
   {
     "id": " ",
     "name": "OLF Bravo",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -5852,7 +5852,7 @@
   {
     "id": " ",
     "name": "OLF Bronson",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5862,7 +5862,7 @@
   {
     "id": " ",
     "name": "OLF Coupeville",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -5872,7 +5872,7 @@
   {
     "id": " ",
     "name": "OLF Whitehouse",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5882,7 +5882,7 @@
   {
     "id": " ",
     "name": "Oliktok Long Range Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -5892,7 +5892,7 @@
   {
     "id": " ",
     "name": "Orchard Combat Training Center",
-    "branch": "Armynationalguard",
+    "branch": "ARNG",
     "city": "",
     "state": "ID",
     "country": "usa",
@@ -5902,7 +5902,7 @@
   {
     "id": " ",
     "name": "Ozol Defense Fuel Support Point",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -5912,7 +5912,7 @@
   {
     "id": " ",
     "name": "Pacific Missile Range Facility",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -5922,7 +5922,7 @@
   {
     "id": " ",
     "name": "Parks Reserve Forces Tng Area",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -5932,7 +5932,7 @@
   {
     "id": " ",
     "name": "Patrick Space Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -5942,7 +5942,7 @@
   {
     "id": " ",
     "name": "Pearl City Annex",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -5952,7 +5952,7 @@
   {
     "id": " ",
     "name": "Pease ANGB NH",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NH",
     "country": "usa",
@@ -5962,7 +5962,7 @@
   {
     "id": " ",
     "name": "Pentagon",
-    "branch": "Whs",
+    "branch": "WHS",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -5972,7 +5972,7 @@
   {
     "id": " ",
     "name": "Peterson Space Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -5982,7 +5982,7 @@
   {
     "id": " ",
     "name": "Picatinny Arsenal",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -5992,7 +5992,7 @@
   {
     "id": " ",
     "name": "Pico Del Este - AFWTF",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -6002,7 +6002,7 @@
   {
     "id": " ",
     "name": "Pillar Point Space Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6012,7 +6012,7 @@
   {
     "id": " ",
     "name": "Pine Bluff Arsenal",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AR",
     "country": "usa",
@@ -6022,7 +6022,7 @@
   {
     "id": " ",
     "name": "Pineros Island",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -6032,7 +6032,7 @@
   {
     "id": " ",
     "name": "Piñon Canyon Maneuver Site",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -6042,7 +6042,7 @@
   {
     "id": " ",
     "name": "Pittsburgh IAP ANG",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -6052,7 +6052,7 @@
   {
     "id": " ",
     "name": "Pittsburgh IAP ARS",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -6062,7 +6062,7 @@
   {
     "id": " ",
     "name": "Pohakuloa Training Area",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -6072,7 +6072,7 @@
   {
     "id": " ",
     "name": "Poinsett Electronic Combat Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -6082,7 +6082,7 @@
   {
     "id": " ",
     "name": "Point Arena Air Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6092,7 +6092,7 @@
   {
     "id": " ",
     "name": "Point Barrow Long Range Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -6102,7 +6102,7 @@
   {
     "id": " ",
     "name": "Portland IAP ANG",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OR",
     "country": "usa",
@@ -6112,7 +6112,7 @@
   {
     "id": " ",
     "name": "Portsmouth Naval Shipyard",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -6122,7 +6122,7 @@
   {
     "id": " ",
     "name": "Presidio of Monterey",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6132,7 +6132,7 @@
   {
     "id": " ",
     "name": "Pueblo Chemical Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -6142,7 +6142,7 @@
   {
     "id": " ",
     "name": "Pumpkin Neck",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -6152,7 +6152,7 @@
   {
     "id": " ",
     "name": "Puuloa-Oahu",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -6162,7 +6162,7 @@
   {
     "id": " ",
     "name": "Quonset State Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "RI",
     "country": "usa",
@@ -6172,7 +6172,7 @@
   {
     "id": " ",
     "name": "Radford Army Ammunition Plant",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -6182,7 +6182,7 @@
   {
     "id": " ",
     "name": "Ramey AF Solar Observatory Research Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -6192,7 +6192,7 @@
   {
     "id": " ",
     "name": "Red River Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -6202,7 +6202,7 @@
   {
     "id": " ",
     "name": "Redington Township",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "ME",
     "country": "usa",
@@ -6212,7 +6212,7 @@
   {
     "id": " ",
     "name": "Redstone Arsenal",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -6222,7 +6222,7 @@
   {
     "id": " ",
     "name": "Reno Tahoe IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -6232,7 +6232,7 @@
   {
     "id": " ",
     "name": "Rickenbacker",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -6242,7 +6242,7 @@
   {
     "id": " ",
     "name": "Rivanna Station",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -6252,7 +6252,7 @@
   {
     "id": " ",
     "name": "Riverbank AAP",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6262,7 +6262,7 @@
   {
     "id": " ",
     "name": "Robins AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -6272,7 +6272,7 @@
   {
     "id": " ",
     "name": "Rock Island Arsenal",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -6282,7 +6282,7 @@
   {
     "id": " ",
     "name": "Rocky Mountain Arsenal",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -6292,7 +6292,7 @@
   {
     "id": " ",
     "name": "Romanzof Regional Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -6302,7 +6302,7 @@
   {
     "id": " ",
     "name": "Rome Research Laboratory",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -6312,7 +6312,7 @@
   {
     "id": " ",
     "name": "Rosecrans MAP (139AG)",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -6322,7 +6322,7 @@
   {
     "id": " ",
     "name": "Runkle Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -6332,7 +6332,7 @@
   {
     "id": " ",
     "name": "Salt Lake City IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -6342,7 +6342,7 @@
   {
     "id": " ",
     "name": "San Clemente IS NALF",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6352,7 +6352,7 @@
   {
     "id": " ",
     "name": "San Nicolas Island",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6362,7 +6362,7 @@
   {
     "id": " ",
     "name": "San Pedro Fuel Depot",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6372,7 +6372,7 @@
   {
     "id": " ",
     "name": "Santa Cruz Island",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6382,7 +6382,7 @@
   {
     "id": " ",
     "name": "Saufley Field",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -6392,7 +6392,7 @@
   {
     "id": " ",
     "name": "Savanna Depot Act",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -6402,7 +6402,7 @@
   {
     "id": " ",
     "name": "Savannah/Hilton Head IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -6412,7 +6412,7 @@
   {
     "id": " ",
     "name": "Saylor Creek Air Force Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "ID",
     "country": "usa",
@@ -6422,7 +6422,7 @@
   {
     "id": " ",
     "name": "Schenectady ANG MAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -6432,7 +6432,7 @@
   {
     "id": " ",
     "name": "Schriever Space Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -6442,7 +6442,7 @@
   {
     "id": " ",
     "name": "Scott Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "IL",
     "country": "usa",
@@ -6452,7 +6452,7 @@
   {
     "id": " ",
     "name": "Scranton Army Ammunition Plant",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -6462,7 +6462,7 @@
   {
     "id": " ",
     "name": "SDA Area",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -6472,7 +6472,7 @@
   {
     "id": " ",
     "name": "Sea Plane Base",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -6482,7 +6482,7 @@
   {
     "id": " ",
     "name": "Selfridge ANGB",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MI",
     "country": "usa",
@@ -6492,7 +6492,7 @@
   {
     "id": " ",
     "name": "Sewage Evaporation Pond",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6502,7 +6502,7 @@
   {
     "id": " ",
     "name": "Seward Recreation Area",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -6512,7 +6512,7 @@
   {
     "id": " ",
     "name": "Seymour Johnson Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NC",
     "country": "usa",
@@ -6522,7 +6522,7 @@
   {
     "id": " ",
     "name": "Shaw Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "SC",
     "country": "usa",
@@ -6532,7 +6532,7 @@
   {
     "id": " ",
     "name": "Shell Basefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -6542,7 +6542,7 @@
   {
     "id": " ",
     "name": "Sheppard AFB",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -6552,7 +6552,7 @@
   {
     "id": " ",
     "name": "Sierra Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6562,7 +6562,7 @@
   {
     "id": " ",
     "name": "Silver Strand South",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6572,7 +6572,7 @@
   {
     "id": " ",
     "name": "Sioux Gateway Airport (ANG)",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "IA",
     "country": "usa",
@@ -6582,7 +6582,7 @@
   {
     "id": " ",
     "name": "Skelly Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -6592,7 +6592,7 @@
   {
     "id": " ",
     "name": "Smoky Hill ANG Range",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "KS",
     "country": "usa",
@@ -6602,7 +6602,7 @@
   {
     "id": " ",
     "name": "South Point",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6612,7 +6612,7 @@
   {
     "id": " ",
     "name": "Sparrevohn RRS",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -6622,7 +6622,7 @@
   {
     "id": " ",
     "name": "Springfield Beckley",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -6632,7 +6632,7 @@
   {
     "id": " ",
     "name": "St Juliens Creek East",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -6642,7 +6642,7 @@
   {
     "id": " ",
     "name": "St Louis Air Force Station",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -6652,7 +6652,7 @@
   {
     "id": " ",
     "name": "Stewart Annex",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -6662,7 +6662,7 @@
   {
     "id": " ",
     "name": "Stewart IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -6672,7 +6672,7 @@
   {
     "id": " ",
     "name": "Stinson 5AB Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -6682,7 +6682,7 @@
   {
     "id": " ",
     "name": "Stump Neck Area",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -6692,7 +6692,7 @@
   {
     "id": " ",
     "name": "Syracuse MCRC",
-    "branch": "Usmcr",
+    "branch": "USMCR",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -6702,7 +6702,7 @@
   {
     "id": " ",
     "name": "Tac X Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -6712,7 +6712,7 @@
   {
     "id": " ",
     "name": "Target 101 Shade Tree",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6722,7 +6722,7 @@
   {
     "id": " ",
     "name": "Tatalina LRRS",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -6732,7 +6732,7 @@
   {
     "id": " ",
     "name": "The Barry M Goldwater Air Force Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -6742,7 +6742,7 @@
   {
     "id": " ",
     "name": "The Farish Memorial Recreational Annex",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -6752,7 +6752,7 @@
   {
     "id": " ",
     "name": "Tin City Long Range Radar Site",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -6762,7 +6762,7 @@
   {
     "id": " ",
     "name": "Tinker Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -6772,7 +6772,7 @@
   {
     "id": " ",
     "name": "Tobyhanna Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "PA",
     "country": "usa",
@@ -6782,7 +6782,7 @@
   {
     "id": " ",
     "name": "Toledo/Exp Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -6792,7 +6792,7 @@
   {
     "id": " ",
     "name": "Tooele Army Depot",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -6802,7 +6802,7 @@
   {
     "id": " ",
     "name": "Toth Stagefield AL",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AL",
     "country": "usa",
@@ -6812,7 +6812,7 @@
   {
     "id": " ",
     "name": "Townsend Bombing Range",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "GA",
     "country": "usa",
@@ -6822,7 +6822,7 @@
   {
     "id": " ",
     "name": "Travis Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6832,7 +6832,7 @@
   {
     "id": " ",
     "name": "Travis System Annex No 2",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6842,7 +6842,7 @@
   {
     "id": " ",
     "name": "Tripler Army Medical Center",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -6852,7 +6852,7 @@
   {
     "id": " ",
     "name": "Tropic Regions Test Center",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -6862,7 +6862,7 @@
   {
     "id": " ",
     "name": "Truax ANGB",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -6872,7 +6872,7 @@
   {
     "id": " ",
     "name": "Truman Annex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -6882,7 +6882,7 @@
   {
     "id": " ",
     "name": "Trumbo Point Annex",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -6892,7 +6892,7 @@
   {
     "id": " ",
     "name": "Tucson IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "AZ",
     "country": "usa",
@@ -6902,7 +6902,7 @@
   {
     "id": " ",
     "name": "Tulsa IAP",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -6912,7 +6912,7 @@
   {
     "id": " ",
     "name": "Twin Cities AAP",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "MN",
     "country": "usa",
@@ -6922,7 +6922,7 @@
   {
     "id": " ",
     "name": "Tyndall Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "FL",
     "country": "usa",
@@ -6932,7 +6932,7 @@
   {
     "id": " ",
     "name": "Upper Yard Annapolis",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -6942,7 +6942,7 @@
   {
     "id": " ",
     "name": "USA Field Station Kunia",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -6952,7 +6952,7 @@
   {
     "id": " ",
     "name": "USAF Academy Auxiliary Airfield",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -6962,7 +6962,7 @@
   {
     "id": " ",
     "name": "USAF Academy Site 2",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CO",
     "country": "usa",
@@ -6972,7 +6972,7 @@
   {
     "id": " ",
     "name": "USMCB Camp Pendleton",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -6982,7 +6982,7 @@
   {
     "id": " ",
     "name": "Utah Test and Training Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NV",
     "country": "usa",
@@ -6992,7 +6992,7 @@
   {
     "id": " ",
     "name": "Vance Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -7002,7 +7002,7 @@
   {
     "id": " ",
     "name": "Vandenberg Space Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -7012,7 +7012,7 @@
   {
     "id": " ",
     "name": "Verona Defense Fuel Support Point",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -7022,7 +7022,7 @@
   {
     "id": " ",
     "name": "Vieques West PR",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "PR",
     "country": "usa",
@@ -7032,7 +7032,7 @@
   {
     "id": " ",
     "name": "Volk ANGB",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -7042,7 +7042,7 @@
   {
     "id": " ",
     "name": "W K Kellogg",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "MI",
     "country": "usa",
@@ -7052,7 +7052,7 @@
   {
     "id": " ",
     "name": "W Silver Spring Complex",
-    "branch": "Usar",
+    "branch": "USAR",
     "city": "",
     "state": "WI",
     "country": "usa",
@@ -7062,7 +7062,7 @@
   {
     "id": " ",
     "name": "Waianae Kai Military Reservation",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -7072,7 +7072,7 @@
   {
     "id": " ",
     "name": "Warner Springs Rts",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -7082,7 +7082,7 @@
   {
     "id": " ",
     "name": "Waterfront",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "NJ",
     "country": "usa",
@@ -7092,7 +7092,7 @@
   {
     "id": " ",
     "name": "Watervliet Arsenal",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -7102,7 +7102,7 @@
   {
     "id": " ",
     "name": "Webster Field",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MD",
     "country": "usa",
@@ -7112,7 +7112,7 @@
   {
     "id": " ",
     "name": "West Bank",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "LA",
     "country": "usa",
@@ -7122,7 +7122,7 @@
   {
     "id": " ",
     "name": "West Desert Test Center",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "UT",
     "country": "usa",
@@ -7132,7 +7132,7 @@
   {
     "id": " ",
     "name": "West Point Military Reservation",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NY",
     "country": "usa",
@@ -7142,7 +7142,7 @@
   {
     "id": " ",
     "name": "Westover ARB",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "MA",
     "country": "usa",
@@ -7152,7 +7152,7 @@
   {
     "id": " ",
     "name": "Wheeler Army Airfield",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "HI",
     "country": "usa",
@@ -7162,7 +7162,7 @@
   {
     "id": " ",
     "name": "White Bluff",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "WA",
     "country": "usa",
@@ -7172,7 +7172,7 @@
   {
     "id": " ",
     "name": "White Sands Missile Range",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "NM",
     "country": "usa",
@@ -7182,7 +7182,7 @@
   {
     "id": " ",
     "name": "Whiteman Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "MO",
     "country": "usa",
@@ -7192,7 +7192,7 @@
   {
     "id": " ",
     "name": "Will Rogers World Airport",
-    "branch": "Airnationalguard",
+    "branch": "ANG",
     "city": "",
     "state": "OK",
     "country": "usa",
@@ -7202,7 +7202,7 @@
   {
     "id": " ",
     "name": "Woolmarket (De Soto)",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "MS",
     "country": "usa",
@@ -7212,7 +7212,7 @@
   {
     "id": " ",
     "name": "Wright-Patterson Air Force Base",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -7222,7 +7222,7 @@
   {
     "id": " ",
     "name": "Yankee Target Range",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "TX",
     "country": "usa",
@@ -7232,7 +7232,7 @@
   {
     "id": " ",
     "name": "Yermo Area",
-    "branch": "Usmc",
+    "branch": "USMC",
     "city": "",
     "state": "CA",
     "country": "usa",
@@ -7242,7 +7242,7 @@
   {
     "id": " ",
     "name": "Yorktown Fuel Depot",
-    "branch": "Usn",
+    "branch": "Navy",
     "city": "",
     "state": "VA",
     "country": "usa",
@@ -7252,7 +7252,7 @@
   {
     "id": " ",
     "name": "Youngstown",
-    "branch": "Afr",
+    "branch": "AFR",
     "city": "",
     "state": "OH",
     "country": "usa",
@@ -7262,7 +7262,7 @@
   {
     "id": " ",
     "name": "Yukon Weapons Range",
-    "branch": "Usaf",
+    "branch": "AirForce",
     "city": "",
     "state": "AK",
     "country": "usa",
@@ -7272,7 +7272,7 @@
   {
     "id": " ",
     "name": "Yuma Proving Ground",
-    "branch": "Usa",
+    "branch": "Army",
     "city": "",
     "state": "AZ",
     "country": "usa",
