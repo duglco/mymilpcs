@@ -31,7 +31,7 @@ function milesDistance(lat1, lon1, lat2, lon2) {
   const R = 3958.8;
   const toRad = (d) => (d * Math.PI) / 180;
   const dLat = toRad(lat2 - lat1);
-  const dLon = toRad(lat2 - lat1) ? toRad(lon2 - lon1) : toRad(lon2 - lon1); // ensure consistency
+  const dLon = toRad(lon2 - lon1); // fixed
   const a =
     Math.sin(dLat / 2) ** 2 +
     Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
@@ -114,6 +114,20 @@ const AMENITIES = BASES.flatMap((b) => synthAmenitiesForBase(b));
 
 function unique(arr) { return Array.from(new Set(arr)); }
 
+// --------- NEW: Compact width + header-shortening helpers ---------
+const COMPACT_CAT_W = "w-[84px]"; // ~84px per category column
+const shortHeader = (k) => {
+  const map = {
+    "BAH Rate E5 w/ DEP": "BAH Rate",
+    "International Airport": "Intl Airport",
+    "Elementary Schools": "Elementary",
+    "Middle Schools": "Middle",
+    "High Schools": "High",
+    "Homes for Sale": "Homes",
+  };
+  return map[k] ?? k;
+};
+
 export default function MilitaryBasesDashboard() {
   const [search, setSearch] = useState("");
   const [branch, setBranch] = useState("All");
@@ -187,8 +201,20 @@ export default function MilitaryBasesDashboard() {
   // ---------- UPDATED: CSV export uses uppercase state ----------
   function exportCSV() {
     const headers = ["Base", "Branch", "City", "State", "Score", ...CATEGORY_LIST.map((c) => `${c} (within ${radius}mi)`)];
-    const rows = sorted.map((b) => [b.name, b.branch, b.city, normState(b.state), perBaseStats[b.id].score, ...CATEGORY_LIST.map((c) => perBaseStats[b.id].counts[c])]);
-    const csv = [headers, ...rows].map((r) => r.map((v) => `"${String(v).replaceAll('"', '""')}"`).join(",")).join("\n");
+
+    const rows = sorted.map((b) => [
+      b.name,
+      b.branch,
+      b.city,
+      normState(b.state),
+      perBaseStats[b.id].score,
+      ...CATEGORY_LIST.map((c) => perBaseStats[b.id].counts[c])
+    ]);
+
+    const csv = [headers, ...rows]
+      .map((r) => r.map((v) => `"${String(v).replaceAll('"', '""')}"`).join(","))
+      .join("\n");
+
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -282,21 +308,32 @@ export default function MilitaryBasesDashboard() {
         </div>
       </section>
 
-      {/* Data table section with centered, non-overlapping sticky header */}
+      {/* Data table section with centered, non-overlapping sticky header and compact columns */}
       <section className="max-w-screen-2xl mx-auto px-4 pb-10">
         <div className="mx-auto w-full">
           <div className="relative rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
-            {/* Scroll container for sticky header; centered card */}
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm table-auto">
+            {/* Keep scroll for very small screens; hide on large since we fix widths */}
+            <div className="overflow-x-auto lg:overflow-x-hidden">
+              <table className="w-full text-sm table-fixed text-[13px]">
+                {/* Explicit column widths so the table fits without lateral scroll on desktop */}
+                <colgroup>
+                  <col className="w-[280px]" />   {/* Base */}
+                  <col className="w-[120px]" />   {/* Branch */}
+                  <col className="w-[80px]" />    {/* State */}
+                  <col className="w-[160px]" />   {/* Score */}
+                  {CATEGORY_LIST.map((_, i) => (
+                    <col key={i} className={COMPACT_CAT_W} />
+                  ))}
+                </colgroup>
+
                 <thead className="sticky top-0 z-20 bg-slate-900">
                   <tr className="text-left text-slate-300">
                     <Th label="Base"   now={sortBy} k="name"  onSort={setSort} />
                     <Th label="Branch" now={sortBy} k="branch" onSort={setSort} />
-                    <Th label="State"  now={sortBy} k="state" onSort={setSort} />
-                    <Th label="Score"  now={sortBy} k="score" onSort={setSort} />
+                    <Th label="State"  now={sortBy} k="state"  onSort={setSort} />
+                    <Th label="Score"  now={sortBy} k="score"  onSort={setSort} />
                     {CATEGORY_LIST.map((c) => (
-                      <Th key={c} label={c} now={sortBy} k={c} onSort={setSort} />
+                      <Th key={c} label={shortHeader(c)} now={sortBy} k={c} onSort={setSort} />
                     ))}
                   </tr>
                 </thead>
@@ -310,13 +347,13 @@ export default function MilitaryBasesDashboard() {
                         className={`border-t border-slate-800 ${idx % 2 === 1 ? "bg-slate-950/20" : ""} hover:bg-slate-800/40 transition`}
                       >
                         <td className="px-3 py-3">
-                          <div className="font-medium break-words">{b.name}</div>
+                          <div className="font-medium break-words whitespace-normal">{b.name}</div>
                           <div className="text-xs text-slate-400 flex items-center gap-1">
                             <MapPin className="w-3.5 h-3.5" /> {b.city}, {normState(b.state)}
                           </div>
                         </td>
-                        <td className="px-3 py-3">{b.branch}</td>
-                        <td className="px-3 py-3">{normState(b.state)}</td>
+                        <td className="px-3 py-2">{b.branch}</td>
+                        <td className="px-3 py-2">{normState(b.state)}</td>
                         <td className="px-3 py-3">
                           <div className="flex items-center gap-2">
                             <div className="w-28 h-2 rounded-full bg-slate-800 overflow-hidden">
@@ -330,8 +367,8 @@ export default function MilitaryBasesDashboard() {
                           const Icon = CATEGORY_META[c].icon;
                           const count = stats.counts[c];
                           return (
-                            <td key={c} className="px-3 py-3">
-                              <span className={`inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs ${count > 0 ? "bg-slate-800 text-slate-100" : "bg-slate-900 text-slate-500 border border-slate-800"}`}>
+                            <td key={c} className="px-2 py-2 text-center">
+                              <span className={`inline-flex items-center justify-center gap-1 px-2 py-1 rounded-full text-[11px] ${count > 0 ? "bg-slate-800 text-slate-100" : "bg-slate-900 text-slate-500 border border-slate-800"}`}>
                                 <Icon className="w-3.5 h-3.5" />
                                 <span className="tabular-nums">{count}</span>
                               </span>
