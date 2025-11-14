@@ -266,23 +266,23 @@ export default function MilitaryBasesDashboard() {
 
       <section className="max-w-screen-2xl mx-auto px-4 py-4 space-y-3">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-3">
-          <div className="lg:col-span-6">
+          <div className="lg:col-span-8">
             <div className="relative">
-              <Search className="absolute left-3 top-2.5 h-5 w-5 text-slate-400" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" />
               <input
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Search base, city, state, branch…"
-                className="w-full pl-10 pr-3 py-2 rounded-xl bg-slate-900 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="w-full h-11 pl-10 pr-3 rounded-xl bg-slate-900 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
           </div>
 
-          <div className="lg:col-span-3 flex flex-col sm:flex-row gap-2">
+          <div className="lg:col-span-4 flex flex-col sm:flex-row gap-2">
             <button
               type="button"
               onClick={() => setFiltersModalOpen(true)}
-              className="inline-flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
+              className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
             >
               <Filter className="w-4 h-4" />
               <span className="text-sm">{filtersApplied ? "Adjust filters" : "Set filters"}</span>
@@ -291,34 +291,11 @@ export default function MilitaryBasesDashboard() {
               type="button"
               onClick={exportCSV}
               disabled={exportDisabled}
-              className={`inline-flex items-center justify-center gap-2 px-3 py-2 rounded-xl shadow-sm ${exportDisabled ? "bg-slate-800 text-slate-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"}`}
+              className={`inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl shadow-sm ${exportDisabled ? "bg-slate-800 text-slate-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"}`}
             >
               <Download className="w-4 h-4" />
               <span className="text-sm">Export CSV</span>
             </button>
-          </div>
-
-          <div className="lg:col-span-3 px-3 py-3 rounded-xl bg-slate-900 border border-slate-800 text-sm text-slate-100 space-y-1">
-            <div className="flex items-center justify-between">
-              <span className="text-slate-500 uppercase tracking-wide text-[11px]">Branch</span>
-              <span>{branch}</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-slate-500 uppercase tracking-wide text-[11px]">State</span>
-              <span>{state}</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-slate-500 uppercase tracking-wide text-[11px]">Radius</span>
-              <span>{radius} mi</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-slate-500 uppercase tracking-wide text-[11px]">Hospital</span>
-              <span>{requireHospital ? "Required" : "Optional"}</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-slate-500 uppercase tracking-wide text-[11px]">VA</span>
-              <span>{requireVA ? "Required" : "Optional"}</span>
-            </div>
           </div>
         </div>
 
