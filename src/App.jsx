@@ -287,48 +287,57 @@ export default function MilitaryBasesDashboard() {
       </header>
 
       <section className="max-w-screen-2xl mx-auto px-4 py-4 space-y-3">
-        <div className="flex flex-wrap justify-end gap-2">
-          <button
-            type="button"
-            onClick={() => setFiltersModalOpen(true)}
-            className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
-          >
-            <Filter className="w-4 h-4" />
-            <span className="text-sm">{filtersApplied ? "Adjust filters" : "Set filters"}</span>
-          </button>
-          <button
-            type="button"
-            onClick={exportCSV}
-            disabled={exportDisabled}
-            className={`inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl shadow-sm ${
-              exportDisabled ? "bg-slate-800 text-slate-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"
-            }`}
-          >
-            <Download className="w-4 h-4" />
-            <span className="text-sm">Export CSV</span>
-          </button>
-        </div>
-
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-3">
-          <div className="flex items-center justify-between text-xs uppercase tracking-wide text-slate-400 mb-2">
-            <span>Selected amenities</span>
-            <span>{activeCategories.length} of {CATEGORY_LIST.length}</span>
-          </div>
-          {activeCategories.length > 0 ? (
-            <div className="flex flex-wrap gap-2">
-              {activeCategories.map((cat) => {
-                const Icon = CATEGORY_META[cat].icon;
-                return (
-                  <span key={cat} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-sm">
-                    <Icon className="w-4 h-4 text-slate-300" />
-                    <span>{cat}</span>
-                  </span>
-                );
-              })}
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-stretch">
+          <div className="flex-1 rounded-2xl border border-slate-800 bg-slate-900/40 p-3">
+            <div className="flex items-center justify-between text-xs uppercase tracking-wide text-slate-400 mb-2">
+              <span>Selected amenities</span>
+              <span>
+                {activeCategories.length} of {CATEGORY_LIST.length}
+              </span>
             </div>
-          ) : (
-            <p className="text-sm text-slate-400">No amenities selected yet. Use filters to choose locations like schools, gyms, parks, or airports.</p>
-          )}
+            {activeCategories.length > 0 ? (
+              <div className="flex flex-wrap gap-2">
+                {activeCategories.map((cat) => {
+                  const Icon = CATEGORY_META[cat].icon;
+                  return (
+                    <span
+                      key={cat}
+                      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-sm"
+                    >
+                      <Icon className="w-4 h-4 text-slate-300" />
+                      <span>{cat}</span>
+                    </span>
+                  );
+                })}
+              </div>
+            ) : (
+              <p className="text-sm text-slate-400">
+                No amenities selected yet. Use filters to choose locations like schools, gyms, parks, or airports.
+              </p>
+            )}
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-2 lg:w-auto">
+            <button
+              type="button"
+              onClick={() => setFiltersModalOpen(true)}
+              className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
+            >
+              <Filter className="w-4 h-4" />
+              <span className="text-sm">{filtersApplied ? "Adjust filters" : "Set filters"}</span>
+            </button>
+            <button
+              type="button"
+              onClick={exportCSV}
+              disabled={exportDisabled}
+              className={`inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl shadow-sm ${
+                exportDisabled ? "bg-slate-800 text-slate-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"
+              }`}
+            >
+              <Download className="w-4 h-4" />
+              <span className="text-sm">Export CSV</span>
+            </button>
+          </div>
         </div>
       </section>
 
