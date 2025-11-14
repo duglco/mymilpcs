@@ -287,33 +287,18 @@ export default function MilitaryBasesDashboard() {
       </header>
 
       <section className="max-w-screen-2xl mx-auto px-4 py-4 space-y-3">
-        <div className="flex flex-col gap-3 lg:flex-row lg:items-stretch">
-          <div className="flex-1 rounded-2xl border border-slate-800 bg-slate-900/40 p-3">
-            <div className="flex items-center justify-between text-xs uppercase tracking-wide text-slate-400 mb-2">
-              <span>Selected amenities</span>
-              <span>
-                {activeCategories.length} of {CATEGORY_LIST.length}
-              </span>
-            </div>
+        <div className="flex flex-wrap gap-2 lg:items-center">
+          <div className="inline-flex h-11 items-center gap-3 px-4 rounded-xl border border-slate-800 bg-slate-900/60">
+            <span className="text-xs uppercase tracking-wide text-slate-400">Filters</span>
             {activeCategories.length > 0 ? (
-              <div className="flex flex-wrap gap-2">
+              <div className="flex gap-2 items-center overflow-hidden">
                 {activeCategories.map((cat) => {
                   const Icon = CATEGORY_META[cat].icon;
-                  return (
-                    <span
-                      key={cat}
-                      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-800 text-sm"
-                    >
-                      <Icon className="w-4 h-4 text-slate-300" />
-                      <span>{cat}</span>
-                    </span>
-                  );
+                  return <Icon key={cat} className="w-4 h-4 text-slate-100" title={cat} />;
                 })}
               </div>
             ) : (
-              <p className="text-sm text-slate-400">
-                No amenities selected yet. Use filters to choose locations like schools, gyms, parks, or airports.
-              </p>
+              <span className="text-xs text-slate-500">None selected</span>
             )}
           </div>
 
