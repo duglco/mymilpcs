@@ -87,6 +87,7 @@ export default function MilitaryBasesDashboard() {
   const [sortBy, setSortBy] = useState({ key: "name", dir: "asc" });
   const [filtersModalOpen, setFiltersModalOpen] = useState(true);
   const [filtersApplied, setFiltersApplied] = useState(false);
+  const [detailSelection, setDetailSelection] = useState(null);
 
   // ----------- OPTIONS: state (2-letter caps, dedup) & branch (case-sensitive) -----------
   const stateOptions = useMemo(() => {
@@ -170,6 +171,43 @@ export default function MilitaryBasesDashboard() {
     ? "Open Filters to choose the locations and amenities you care about."
     : "Select at least one amenity to display results.";
 
+  const detailData = useMemo(() => {
+    if (!detailSelection) return null;
+    if (!selectedCats[detailSelection.category]) return null;
+    const base = BASES.find((b) => b.id === detailSelection.baseId);
+    if (!base) return null;
+    const locationLabel = [base.city, normState(base.state)].filter(Boolean).join(", ") || "Unknown";
+    const amenities = (amenitiesByBase[base.id] || [])
+      .filter((a) => {
+        if (a.category !== detailSelection.category) return false;
+        const d = milesDistance(base.lat, base.lon, a.lat, a.lon);
+        return d <= radius;
+      })
+      .map((a) => {
+        const miles = typeof a.distanceMiles === "number"
+          ? a.distanceMiles
+          : milesDistance(base.lat, base.lon, a.lat, a.lon);
+        return { ...a, distanceMiles: Number(miles.toFixed(2)) };
+      })
+      .sort((a, b) => (a.distanceMiles ?? 0) - (b.distanceMiles ?? 0));
+
+    return {
+      base,
+      category: detailSelection.category,
+      locationLabel,
+      amenities
+    };
+  }, [detailSelection, amenitiesByBase, radius, selectedCats]);
+
+  useEffect(() => {
+    if (!detailSelection) return;
+    const baseStillVisible = filtered.some((b) => b.id === detailSelection.baseId);
+    const categoryActive = !!selectedCats[detailSelection.category];
+    if (!baseStillVisible || !categoryActive) {
+      setDetailSelection(null);
+    }
+  }, [filtered, detailSelection, selectedCats]);
+
   function handleApplyFilters(next) {
     setBranch(next.branch);
     setState(next.state);
@@ -179,6 +217,10 @@ export default function MilitaryBasesDashboard() {
     setSelectedCats({ ...next.selectedCats });
     setFiltersModalOpen(false);
     setFiltersApplied(true);
+  }
+
+  function handleCellClick(base, category) {
+    setDetailSelection({ baseId: base.id, category });
   }
 
   function exportCSV() {
@@ -308,18 +350,19 @@ export default function MilitaryBasesDashboard() {
         <div className="mx-auto w-full">
           <div className="relative rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
             {filtersReady ? (
-              <div className="overflow-x-auto lg:overflow-x-hidden">
-                <table className="w-full text-sm table-fixed text-[13px]">
-                  <colgroup>
-                    <col className="w-[320px]" />
-                    <col className="w-[140px]" />
-                    <col className="w-[100px]" />
-                    {activeCategories.map((_, i) => (
-                      <col key={i} className={COMPACT_CAT_W} />
-                    ))}
-                  </colgroup>
+              <div className="flex flex-col lg:flex-row">
+                <div className="flex-1 overflow-x-auto lg:overflow-x-hidden">
+                  <table className="w-full text-sm table-fixed text-[13px]">
+                    <colgroup>
+                      <col className="w-[320px]" />
+                      <col className="w-[140px]" />
+                      <col className="w-[100px]" />
+                      {activeCategories.map((_, i) => (
+                        <col key={i} className={COMPACT_CAT_W} />
+                      ))}
+                    </colgroup>
 
-                  <thead className="sticky top-0 z-20 bg-slate-900">
+                    <thead className="sticky top-0 z-20 bg-slate-900">
                     <tr className="text-left text-slate-300">
                       <Th label="Base"   now={sortBy} k="name"  onSort={setSort} />
                       <Th label="Branch" now={sortBy} k="branch" onSort={setSort} />
@@ -351,12 +394,23 @@ export default function MilitaryBasesDashboard() {
                           {activeCategories.map((c) => {
                             const Icon = CATEGORY_META[c].icon;
                             const count = stats.counts[c] || 0;
+                            const isActiveDetail =
+                              detailSelection &&
+                              detailSelection.baseId === b.id &&
+                              detailSelection.category === c;
                             return (
                               <td key={c} className="px-2 py-2 text-center">
-                                <span className={`inline-flex items-center justify-center gap-1 px-2 py-1 rounded-full text-[11px] ${count > 0 ? "bg-slate-800 text-slate-100" : "bg-slate-900 text-slate-500 border border-slate-800"}`}>
+                                <button
+                                  type="button"
+                                  onClick={() => handleCellClick(b, c)}
+                                  className={`w-full inline-flex items-center justify-center gap-1 px-2 py-1 rounded-full text-[11px] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 ${
+                                    count > 0 ? "bg-slate-800 text-slate-100" : "bg-slate-900 text-slate-500 border border-slate-800"
+                                  } ${isActiveDetail ? "ring-2 ring-indigo-400" : ""}`}
+                                  aria-label={`Show ${count} ${c} amenities near ${b.name}`}
+                                >
                                   <Icon className="w-3.5 h-3.5" />
                                   <span className="tabular-nums">{count}</span>
-                                </span>
+                                </button>
                               </td>
                             );
                           })}
@@ -373,6 +427,51 @@ export default function MilitaryBasesDashboard() {
                     )}
                   </tbody>
                 </table>
+                </div>
+                <aside className="lg:w-96 border-t lg:border-t-0 lg:border-l border-slate-800 bg-slate-950/40 p-4 space-y-4">
+                  {detailData ? (
+                    <>
+                      <div className="flex items-start gap-3">
+                        {CATEGORY_META[detailData.category]?.icon && (
+                          <div className="p-2 rounded-xl bg-slate-900 border border-slate-800">
+                            {React.createElement(CATEGORY_META[detailData.category].icon, {
+                              className: "w-5 h-5 text-indigo-300"
+                            })}
+                          </div>
+                        )}
+                        <div>
+                          <p className="text-xs uppercase tracking-wide text-slate-500">{detailData.category}</p>
+                          <p className="text-base font-semibold text-slate-100">{detailData.base.name}</p>
+                          <p className="text-xs text-slate-400">{detailData.locationLabel}</p>
+                        </div>
+                      </div>
+                      <div className="text-sm text-slate-300">
+                        {detailData.amenities.length > 0
+                          ? `${detailData.amenities.length} result${detailData.amenities.length === 1 ? "" : "s"} within ${radius} miles.`
+                          : `No ${detailData.category.toLowerCase()} within ${radius} miles.`}
+                      </div>
+                      <div className="space-y-3 max-h-[360px] overflow-y-auto pr-1">
+                        {detailData.amenities.length > 0 ? (
+                          detailData.amenities.map((a) => (
+                            <div key={a.id} className="rounded-2xl border border-slate-800 bg-slate-900 p-3 text-sm">
+                              <p className="font-medium text-slate-100">{a.name || `${detailData.category} option`}</p>
+                              <p className="text-xs text-slate-400">
+                                {typeof a.distanceMiles === "number" ? `${a.distanceMiles.toFixed(1)} mi away` : "Distance unavailable"}
+                              </p>
+                              {a.address && <p className="text-xs text-slate-500 mt-1">{a.address}</p>}
+                            </div>
+                          ))
+                        ) : (
+                          <p className="text-xs text-slate-500">Try increasing the radius to find nearby locations.</p>
+                        )}
+                      </div>
+                    </>
+                  ) : (
+                    <div className="text-sm text-slate-400">
+                      Click any amenity count to view the specific locations that make up that number.
+                    </div>
+                  )}
+                </aside>
               </div>
             ) : (
               <div className="p-10 text-center text-slate-400">
