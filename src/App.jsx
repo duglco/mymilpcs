@@ -3,7 +3,6 @@ import BASES from './bases.json';
 import AMENITIES from './amenities.json';
 
 import {
-  Search,
   Filter,
   Download,
   MapPin,
@@ -73,13 +72,16 @@ const buildCategoryState = () =>
 
 const cloneFilterState = (filters) => ({
   ...filters,
+  branchFilters: [...(filters.branchFilters || [])],
+  stateFilters: [...(filters.stateFilters || [])],
+  baseFilters: [...(filters.baseFilters || [])],
   selectedCats: { ...filters.selectedCats }
 });
 
 export default function MilitaryBasesDashboard() {
-  const [search, setSearch] = useState("");
-  const [branch, setBranch] = useState("All");
-  const [state, setState] = useState("All");
+  const [branchFilters, setBranchFilters] = useState([]);
+  const [stateFilters, setStateFilters] = useState([]);
+  const [baseFilters, setBaseFilters] = useState([]);
   const [radius, setRadius] = useState(10);
   const [selectedCats, setSelectedCats] = useState(() => buildCategoryState());
   const [requireHospital, setRequireHospital] = useState(false);
@@ -99,6 +101,20 @@ export default function MilitaryBasesDashboard() {
   }, []);
 
   const branchOptions = useMemo(() => ["All", ...unique(BASES.map((b) => b.branch)).sort()], []);
+  const baseOptions = useMemo(
+    () =>
+      BASES.map((b) => ({
+        id: b.id,
+        label: b.name,
+        subtitle: [b.city, normState(b.state)].filter(Boolean).join(", ")
+      })),
+    []
+  );
+  const baseLookup = useMemo(() => {
+    const map = {};
+    for (const b of BASES) map[b.id] = b;
+    return map;
+  }, []);
 
   const activeCategories = useMemo(
     () => CATEGORY_LIST.filter((cat) => selectedCats[cat]),
@@ -130,18 +146,18 @@ export default function MilitaryBasesDashboard() {
     return out;
   }, [radius, amenitiesByBase]);
 
-  const filtered = useMemo(() => BASES.filter((b) => {
-    if (branch !== "All" && b.branch !== branch) return false; // branch remains case-sensitive
-    if (state !== "All" && normState(b.state) !== state) return false; // compare with uppercase
-    if (search) {
-      const q = search.toLowerCase();
-      const s = `${b.name} ${b.city} ${b.state} ${b.branch}`.toLowerCase();
-      if (!s.includes(q)) return false;
-    }
-    if (requireHospital && perBaseStats[b.id].counts["Hospital"] < 1) return false;
-    if (requireVA && perBaseStats[b.id].counts["VA"] < 1) return false;
-    return true;
-  }), [branch, state, search, requireHospital, requireVA, perBaseStats]);
+  const filtered = useMemo(
+    () =>
+      BASES.filter((b) => {
+        if (branchFilters.length > 0 && !branchFilters.includes(b.branch)) return false;
+        if (stateFilters.length > 0 && !stateFilters.includes(normState(b.state))) return false;
+        if (baseFilters.length > 0 && !baseFilters.includes(b.id)) return false;
+        if (requireHospital && perBaseStats[b.id].counts["Hospital"] < 1) return false;
+        if (requireVA && perBaseStats[b.id].counts["VA"] < 1) return false;
+        return true;
+      }),
+    [branchFilters, stateFilters, baseFilters, requireHospital, requireVA, perBaseStats]
+  );
 
   const sorted = useMemo(() => {
     const arr = [...filtered]; const { key, dir } = sortBy; const mul = dir === "asc" ? 1 : -1;
@@ -156,14 +172,18 @@ export default function MilitaryBasesDashboard() {
   }, [filtered, sortBy, perBaseStats]);
 
   function setSort(key) { setSortBy((p) => p.key === key ? { key, dir: p.dir === "asc" ? "desc" : "asc" } : { key, dir: "desc" }); }
-  const currentFilters = useMemo(() => ({
-    branch,
-    state,
-    radius,
-    requireHospital,
-    requireVA,
-    selectedCats,
-  }), [branch, state, radius, requireHospital, requireVA, selectedCats]);
+  const currentFilters = useMemo(
+    () => ({
+      branchFilters,
+      stateFilters,
+      baseFilters,
+      radius,
+      requireHospital,
+      requireVA,
+      selectedCats
+    }),
+    [branchFilters, stateFilters, baseFilters, radius, requireHospital, requireVA, selectedCats]
+  );
 
   const filtersReady = filtersApplied && activeCategories.length > 0;
   const exportDisabled = !filtersReady || sorted.length === 0;
@@ -174,7 +194,7 @@ export default function MilitaryBasesDashboard() {
   const detailData = useMemo(() => {
     if (!detailSelection) return null;
     if (!selectedCats[detailSelection.category]) return null;
-    const base = BASES.find((b) => b.id === detailSelection.baseId);
+    const base = baseLookup[detailSelection.baseId];
     if (!base) return null;
     const locationLabel = [base.city, normState(base.state)].filter(Boolean).join(", ") || "Unknown";
     const amenities = (amenitiesByBase[base.id] || [])
@@ -197,7 +217,7 @@ export default function MilitaryBasesDashboard() {
       locationLabel,
       amenities
     };
-  }, [detailSelection, amenitiesByBase, radius, selectedCats]);
+  }, [detailSelection, amenitiesByBase, radius, selectedCats, baseLookup]);
 
   useEffect(() => {
     if (!detailSelection) return;
@@ -209,14 +229,16 @@ export default function MilitaryBasesDashboard() {
   }, [filtered, detailSelection, selectedCats]);
 
   function handleApplyFilters(next) {
-    setBranch(next.branch);
-    setState(next.state);
+    setBranchFilters([...next.branchFilters]);
+    setStateFilters([...next.stateFilters]);
+    setBaseFilters([...next.baseFilters]);
     setRadius(next.radius);
     setRequireHospital(next.requireHospital);
     setRequireVA(next.requireVA);
     setSelectedCats({ ...next.selectedCats });
     setFiltersModalOpen(false);
     setFiltersApplied(true);
+    setDetailSelection(null);
   }
 
   function handleCellClick(base, category) {
@@ -265,38 +287,26 @@ export default function MilitaryBasesDashboard() {
       </header>
 
       <section className="max-w-screen-2xl mx-auto px-4 py-4 space-y-3">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-3">
-          <div className="lg:col-span-8">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" />
-              <input
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                placeholder="Search base, city, state, branch…"
-                className="w-full h-11 pl-10 pr-3 rounded-xl bg-slate-900 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-            </div>
-          </div>
-
-          <div className="lg:col-span-4 flex flex-col sm:flex-row gap-2">
-            <button
-              type="button"
-              onClick={() => setFiltersModalOpen(true)}
-              className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
-            >
-              <Filter className="w-4 h-4" />
-              <span className="text-sm">{filtersApplied ? "Adjust filters" : "Set filters"}</span>
-            </button>
-            <button
-              type="button"
-              onClick={exportCSV}
-              disabled={exportDisabled}
-              className={`inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl shadow-sm ${exportDisabled ? "bg-slate-800 text-slate-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"}`}
-            >
-              <Download className="w-4 h-4" />
-              <span className="text-sm">Export CSV</span>
-            </button>
-          </div>
+        <div className="flex flex-wrap justify-end gap-2">
+          <button
+            type="button"
+            onClick={() => setFiltersModalOpen(true)}
+            className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
+          >
+            <Filter className="w-4 h-4" />
+            <span className="text-sm">{filtersApplied ? "Adjust filters" : "Set filters"}</span>
+          </button>
+          <button
+            type="button"
+            onClick={exportCSV}
+            disabled={exportDisabled}
+            className={`inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl shadow-sm ${
+              exportDisabled ? "bg-slate-800 text-slate-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"
+            }`}
+          >
+            <Download className="w-4 h-4" />
+            <span className="text-sm">Export CSV</span>
+          </button>
         </div>
 
         <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-3">
@@ -469,6 +479,7 @@ export default function MilitaryBasesDashboard() {
         initialFilters={currentFilters}
         stateOptions={stateOptions}
         branchOptions={branchOptions}
+        baseOptions={baseOptions}
         categoryList={CATEGORY_LIST}
         onApply={handleApplyFilters}
         onClose={() => setFiltersModalOpen(false)}
@@ -489,17 +500,43 @@ function Th({ label, now, k, onSort }) {
   );
 }
 
-function FilterModal({ open, initialFilters, stateOptions, branchOptions, categoryList, onApply, onClose }) {
+function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOptions, categoryList, onApply, onClose }) {
   const [draft, setDraft] = useState(() => cloneFilterState(initialFilters));
+  const branchChoices = useMemo(() => branchOptions.filter((opt) => opt !== "All"), [branchOptions]);
+  const stateChoices = useMemo(() => stateOptions.filter((opt) => opt !== "All"), [stateOptions]);
+  const [branchCandidate, setBranchCandidate] = useState("");
+  const [stateCandidate, setStateCandidate] = useState("");
+  const [baseCandidate, setBaseCandidate] = useState("");
 
   useEffect(() => {
-    if (open) setDraft(cloneFilterState(initialFilters));
-  }, [open, initialFilters]);
+    if (open) {
+      setDraft(cloneFilterState(initialFilters));
+      setBranchCandidate(branchChoices[0] ?? "");
+      setStateCandidate(stateChoices[0] ?? "");
+      setBaseCandidate(baseOptions[0]?.id ?? "");
+    }
+  }, [open, initialFilters, branchChoices, stateChoices, baseOptions]);
 
   if (!open) return null;
 
   const update = (field, value) => {
     setDraft((prev) => ({ ...prev, [field]: value }));
+  };
+
+  const addValue = (field, value) => {
+    if (!value) return;
+    setDraft((prev) => {
+      const nextList = prev[field] || [];
+      if (nextList.includes(value)) return prev;
+      return { ...prev, [field]: [...nextList, value] };
+    });
+  };
+
+  const removeValue = (field, value) => {
+    setDraft((prev) => ({
+      ...prev,
+      [field]: (prev[field] || []).filter((item) => item !== value)
+    }));
   };
 
   const toggleCategory = (cat) => {
@@ -529,33 +566,153 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, catego
         </div>
 
         <div className="px-6 py-6 space-y-6 max-h-[80vh] overflow-y-auto">
+          <div className="space-y-6">
+            <div className="space-y-2 text-sm text-slate-300">
+              <div className="flex items-center justify-between">
+                <span className="text-xs uppercase tracking-wide text-slate-500">Branches</span>
+                <button
+                  type="button"
+                  className="text-xs text-indigo-300 hover:text-indigo-100"
+                  onClick={() => setDraft((prev) => ({ ...prev, branchFilters: [] }))}
+                >
+                  Clear
+                </button>
+              </div>
+              <div className="flex gap-2">
+                <select
+                  value={branchCandidate}
+                  onChange={(e) => setBranchCandidate(e.target.value)}
+                  className="flex-1 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                >
+                  <option value="">Select branch</option>
+                  {branchChoices.map((opt) => (
+                    <option key={opt} value={opt}>
+                      {opt}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  type="button"
+                  onClick={() => addValue("branchFilters", branchCandidate)}
+                  className="px-3 py-2 rounded-xl bg-indigo-600 text-sm"
+                >
+                  Add
+                </button>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {(draft.branchFilters || []).map((value) => (
+                  <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs">
+                    {value}
+                    <button type="button" onClick={() => removeValue("branchFilters", value)} className="text-slate-400 hover:text-white">
+                      ×
+                    </button>
+                  </span>
+                ))}
+                {(!draft.branchFilters || draft.branchFilters.length === 0) && (
+                  <span className="text-xs text-slate-500">All branches</span>
+                )}
+              </div>
+            </div>
+
+            <div className="space-y-2 text-sm text-slate-300">
+              <div className="flex items-center justify-between">
+                <span className="text-xs uppercase tracking-wide text-slate-500">States</span>
+                <button
+                  type="button"
+                  className="text-xs text-indigo-300 hover:text-indigo-100"
+                  onClick={() => setDraft((prev) => ({ ...prev, stateFilters: [] }))}
+                >
+                  Clear
+                </button>
+              </div>
+              <div className="flex gap-2">
+                <select
+                  value={stateCandidate}
+                  onChange={(e) => setStateCandidate(e.target.value)}
+                  className="flex-1 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                >
+                  <option value="">Select state</option>
+                  {stateChoices.map((opt) => (
+                    <option key={opt} value={opt}>
+                      {opt}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  type="button"
+                  onClick={() => addValue("stateFilters", stateCandidate)}
+                  className="px-3 py-2 rounded-xl bg-indigo-600 text-sm"
+                >
+                  Add
+                </button>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {(draft.stateFilters || []).map((value) => (
+                  <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs">
+                    {value}
+                    <button type="button" onClick={() => removeValue("stateFilters", value)} className="text-slate-400 hover:text-white">
+                      ×
+                    </button>
+                  </span>
+                ))}
+                {(!draft.stateFilters || draft.stateFilters.length === 0) && (
+                  <span className="text-xs text-slate-500">All states</span>
+                )}
+              </div>
+            </div>
+
+            <div className="space-y-2 text-sm text-slate-300">
+              <div className="flex items-center justify-between">
+                <span className="text-xs uppercase tracking-wide text-slate-500">Bases</span>
+                <button
+                  type="button"
+                  className="text-xs text-indigo-300 hover:text-indigo-100"
+                  onClick={() => setDraft((prev) => ({ ...prev, baseFilters: [] }))}
+                >
+                  Clear
+                </button>
+              </div>
+              <div className="flex gap-2">
+                <select
+                  value={baseCandidate}
+                  onChange={(e) => setBaseCandidate(e.target.value)}
+                  className="flex-1 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                >
+                  <option value="">Select base</option>
+                  {baseOptions.map((opt) => (
+                    <option key={opt.id} value={opt.id}>
+                      {opt.label}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  type="button"
+                  onClick={() => addValue("baseFilters", baseCandidate)}
+                  className="px-3 py-2 rounded-xl bg-indigo-600 text-sm"
+                >
+                  Add
+                </button>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {(draft.baseFilters || []).map((value) => {
+                  const info = baseOptions.find((opt) => opt.id === value);
+                  return (
+                    <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs">
+                      {info?.label || value}
+                      <button type="button" onClick={() => removeValue("baseFilters", value)} className="text-slate-400 hover:text-white">
+                        ×
+                      </button>
+                    </span>
+                  );
+                })}
+                {(!draft.baseFilters || draft.baseFilters.length === 0) && (
+                  <span className="text-xs text-slate-500">All bases</span>
+                )}
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <label className="space-y-1 text-sm text-slate-300">
-              <span className="text-xs uppercase tracking-wide text-slate-500">Branch</span>
-              <select
-                value={draft.branch}
-                onChange={(e) => update('branch', e.target.value)}
-                className="w-full px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              >
-                {branchOptions.map((opt) => (
-                  <option key={opt} value={opt}>{opt}</option>
-                ))}
-              </select>
-            </label>
-
-            <label className="space-y-1 text-sm text-slate-300">
-              <span className="text-xs uppercase tracking-wide text-slate-500">State</span>
-              <select
-                value={draft.state}
-                onChange={(e) => update('state', e.target.value)}
-                className="w-full px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              >
-                {stateOptions.map((opt) => (
-                  <option key={opt} value={opt}>{opt}</option>
-                ))}
-              </select>
-            </label>
-
             <label className="space-y-1 text-sm text-slate-300">
               <span className="text-xs uppercase tracking-wide text-slate-500">Radius ({draft.radius} mi)</span>
               <input
