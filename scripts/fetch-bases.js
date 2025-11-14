@@ -104,24 +104,28 @@ async function run() {
   }
 
   const BRANCH_MAP = {
-    ARMY: 'Army', USA: 'Army', USAR: 'Army Reserve', ARNG: 'Army National Guard',
+    ARMY: 'Army', USA: 'Army',
+    USAR: 'Army Reserve', ARNG: 'Army National Guard',
     NAVY: 'Navy', USN: 'Navy', USNR: 'Navy Reserve',
     AIR_FORCE: 'Air Force', USAF: 'Air Force', USAFR: 'Air Force Reserve', ANG: 'Air National Guard',
     USMC: 'Marine Corps', MARINE_CORPS: 'Marine Corps', USMCR: 'Marine Corps Reserve',
     USCG: 'Coast Guard', DLA: 'Defense Logistics Agency', WHS: 'Washington HQ Services'
   };
 
+  const toUpper = (value) => (value || '').toString().trim().toUpperCase();
+
   const rows = feats.map(f => {
     const p = f.properties || {};
     const [lon, lat] = centroidOfGeometry(f.geometry || null);
     const name = (p.featureName || p.siteName || '').trim();
-    const branch = BRANCH_MAP[(p.siteReportingComponent || '').trim()] || (p.siteReportingComponent || '').trim() || 'Unknown';
+    const branchKey = toUpper(p.siteReportingComponent).replace(/\s+/g, '');
+    const branch = BRANCH_MAP[branchKey] || branchKey || 'Unknown';
     return {
-      id: String(p.mirtaLocationsIdpk || p.OBJECTID),
+      id: String(p.sdsId || p.mirtaLocationsIdpk || p.OBJECTID || f.id || name).trim() || String(f.id),
       name,
       branch,
       city: '',                                   // not provided by this layer
-      state: p.stateNameCode || '',
+      state: toUpper(p.stateNameCode),
       country: p.countryName || '',
       lat, lon
     };

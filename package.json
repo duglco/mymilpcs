@@ -20,6 +20,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "fetch:bases": "node scripts/fetch-bases.js",
+    "enrich:bases": "node scripts/enrich-bases.js",
+    "fetch:amenities": "node scripts/fetch-amenities.js",
     "fixdata": "node src/fixData.cjs"
   }
 }

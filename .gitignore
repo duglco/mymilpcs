@@ -3,3 +3,4 @@ dist
 .npmrc
 .DS_Store
 *.log
+scripts/.cache/

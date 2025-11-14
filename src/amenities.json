@@ -1,0 +1,2446 @@
+[
+  {
+    "id": "877-Pharmacies-node-6754036221",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.5500588,
+    "lon": -70.9336432,
+    "distanceMiles": 2.72,
+    "source": {
+      "osmType": "node",
+      "osmId": 6754036221
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-214989592",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.5472957,
+    "lon": -70.9469337,
+    "distanceMiles": 2.86,
+    "source": {
+      "osmType": "way",
+      "osmId": 214989592
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-11474743118",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.578292,
+    "lon": -71.0004692,
+    "distanceMiles": 2.93,
+    "source": {
+      "osmType": "node",
+      "osmId": 11474743118
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-214982121",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.5250226,
+    "lon": -70.9261283,
+    "distanceMiles": 4.49,
+    "source": {
+      "osmType": "way",
+      "osmId": 214982121
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-214980063",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.5233633,
+    "lon": -70.9201066,
+    "distanceMiles": 4.68,
+    "source": {
+      "osmType": "way",
+      "osmId": 214980063
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-2777260438",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.5187179,
+    "lon": -70.9093427,
+    "distanceMiles": 5.15,
+    "source": {
+      "osmType": "node",
+      "osmId": 2777260438
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-2777301250",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.5217092,
+    "lon": -70.8943849,
+    "distanceMiles": 5.28,
+    "source": {
+      "osmType": "node",
+      "osmId": 2777301250
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-2777262219",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.5166978,
+    "lon": -70.9062175,
+    "distanceMiles": 5.34,
+    "source": {
+      "osmType": "node",
+      "osmId": 2777262219
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-2777157449",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.5194317,
+    "lon": -70.8944844,
+    "distanceMiles": 5.42,
+    "source": {
+      "osmType": "node",
+      "osmId": 2777157449
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-304112844",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.501036,
+    "lon": -70.8965935,
+    "distanceMiles": 6.52,
+    "source": {
+      "osmType": "way",
+      "osmId": 304112844
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-8986412224",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.4987456,
+    "lon": -70.8563309,
+    "distanceMiles": 7.66,
+    "source": {
+      "osmType": "node",
+      "osmId": 8986412224
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-9307362467",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.490362,
+    "lon": -71.0176064,
+    "distanceMiles": 7.74,
+    "source": {
+      "osmType": "node",
+      "osmId": 9307362467
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-5502363521",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "The Medicine Store",
+    "lat": 42.5170529,
+    "lon": -71.0633523,
+    "distanceMiles": 7.81,
+    "source": {
+      "osmType": "node",
+      "osmId": 5502363521
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-213665191",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.6833743,
+    "lon": -70.8440542,
+    "distanceMiles": 8.3,
+    "source": {
+      "osmType": "way",
+      "osmId": 213665191
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-5577268418",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.5656876,
+    "lon": -71.109033,
+    "distanceMiles": 8.52,
+    "source": {
+      "osmType": "node",
+      "osmId": 5577268418
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-11474752197",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.5813375,
+    "lon": -71.1131179,
+    "distanceMiles": 8.59,
+    "source": {
+      "osmType": "node",
+      "osmId": 11474752197
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-216404100",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.5017272,
+    "lon": -71.0699049,
+    "distanceMiles": 8.76,
+    "source": {
+      "osmType": "way",
+      "osmId": 216404100
+    }
+  },
+  {
+    "id": "877-Pharmacies-node-12966426673",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Walgreens",
+    "lat": 42.4986851,
+    "lon": -71.0680059,
+    "distanceMiles": 8.84,
+    "source": {
+      "osmType": "node",
+      "osmId": 12966426673
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-135530554",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "CVS Pharmacy",
+    "lat": 42.4687498,
+    "lon": -71.0262343,
+    "distanceMiles": 9.27,
+    "source": {
+      "osmType": "way",
+      "osmId": 135530554
+    }
+  },
+  {
+    "id": "877-Pharmacies-way-29525647",
+    "baseId": "877",
+    "category": "Pharmacies",
+    "name": "Rite Aid",
+    "lat": 42.5196991,
+    "lon": -71.1014355,
+    "distanceMiles": 9.3,
+    "source": {
+      "osmType": "way",
+      "osmId": 29525647
+    }
+  },
+  {
+    "id": "877-Hospital-way-495774270",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Beth Israel Lahey Health Care Center – Danvers",
+    "lat": 42.5841755,
+    "lon": -70.9719373,
+    "distanceMiles": 1.43,
+    "source": {
+      "osmType": "way",
+      "osmId": 495774270
+    }
+  },
+  {
+    "id": "877-Hospital-node-12299389246",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Lahey Health Behavioral Services Treatment Center",
+    "lat": 42.5868713,
+    "lon": -70.9766366,
+    "distanceMiles": 1.64,
+    "source": {
+      "osmType": "node",
+      "osmId": 12299389246
+    }
+  },
+  {
+    "id": "877-Hospital-way-212856263",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "North Shore Medical Center",
+    "lat": 42.5513872,
+    "lon": -70.9295797,
+    "distanceMiles": 2.68,
+    "source": {
+      "osmType": "way",
+      "osmId": 212856263
+    }
+  },
+  {
+    "id": "877-Hospital-node-9002487143",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Passport Health Danvers Travel Clinic",
+    "lat": 42.5558083,
+    "lon": -70.9731371,
+    "distanceMiles": 2.69,
+    "source": {
+      "osmType": "node",
+      "osmId": 9002487143
+    }
+  },
+  {
+    "id": "877-Hospital-way-212859828",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Mass General/North Shore Center for Outpatient Care",
+    "lat": 42.5483432,
+    "lon": -70.9328823,
+    "distanceMiles": 2.84,
+    "source": {
+      "osmType": "way",
+      "osmId": 212859828
+    }
+  },
+  {
+    "id": "877-Hospital-node-10892359129",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Encompass Health Rehab Hospital Of New England At Beverly",
+    "lat": 42.5609869,
+    "lon": -70.8872356,
+    "distanceMiles": 3.48,
+    "source": {
+      "osmType": "node",
+      "osmId": 10892359129
+    }
+  },
+  {
+    "id": "877-Hospital-way-495775488",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Lahey Medical Center, Peabody",
+    "lat": 42.537286,
+    "lon": -70.9470328,
+    "distanceMiles": 3.55,
+    "source": {
+      "osmType": "way",
+      "osmId": 495775488
+    }
+  },
+  {
+    "id": "877-Hospital-way-495572306",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Beverly Hospital",
+    "lat": 42.5643041,
+    "lon": -70.8751879,
+    "distanceMiles": 3.91,
+    "source": {
+      "osmType": "way",
+      "osmId": 495572306
+    }
+  },
+  {
+    "id": "877-Hospital-way-495775960",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "CuraHealth Hospital Boston North Shore",
+    "lat": 42.529156,
+    "lon": -70.937342,
+    "distanceMiles": 4.12,
+    "source": {
+      "osmType": "way",
+      "osmId": 495775960
+    }
+  },
+  {
+    "id": "877-Hospital-node-257489655",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "MassGeneral for Children at North Shore Medical Center",
+    "lat": 42.5118445,
+    "lon": -70.9064467,
+    "distanceMiles": 5.65,
+    "source": {
+      "osmType": "node",
+      "osmId": 257489655
+    }
+  },
+  {
+    "id": "877-Hospital-way-495571238",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "North Shore Medical Center - Salem Hospital",
+    "lat": 42.5111964,
+    "lon": -70.9051843,
+    "distanceMiles": 5.71,
+    "source": {
+      "osmType": "way",
+      "osmId": 495571238
+    }
+  },
+  {
+    "id": "877-Hospital-way-495776385",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Union Hospital",
+    "lat": 42.5010641,
+    "lon": -70.9803926,
+    "distanceMiles": 6.32,
+    "source": {
+      "osmType": "way",
+      "osmId": 495776385
+    }
+  },
+  {
+    "id": "877-Hospital-node-12827181038",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Hospital",
+    "lat": 42.5168673,
+    "lon": -71.0335548,
+    "distanceMiles": 6.72,
+    "source": {
+      "osmType": "node",
+      "osmId": 12827181038
+    }
+  },
+  {
+    "id": "877-Hospital-node-11474809043",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Hospital",
+    "lat": 42.4818052,
+    "lon": -70.9036066,
+    "distanceMiles": 7.67,
+    "source": {
+      "osmType": "node",
+      "osmId": 11474809043
+    }
+  },
+  {
+    "id": "877-Hospital-way-29772891",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "BayRidge Hospital",
+    "lat": 42.4715523,
+    "lon": -70.9568496,
+    "distanceMiles": 8.11,
+    "source": {
+      "osmType": "way",
+      "osmId": 29772891
+    }
+  },
+  {
+    "id": "877-Hospital-node-10927899303",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Lynn Community Health Center",
+    "lat": 42.4658043,
+    "lon": -70.9448211,
+    "distanceMiles": 8.48,
+    "source": {
+      "osmType": "node",
+      "osmId": 10927899303
+    }
+  },
+  {
+    "id": "877-Hospital-node-10927845594",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Lynn Community Health Center",
+    "lat": 42.4651916,
+    "lon": -70.9435852,
+    "distanceMiles": 8.53,
+    "source": {
+      "osmType": "node",
+      "osmId": 10927845594
+    }
+  },
+  {
+    "id": "877-Hospital-way-495731049",
+    "baseId": "877",
+    "category": "Hospital",
+    "name": "Baldpate Hospital",
+    "lat": 42.7049088,
+    "lon": -71.0113034,
+    "distanceMiles": 8.72,
+    "source": {
+      "osmType": "way",
+      "osmId": 495731049
+    }
+  },
+  {
+    "id": "877-Grocery-way-212871305",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "The Butchery",
+    "lat": 42.596475,
+    "lon": -70.9598581,
+    "distanceMiles": 0.95,
+    "source": {
+      "osmType": "way",
+      "osmId": 212871305
+    }
+  },
+  {
+    "id": "877-Grocery-way-990993039",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Stop & Shop",
+    "lat": 42.584998,
+    "lon": -70.9640937,
+    "distanceMiles": 1.03,
+    "source": {
+      "osmType": "way",
+      "osmId": 990993039
+    }
+  },
+  {
+    "id": "877-Grocery-way-1083629865",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Danvers Fresh Marketplace",
+    "lat": 42.5651998,
+    "lon": -70.9363359,
+    "distanceMiles": 1.67,
+    "source": {
+      "osmType": "way",
+      "osmId": 1083629865
+    }
+  },
+  {
+    "id": "877-Grocery-node-8931709279",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "McKinnon's Market & Super Butcher Shop",
+    "lat": 42.5612464,
+    "lon": -70.9476059,
+    "distanceMiles": 1.9,
+    "source": {
+      "osmType": "node",
+      "osmId": 8931709279
+    }
+  },
+  {
+    "id": "877-Grocery-node-11246994000",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "ALDI",
+    "lat": 42.5521789,
+    "lon": -70.9389468,
+    "distanceMiles": 2.53,
+    "source": {
+      "osmType": "node",
+      "osmId": 11246994000
+    }
+  },
+  {
+    "id": "877-Grocery-node-3947795178",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Market Basket",
+    "lat": 42.5508582,
+    "lon": -70.9324464,
+    "distanceMiles": 2.68,
+    "source": {
+      "osmType": "node",
+      "osmId": 3947795178
+    }
+  },
+  {
+    "id": "877-Grocery-node-5579317894",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Market Basket",
+    "lat": 42.5802886,
+    "lon": -70.998226,
+    "distanceMiles": 2.79,
+    "source": {
+      "osmType": "node",
+      "osmId": 5579317894
+    }
+  },
+  {
+    "id": "877-Grocery-way-1060132624",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Trader Joe's",
+    "lat": 42.5488975,
+    "lon": -70.9570575,
+    "distanceMiles": 2.82,
+    "source": {
+      "osmType": "way",
+      "osmId": 1060132624
+    }
+  },
+  {
+    "id": "877-Grocery-way-212056281",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Shaw's",
+    "lat": 42.5771138,
+    "lon": -70.8883997,
+    "distanceMiles": 2.96,
+    "source": {
+      "osmType": "way",
+      "osmId": 212056281
+    }
+  },
+  {
+    "id": "877-Grocery-way-212054849",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Stop & Shop",
+    "lat": 42.5865156,
+    "lon": -70.8838928,
+    "distanceMiles": 3.09,
+    "source": {
+      "osmType": "way",
+      "osmId": 212054849
+    }
+  },
+  {
+    "id": "877-Grocery-way-214990795",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Shaw's",
+    "lat": 42.539514,
+    "lon": -70.9490957,
+    "distanceMiles": 3.4,
+    "source": {
+      "osmType": "way",
+      "osmId": 214990795
+    }
+  },
+  {
+    "id": "877-Grocery-way-1051431996",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Whole Foods Market",
+    "lat": 42.5734722,
+    "lon": -70.8796953,
+    "distanceMiles": 3.46,
+    "source": {
+      "osmType": "way",
+      "osmId": 1051431996
+    }
+  },
+  {
+    "id": "877-Grocery-node-9853605015",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Crosby's",
+    "lat": 42.6097458,
+    "lon": -70.873651,
+    "distanceMiles": 3.89,
+    "source": {
+      "osmType": "node",
+      "osmId": 9853605015
+    }
+  },
+  {
+    "id": "877-Grocery-way-214979114",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Stop & Shop",
+    "lat": 42.5234027,
+    "lon": -70.9171396,
+    "distanceMiles": 4.72,
+    "source": {
+      "osmType": "way",
+      "osmId": 214979114
+    }
+  },
+  {
+    "id": "877-Grocery-node-12104487325",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Salem Supermarket",
+    "lat": 42.5161213,
+    "lon": -70.8890871,
+    "distanceMiles": 5.75,
+    "source": {
+      "osmType": "node",
+      "osmId": 12104487325
+    }
+  },
+  {
+    "id": "877-Grocery-way-215909710",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Market Basket",
+    "lat": 42.504649,
+    "lon": -70.9199725,
+    "distanceMiles": 5.93,
+    "source": {
+      "osmType": "way",
+      "osmId": 215909710
+    }
+  },
+  {
+    "id": "877-Grocery-way-993178248",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Crosby's Marketplace",
+    "lat": 42.5099462,
+    "lon": -70.894859,
+    "distanceMiles": 5.99,
+    "source": {
+      "osmType": "way",
+      "osmId": 993178248
+    }
+  },
+  {
+    "id": "877-Grocery-way-991390326",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Shaw's",
+    "lat": 42.5018553,
+    "lon": -70.9215171,
+    "distanceMiles": 6.11,
+    "source": {
+      "osmType": "way",
+      "osmId": 991390326
+    }
+  },
+  {
+    "id": "877-Grocery-way-989704294",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Big Apple Food Shops",
+    "lat": 42.5006125,
+    "lon": -70.8965133,
+    "distanceMiles": 6.55,
+    "source": {
+      "osmType": "way",
+      "osmId": 989704294
+    }
+  },
+  {
+    "id": "877-Grocery-node-2494583249",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Whole Foods Market",
+    "lat": 42.5144378,
+    "lon": -71.0321306,
+    "distanceMiles": 6.79,
+    "source": {
+      "osmType": "node",
+      "osmId": 2494583249
+    }
+  },
+  {
+    "id": "877-Grocery-way-990581219",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Stop & Shop",
+    "lat": 42.4834695,
+    "lon": -70.905262,
+    "distanceMiles": 7.53,
+    "source": {
+      "osmType": "way",
+      "osmId": 990581219
+    }
+  },
+  {
+    "id": "877-Grocery-way-214417956",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Shubie’s",
+    "lat": 42.5005305,
+    "lon": -70.8545925,
+    "distanceMiles": 7.61,
+    "source": {
+      "osmType": "way",
+      "osmId": 214417956
+    }
+  },
+  {
+    "id": "877-Grocery-node-9383876141",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Vinnin Liquors",
+    "lat": 42.4799238,
+    "lon": -70.9038798,
+    "distanceMiles": 7.79,
+    "source": {
+      "osmType": "node",
+      "osmId": 9383876141
+    }
+  },
+  {
+    "id": "877-Grocery-way-216308160",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Whole Foods Market",
+    "lat": 42.4791943,
+    "lon": -70.9048584,
+    "distanceMiles": 7.82,
+    "source": {
+      "osmType": "way",
+      "osmId": 216308160
+    }
+  },
+  {
+    "id": "877-Grocery-node-9885944620",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Trader Joe's",
+    "lat": 42.4837385,
+    "lon": -71.017663,
+    "distanceMiles": 8.15,
+    "source": {
+      "osmType": "node",
+      "osmId": 9885944620
+    }
+  },
+  {
+    "id": "877-Grocery-node-12854257095",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Ipswich Green Grocer",
+    "lat": 42.6788038,
+    "lon": -70.8399894,
+    "distanceMiles": 8.19,
+    "source": {
+      "osmType": "node",
+      "osmId": 12854257095
+    }
+  },
+  {
+    "id": "877-Grocery-way-29598133",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Stop & Shop",
+    "lat": 42.469732,
+    "lon": -70.9589249,
+    "distanceMiles": 8.25,
+    "source": {
+      "osmType": "way",
+      "osmId": 29598133
+    }
+  },
+  {
+    "id": "877-Grocery-node-3712311185",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Market Basket",
+    "lat": 42.7078461,
+    "lon": -70.9056507,
+    "distanceMiles": 8.47,
+    "source": {
+      "osmType": "node",
+      "osmId": 3712311185
+    }
+  },
+  {
+    "id": "877-Grocery-way-216401787",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Shaws Supermarket",
+    "lat": 42.5031479,
+    "lon": -71.0639274,
+    "distanceMiles": 8.47,
+    "source": {
+      "osmType": "way",
+      "osmId": 216401787
+    }
+  },
+  {
+    "id": "877-Grocery-node-5745205138",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Ironbound Marketplace & Food Emporium",
+    "lat": 42.4643397,
+    "lon": -70.9424427,
+    "distanceMiles": 8.59,
+    "source": {
+      "osmType": "node",
+      "osmId": 5745205138
+    }
+  },
+  {
+    "id": "877-Grocery-way-29749758",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Contreas Grocery",
+    "lat": 42.4642135,
+    "lon": -70.9483238,
+    "distanceMiles": 8.6,
+    "source": {
+      "osmType": "way",
+      "osmId": 29749758
+    }
+  },
+  {
+    "id": "877-Grocery-node-6322302110",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Poblano's Mexican Grocery",
+    "lat": 42.4639756,
+    "lon": -70.9442911,
+    "distanceMiles": 8.61,
+    "source": {
+      "osmType": "node",
+      "osmId": 6322302110
+    }
+  },
+  {
+    "id": "877-Grocery-node-2461133144",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "The Farmland",
+    "lat": 42.5025156,
+    "lon": -71.0702753,
+    "distanceMiles": 8.74,
+    "source": {
+      "osmType": "node",
+      "osmId": 2461133144
+    }
+  },
+  {
+    "id": "877-Grocery-node-5134294331",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Market Basket",
+    "lat": 42.4630018,
+    "lon": -70.9670988,
+    "distanceMiles": 8.75,
+    "source": {
+      "osmType": "node",
+      "osmId": 5134294331
+    }
+  },
+  {
+    "id": "877-Grocery-way-675939622",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Shaw's",
+    "lat": 42.4620805,
+    "lon": -70.9505308,
+    "distanceMiles": 8.75,
+    "source": {
+      "osmType": "way",
+      "osmId": 675939622
+    }
+  },
+  {
+    "id": "877-Grocery-node-5580549555",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Super Stop & Shop",
+    "lat": 42.5924292,
+    "lon": -71.1168893,
+    "distanceMiles": 8.77,
+    "source": {
+      "osmType": "node",
+      "osmId": 5580549555
+    }
+  },
+  {
+    "id": "877-Grocery-way-82311471",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Crosby's",
+    "lat": 42.5740334,
+    "lon": -70.769727,
+    "distanceMiles": 8.95,
+    "source": {
+      "osmType": "way",
+      "osmId": 82311471
+    }
+  },
+  {
+    "id": "877-Grocery-way-398305667",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Walmart Supercenter",
+    "lat": 42.472148,
+    "lon": -71.0235488,
+    "distanceMiles": 9,
+    "source": {
+      "osmType": "way",
+      "osmId": 398305667
+    }
+  },
+  {
+    "id": "877-Grocery-node-9946039979",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Mekong Market",
+    "lat": 42.4591427,
+    "lon": -70.9697691,
+    "distanceMiles": 9.04,
+    "source": {
+      "osmType": "node",
+      "osmId": 9946039979
+    }
+  },
+  {
+    "id": "877-Grocery-way-29614778",
+    "baseId": "877",
+    "category": "Grocery",
+    "name": "Stop & Shop",
+    "lat": 42.5188925,
+    "lon": -71.0961956,
+    "distanceMiles": 9.1,
+    "source": {
+      "osmType": "way",
+      "osmId": 29614778
+    }
+  },
+  {
+    "id": "877-Childcare-node-12105284470",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Salem Community Child Care",
+    "lat": 42.516169,
+    "lon": -70.8895457,
+    "distanceMiles": 5.73,
+    "source": {
+      "osmType": "node",
+      "osmId": 12105284470
+    }
+  },
+  {
+    "id": "877-Childcare-way-217071713",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Ipswich River Nature Preschool",
+    "lat": 42.5802685,
+    "lon": -70.8204116,
+    "distanceMiles": 6.34,
+    "source": {
+      "osmType": "way",
+      "osmId": 217071713
+    }
+  },
+  {
+    "id": "877-Childcare-node-6126377602",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Over The Rainbow",
+    "lat": 42.5750209,
+    "lon": -71.0727822,
+    "distanceMiles": 6.59,
+    "source": {
+      "osmType": "node",
+      "osmId": 6126377602
+    }
+  },
+  {
+    "id": "877-Childcare-node-5580828641",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Hilltop Nursery School",
+    "lat": 42.5766348,
+    "lon": -71.0791772,
+    "distanceMiles": 6.9,
+    "source": {
+      "osmType": "node",
+      "osmId": 5580828641
+    }
+  },
+  {
+    "id": "877-Childcare-way-216310377",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Rainbow Family Daycare",
+    "lat": 42.475984,
+    "lon": -70.918752,
+    "distanceMiles": 7.89,
+    "source": {
+      "osmType": "way",
+      "osmId": 216310377
+    }
+  },
+  {
+    "id": "877-Childcare-way-29668433",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Catholic Charities Child Care Center",
+    "lat": 42.4677189,
+    "lon": -70.9674202,
+    "distanceMiles": 8.43,
+    "source": {
+      "osmType": "way",
+      "osmId": 29668433
+    }
+  },
+  {
+    "id": "877-Childcare-way-213663209",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Cuvilly Arts & Earth Center",
+    "lat": 42.6874015,
+    "lon": -70.8271893,
+    "distanceMiles": 9.06,
+    "source": {
+      "osmType": "way",
+      "osmId": 213663209
+    }
+  },
+  {
+    "id": "877-Childcare-way-29615844",
+    "baseId": "877",
+    "category": "Childcare",
+    "name": "Children's Gathering",
+    "lat": 42.4986916,
+    "lon": -71.0791409,
+    "distanceMiles": 9.25,
+    "source": {
+      "osmType": "way",
+      "osmId": 29615844
+    }
+  },
+  {
+    "id": "877-Walmarts-way-398305667",
+    "baseId": "877",
+    "category": "Walmarts",
+    "name": "Walmart Supercenter",
+    "lat": 42.472148,
+    "lon": -71.0235488,
+    "distanceMiles": 9,
+    "source": {
+      "osmType": "way",
+      "osmId": 398305667
+    }
+  },
+  {
+    "id": "877-Gym-way-768845709",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Leo and Joan Mahoney Wellness Center",
+    "lat": 42.5839529,
+    "lon": -70.9543029,
+    "distanceMiles": 0.59,
+    "source": {
+      "osmType": "way",
+      "osmId": 768845709
+    }
+  },
+  {
+    "id": "877-Gym-way-212869728",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Memorial Gymnasium",
+    "lat": 42.5823483,
+    "lon": -70.9535239,
+    "distanceMiles": 0.63,
+    "source": {
+      "osmType": "way",
+      "osmId": 212869728
+    }
+  },
+  {
+    "id": "877-Gym-way-1364313113",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Danvers High School",
+    "lat": 42.5840468,
+    "lon": -70.9316707,
+    "distanceMiles": 0.73,
+    "source": {
+      "osmType": "way",
+      "osmId": 1364313113
+    }
+  },
+  {
+    "id": "877-Gym-way-1083629867",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "In Motion Fitness",
+    "lat": 42.5653514,
+    "lon": -70.9362396,
+    "distanceMiles": 1.66,
+    "source": {
+      "osmType": "way",
+      "osmId": 1083629867
+    }
+  },
+  {
+    "id": "877-Gym-way-1172770894",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Gym",
+    "lat": 42.5662648,
+    "lon": -70.9310835,
+    "distanceMiles": 1.69,
+    "source": {
+      "osmType": "way",
+      "osmId": 1172770894
+    }
+  },
+  {
+    "id": "877-Gym-way-212857111",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Stromin' Into Fitness",
+    "lat": 42.5592764,
+    "lon": -70.9315909,
+    "distanceMiles": 2.13,
+    "source": {
+      "osmType": "way",
+      "osmId": 212857111
+    }
+  },
+  {
+    "id": "877-Gym-way-212871884",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Boston North Fitness Center",
+    "lat": 42.5595675,
+    "lon": -70.9607251,
+    "distanceMiles": 2.17,
+    "source": {
+      "osmType": "way",
+      "osmId": 212871884
+    }
+  },
+  {
+    "id": "877-Gym-way-991054356",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Best Fitness",
+    "lat": 42.5526086,
+    "lon": -70.9391621,
+    "distanceMiles": 2.5,
+    "source": {
+      "osmType": "way",
+      "osmId": 991054356
+    }
+  },
+  {
+    "id": "877-Gym-way-991054365",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Orangetheory Fitness",
+    "lat": 42.5499246,
+    "lon": -70.9395224,
+    "distanceMiles": 2.68,
+    "source": {
+      "osmType": "way",
+      "osmId": 991054365
+    }
+  },
+  {
+    "id": "877-Gym-way-212873470",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Planet Fitness",
+    "lat": 42.5600365,
+    "lon": -70.9818949,
+    "distanceMiles": 2.74,
+    "source": {
+      "osmType": "way",
+      "osmId": 212873470
+    }
+  },
+  {
+    "id": "877-Gym-node-9854346508",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Blink Fitness",
+    "lat": 42.5760601,
+    "lon": -70.8892213,
+    "distanceMiles": 2.94,
+    "source": {
+      "osmType": "node",
+      "osmId": 9854346508
+    }
+  },
+  {
+    "id": "877-Gym-way-939530034",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Life Time",
+    "lat": 42.541987,
+    "lon": -70.9425628,
+    "distanceMiles": 3.22,
+    "source": {
+      "osmType": "way",
+      "osmId": 939530034
+    }
+  },
+  {
+    "id": "877-Gym-way-212055404",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Bass River Tennis Club",
+    "lat": 42.5719171,
+    "lon": -70.8844529,
+    "distanceMiles": 3.27,
+    "source": {
+      "osmType": "way",
+      "osmId": 212055404
+    }
+  },
+  {
+    "id": "877-Gym-way-214997127",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Gym",
+    "lat": 42.5301523,
+    "lon": -70.9620834,
+    "distanceMiles": 4.14,
+    "source": {
+      "osmType": "way",
+      "osmId": 214997127
+    }
+  },
+  {
+    "id": "877-Gym-way-692335433",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Salem YMCA",
+    "lat": 42.5218528,
+    "lon": -70.8979953,
+    "distanceMiles": 5.18,
+    "source": {
+      "osmType": "way",
+      "osmId": 692335433
+    }
+  },
+  {
+    "id": "877-Gym-node-1737929152",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Gym",
+    "lat": 42.5340757,
+    "lon": -70.8719042,
+    "distanceMiles": 5.28,
+    "source": {
+      "osmType": "node",
+      "osmId": 1737929152
+    }
+  },
+  {
+    "id": "877-Gym-way-828600315",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Torigian Family YMCA - Peabody",
+    "lat": 42.5158589,
+    "lon": -70.9783448,
+    "distanceMiles": 5.31,
+    "source": {
+      "osmType": "way",
+      "osmId": 828600315
+    }
+  },
+  {
+    "id": "877-Gym-way-311061722",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Gym",
+    "lat": 42.5070483,
+    "lon": -70.9147157,
+    "distanceMiles": 5.84,
+    "source": {
+      "osmType": "way",
+      "osmId": 311061722
+    }
+  },
+  {
+    "id": "877-Gym-node-718631249",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Brigham Athletic Complex",
+    "lat": 42.587667,
+    "lon": -70.8286234,
+    "distanceMiles": 5.9,
+    "source": {
+      "osmType": "node",
+      "osmId": 718631249
+    }
+  },
+  {
+    "id": "877-Gym-way-991390324",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Planet Fitness",
+    "lat": 42.5024033,
+    "lon": -70.9204264,
+    "distanceMiles": 6.08,
+    "source": {
+      "osmType": "way",
+      "osmId": 991390324
+    }
+  },
+  {
+    "id": "877-Gym-node-9194041274",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Gasset FItness Center",
+    "lat": 42.5051666,
+    "lon": -70.8946078,
+    "distanceMiles": 6.3,
+    "source": {
+      "osmType": "node",
+      "osmId": 9194041274
+    }
+  },
+  {
+    "id": "877-Gym-way-215902560",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "O'Keefe Sports Complex",
+    "lat": 42.5050185,
+    "lon": -70.8950741,
+    "distanceMiles": 6.3,
+    "source": {
+      "osmType": "way",
+      "osmId": 215902560
+    }
+  },
+  {
+    "id": "877-Gym-way-995666897",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Gym",
+    "lat": 42.5046813,
+    "lon": -70.8939278,
+    "distanceMiles": 6.34,
+    "source": {
+      "osmType": "way",
+      "osmId": 995666897
+    }
+  },
+  {
+    "id": "877-Gym-way-1156850645",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Gym",
+    "lat": 42.5051404,
+    "lon": -70.883762,
+    "distanceMiles": 6.54,
+    "source": {
+      "osmType": "way",
+      "osmId": 1156850645
+    }
+  },
+  {
+    "id": "877-Gym-node-4977182221",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Fit Revolution",
+    "lat": 42.5169298,
+    "lon": -71.0354096,
+    "distanceMiles": 6.78,
+    "source": {
+      "osmType": "node",
+      "osmId": 4977182221
+    }
+  },
+  {
+    "id": "877-Gym-node-2900742208",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Pure Barre",
+    "lat": 42.514912,
+    "lon": -71.0348333,
+    "distanceMiles": 6.86,
+    "source": {
+      "osmType": "node",
+      "osmId": 2900742208
+    }
+  },
+  {
+    "id": "877-Gym-way-215900733",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Lynch/van Otterloo YMCA",
+    "lat": 42.490276,
+    "lon": -70.8915447,
+    "distanceMiles": 7.31,
+    "source": {
+      "osmType": "way",
+      "osmId": 215900733
+    }
+  },
+  {
+    "id": "877-Gym-way-992143951",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Club Pilates",
+    "lat": 42.4855056,
+    "lon": -70.8989785,
+    "distanceMiles": 7.49,
+    "source": {
+      "osmType": "way",
+      "osmId": 992143951
+    }
+  },
+  {
+    "id": "877-Gym-way-990581215",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Orangetheory Fitness",
+    "lat": 42.4828235,
+    "lon": -70.90305,
+    "distanceMiles": 7.61,
+    "source": {
+      "osmType": "way",
+      "osmId": 990581215
+    }
+  },
+  {
+    "id": "877-Gym-node-12223982203",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Planet Fitness",
+    "lat": 42.4777225,
+    "lon": -70.9556249,
+    "distanceMiles": 7.68,
+    "source": {
+      "osmType": "node",
+      "osmId": 12223982203
+    }
+  },
+  {
+    "id": "877-Gym-node-5502363507",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Sweat Fixx",
+    "lat": 42.5172775,
+    "lon": -71.0640049,
+    "distanceMiles": 7.83,
+    "source": {
+      "osmType": "node",
+      "osmId": 5502363507
+    }
+  },
+  {
+    "id": "877-Gym-node-2590319653",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Planet Fitness",
+    "lat": 42.5260378,
+    "lon": -71.0869308,
+    "distanceMiles": 8.44,
+    "source": {
+      "osmType": "node",
+      "osmId": 2590319653
+    }
+  },
+  {
+    "id": "877-Gym-node-3374176931",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Elite Freestyle Karate",
+    "lat": 42.5550333,
+    "lon": -71.1046283,
+    "distanceMiles": 8.47,
+    "source": {
+      "osmType": "node",
+      "osmId": 3374176931
+    }
+  },
+  {
+    "id": "877-Gym-node-3374176932",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Elite Fitness Center",
+    "lat": 42.5548917,
+    "lon": -71.104609,
+    "distanceMiles": 8.47,
+    "source": {
+      "osmType": "node",
+      "osmId": 3374176932
+    }
+  },
+  {
+    "id": "877-Gym-node-9777952643",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Premier Martial Arts",
+    "lat": 42.4772618,
+    "lon": -71.022419,
+    "distanceMiles": 8.66,
+    "source": {
+      "osmType": "node",
+      "osmId": 9777952643
+    }
+  },
+  {
+    "id": "877-Gym-node-9777952624",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Orangetheory Fitness",
+    "lat": 42.4773331,
+    "lon": -71.0237387,
+    "distanceMiles": 8.68,
+    "source": {
+      "osmType": "node",
+      "osmId": 9777952624
+    }
+  },
+  {
+    "id": "877-Gym-node-11480363897",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Soul City Yoga (Lynn)",
+    "lat": 42.4630341,
+    "lon": -70.9470096,
+    "distanceMiles": 8.68,
+    "source": {
+      "osmType": "node",
+      "osmId": 11480363897
+    }
+  },
+  {
+    "id": "877-Gym-way-960905341",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Everybody Fights",
+    "lat": 42.4747715,
+    "lon": -71.0244701,
+    "distanceMiles": 8.86,
+    "source": {
+      "osmType": "way",
+      "osmId": 960905341
+    }
+  },
+  {
+    "id": "877-Gym-node-6382212941",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "Rebirth Body Transformation Center",
+    "lat": 42.5006961,
+    "lon": -71.0738522,
+    "distanceMiles": 8.96,
+    "source": {
+      "osmType": "node",
+      "osmId": 6382212941
+    }
+  },
+  {
+    "id": "877-Gym-way-216404291",
+    "baseId": "877",
+    "category": "Gym",
+    "name": "MG Fitness",
+    "lat": 42.4967653,
+    "lon": -71.0703558,
+    "distanceMiles": 9.02,
+    "source": {
+      "osmType": "way",
+      "osmId": 216404291
+    }
+  },
+  {
+    "id": "877-Park-way-29694036",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Locust St Open Space",
+    "lat": 42.5857975,
+    "lon": -70.9395095,
+    "distanceMiles": 0.32,
+    "source": {
+      "osmType": "way",
+      "osmId": 29694036
+    }
+  },
+  {
+    "id": "877-Park-way-29688479",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Rocky Hill Conservation Area",
+    "lat": 42.5884195,
+    "lon": -70.9331572,
+    "distanceMiles": 0.58,
+    "source": {
+      "osmType": "way",
+      "osmId": 29688479
+    }
+  },
+  {
+    "id": "877-Park-way-29691518",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Rocky Hill Circle Open Space",
+    "lat": 42.5858061,
+    "lon": -70.9320253,
+    "distanceMiles": 0.66,
+    "source": {
+      "osmType": "way",
+      "osmId": 29691518
+    }
+  },
+  {
+    "id": "877-Park-way-29693569",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Cluster Open Space",
+    "lat": 42.5787986,
+    "lon": -70.9481243,
+    "distanceMiles": 0.7,
+    "source": {
+      "osmType": "way",
+      "osmId": 29693569
+    }
+  },
+  {
+    "id": "877-Park-way-29692113",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Arrowhead Estates",
+    "lat": 42.5773168,
+    "lon": -70.9408571,
+    "distanceMiles": 0.8,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692113
+    }
+  },
+  {
+    "id": "877-Park-way-29688678",
+    "baseId": "877",
+    "category": "Park",
+    "name": "College Pond Conservation Area",
+    "lat": 42.57836,
+    "lon": -70.9529395,
+    "distanceMiles": 0.83,
+    "source": {
+      "osmType": "way",
+      "osmId": 29688678
+    }
+  },
+  {
+    "id": "877-Park-way-29692906",
+    "baseId": "877",
+    "category": "Park",
+    "name": "College Pond Area",
+    "lat": 42.575204,
+    "lon": -70.9522784,
+    "distanceMiles": 1.01,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692906
+    }
+  },
+  {
+    "id": "877-Park-way-29689428",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Fox Hill Open Space",
+    "lat": 42.5757125,
+    "lon": -70.9543847,
+    "distanceMiles": 1.02,
+    "source": {
+      "osmType": "way",
+      "osmId": 29689428
+    }
+  },
+  {
+    "id": "877-Park-way-29687918",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Frost Fish Brook",
+    "lat": 42.5710859,
+    "lon": -70.927685,
+    "distanceMiles": 1.48,
+    "source": {
+      "osmType": "way",
+      "osmId": 29687918
+    }
+  },
+  {
+    "id": "877-Park-way-29689656",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Proctor Farm Conservation Area",
+    "lat": 42.5742755,
+    "lon": -70.9188075,
+    "distanceMiles": 1.64,
+    "source": {
+      "osmType": "way",
+      "osmId": 29689656
+    }
+  },
+  {
+    "id": "877-Park-node-5462653805",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Danvers Square",
+    "lat": 42.5656756,
+    "lon": -70.9356397,
+    "distanceMiles": 1.65,
+    "source": {
+      "osmType": "node",
+      "osmId": 5462653805
+    }
+  },
+  {
+    "id": "877-Park-way-29694323",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Danvers Meadows",
+    "lat": 42.5641469,
+    "lon": -70.9460909,
+    "distanceMiles": 1.69,
+    "source": {
+      "osmType": "way",
+      "osmId": 29694323
+    }
+  },
+  {
+    "id": "877-Park-way-29692939",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Plains Park",
+    "lat": 42.5657293,
+    "lon": -70.9290521,
+    "distanceMiles": 1.77,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692939
+    }
+  },
+  {
+    "id": "877-Park-way-29692623",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Meadows Drainage Area",
+    "lat": 42.5628557,
+    "lon": -70.9438401,
+    "distanceMiles": 1.78,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692623
+    }
+  },
+  {
+    "id": "877-Park-way-29692045",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Training Field",
+    "lat": 42.5673367,
+    "lon": -70.9649467,
+    "distanceMiles": 1.8,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692045
+    }
+  },
+  {
+    "id": "877-Park-way-29692854",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Stone Street Playground",
+    "lat": 42.5633917,
+    "lon": -70.9554856,
+    "distanceMiles": 1.83,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692854
+    }
+  },
+  {
+    "id": "877-Park-way-29690708",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Cherry Hill Open Space",
+    "lat": 42.5753865,
+    "lon": -70.9128843,
+    "distanceMiles": 1.85,
+    "source": {
+      "osmType": "way",
+      "osmId": 29690708
+    }
+  },
+  {
+    "id": "877-Park-way-1314927561",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Birch Plains Park",
+    "lat": 42.5886758,
+    "lon": -70.9071445,
+    "distanceMiles": 1.9,
+    "source": {
+      "osmType": "way",
+      "osmId": 1314927561
+    }
+  },
+  {
+    "id": "877-Park-way-29690669",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Tapley Park",
+    "lat": 42.5598067,
+    "lon": -70.9503799,
+    "distanceMiles": 2.01,
+    "source": {
+      "osmType": "way",
+      "osmId": 29690669
+    }
+  },
+  {
+    "id": "877-Park-way-29688880",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Lawrence Street Playground",
+    "lat": 42.5599136,
+    "lon": -70.9343251,
+    "distanceMiles": 2.05,
+    "source": {
+      "osmType": "way",
+      "osmId": 29688880
+    }
+  },
+  {
+    "id": "877-Park-way-29693297",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Park",
+    "lat": 42.5674843,
+    "lon": -70.9153505,
+    "distanceMiles": 2.08,
+    "source": {
+      "osmType": "way",
+      "osmId": 29693297
+    }
+  },
+  {
+    "id": "877-Park-way-29689808",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Park",
+    "lat": 42.5662774,
+    "lon": -70.9129304,
+    "distanceMiles": 2.23,
+    "source": {
+      "osmType": "way",
+      "osmId": 29689808
+    }
+  },
+  {
+    "id": "877-Park-way-1329174943",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Horace C. Clark Conservation Area",
+    "lat": 42.5857083,
+    "lon": -70.9893366,
+    "distanceMiles": 2.29,
+    "source": {
+      "osmType": "way",
+      "osmId": 1329174943
+    }
+  },
+  {
+    "id": "877-Park-way-29692029",
+    "baseId": "877",
+    "category": "Park",
+    "name": "J.C. Phillips Nature Preserve",
+    "lat": 42.5903515,
+    "lon": -70.8986462,
+    "distanceMiles": 2.34,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692029
+    }
+  },
+  {
+    "id": "877-Park-way-29696802",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Moraine Farm",
+    "lat": 42.5843279,
+    "lon": -70.8973577,
+    "distanceMiles": 2.42,
+    "source": {
+      "osmType": "way",
+      "osmId": 29696802
+    }
+  },
+  {
+    "id": "877-Park-way-1335431446",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Town Conservation Land",
+    "lat": 42.5800401,
+    "lon": -70.9915982,
+    "distanceMiles": 2.47,
+    "source": {
+      "osmType": "way",
+      "osmId": 1335431446
+    }
+  },
+  {
+    "id": "877-Park-way-29690522",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Glen Ave Saltmarsh",
+    "lat": 42.5578685,
+    "lon": -70.9151777,
+    "distanceMiles": 2.6,
+    "source": {
+      "osmType": "way",
+      "osmId": 29690522
+    }
+  },
+  {
+    "id": "877-Park-way-29691635",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Vittori Park",
+    "lat": 42.576524,
+    "lon": -70.8956209,
+    "distanceMiles": 2.62,
+    "source": {
+      "osmType": "way",
+      "osmId": 29691635
+    }
+  },
+  {
+    "id": "877-Park-way-29690571",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Colgate Park",
+    "lat": 42.5675325,
+    "lon": -70.9008464,
+    "distanceMiles": 2.66,
+    "source": {
+      "osmType": "way",
+      "osmId": 29690571
+    }
+  },
+  {
+    "id": "877-Park-way-29692709",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Sandy Beach",
+    "lat": 42.5542145,
+    "lon": -70.9189028,
+    "distanceMiles": 2.71,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692709
+    }
+  },
+  {
+    "id": "877-Park-way-1335380773",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Johns Meadow Conservation Area",
+    "lat": 42.6129641,
+    "lon": -70.9862373,
+    "distanceMiles": 2.71,
+    "source": {
+      "osmType": "way",
+      "osmId": 1335380773
+    }
+  },
+  {
+    "id": "877-Park-way-29692355",
+    "baseId": "877",
+    "category": "Park",
+    "name": "John L. George Park",
+    "lat": 42.5530484,
+    "lon": -70.9213601,
+    "distanceMiles": 2.72,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692355
+    }
+  },
+  {
+    "id": "877-Park-way-29688789",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Essex County Agricultural And Technical Institute",
+    "lat": 42.5962966,
+    "lon": -70.9968901,
+    "distanceMiles": 2.72,
+    "source": {
+      "osmType": "way",
+      "osmId": 29688789
+    }
+  },
+  {
+    "id": "877-Park-way-29691099",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Bradstreet Open Space",
+    "lat": 42.5548936,
+    "lon": -70.9118023,
+    "distanceMiles": 2.86,
+    "source": {
+      "osmType": "way",
+      "osmId": 29691099
+    }
+  },
+  {
+    "id": "877-Park-way-29688035",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Bradstreet Open Space",
+    "lat": 42.5536431,
+    "lon": -70.9107585,
+    "distanceMiles": 2.96,
+    "source": {
+      "osmType": "way",
+      "osmId": 29688035
+    }
+  },
+  {
+    "id": "877-Park-way-1314930518",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Pershing Avenue Field",
+    "lat": 42.5833325,
+    "lon": -70.8867553,
+    "distanceMiles": 2.96,
+    "source": {
+      "osmType": "way",
+      "osmId": 1314930518
+    }
+  },
+  {
+    "id": "877-Park-way-29688918",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Femino Park",
+    "lat": 42.5552323,
+    "lon": -70.9049064,
+    "distanceMiles": 3.06,
+    "source": {
+      "osmType": "way",
+      "osmId": 29688918
+    }
+  },
+  {
+    "id": "877-Park-way-29692874",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Town Conservation Land",
+    "lat": 42.6107985,
+    "lon": -70.9973725,
+    "distanceMiles": 3.1,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692874
+    }
+  },
+  {
+    "id": "877-Park-way-29694233",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Brooksby Farm",
+    "lat": 42.5453207,
+    "lon": -70.9650343,
+    "distanceMiles": 3.17,
+    "source": {
+      "osmType": "way",
+      "osmId": 29694233
+    }
+  },
+  {
+    "id": "877-Park-way-29693330",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Norris Brook Conservation Area",
+    "lat": 42.5631724,
+    "lon": -70.9969728,
+    "distanceMiles": 3.2,
+    "source": {
+      "osmType": "way",
+      "osmId": 29693330
+    }
+  },
+  {
+    "id": "877-Park-way-29694004",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Buxton Rd Land",
+    "lat": 42.5654749,
+    "lon": -71.0007753,
+    "distanceMiles": 3.28,
+    "source": {
+      "osmType": "way",
+      "osmId": 29694004
+    }
+  },
+  {
+    "id": "877-Park-way-29692685",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Water Supply Land",
+    "lat": 42.5550865,
+    "lon": -70.9918197,
+    "distanceMiles": 3.34,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692685
+    }
+  },
+  {
+    "id": "877-Park-way-29830716",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Ipswich River&Norris Brook",
+    "lat": 42.5634903,
+    "lon": -71.0005072,
+    "distanceMiles": 3.34,
+    "source": {
+      "osmType": "way",
+      "osmId": 29830716
+    }
+  },
+  {
+    "id": "877-Park-way-1339195000",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Bates Park",
+    "lat": 42.5507027,
+    "lon": -70.9024024,
+    "distanceMiles": 3.38,
+    "source": {
+      "osmType": "way",
+      "osmId": 1339195000
+    }
+  },
+  {
+    "id": "877-Park-way-29830070",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Mt Vernon Cons. Land",
+    "lat": 42.5928818,
+    "lon": -71.0109618,
+    "distanceMiles": 3.39,
+    "source": {
+      "osmType": "way",
+      "osmId": 29830070
+    }
+  },
+  {
+    "id": "877-Park-way-29688881",
+    "baseId": "877",
+    "category": "Park",
+    "name": "McKay Playground",
+    "lat": 42.5596712,
+    "lon": -70.8895858,
+    "distanceMiles": 3.44,
+    "source": {
+      "osmType": "way",
+      "osmId": 29688881
+    }
+  },
+  {
+    "id": "877-Park-way-29862591",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Norris Brook Wetlands",
+    "lat": 42.5629567,
+    "lon": -71.0030359,
+    "distanceMiles": 3.46,
+    "source": {
+      "osmType": "way",
+      "osmId": 29862591
+    }
+  },
+  {
+    "id": "877-Park-way-1335095213",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Emily Maher Park",
+    "lat": 42.5671854,
+    "lon": -71.0061832,
+    "distanceMiles": 3.47,
+    "source": {
+      "osmType": "way",
+      "osmId": 1335095213
+    }
+  },
+  {
+    "id": "877-Park-way-1335097785",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Henry Tragert Town Common",
+    "lat": 42.593041,
+    "lon": -71.0129466,
+    "distanceMiles": 3.49,
+    "source": {
+      "osmType": "way",
+      "osmId": 1335097785
+    }
+  },
+  {
+    "id": "877-Park-way-29818376",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Morris Brook Wetlands",
+    "lat": 42.563927,
+    "lon": -71.0045665,
+    "distanceMiles": 3.5,
+    "source": {
+      "osmType": "way",
+      "osmId": 29818376
+    }
+  },
+  {
+    "id": "877-Park-way-29838573",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Norris Brook Wetlands",
+    "lat": 42.5608513,
+    "lon": -71.0027333,
+    "distanceMiles": 3.53,
+    "source": {
+      "osmType": "way",
+      "osmId": 29838573
+    }
+  },
+  {
+    "id": "877-Park-way-311057838",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Herlihy Park",
+    "lat": 42.5531185,
+    "lon": -70.8938816,
+    "distanceMiles": 3.56,
+    "source": {
+      "osmType": "way",
+      "osmId": 311057838
+    }
+  },
+  {
+    "id": "877-Park-way-29692899",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Balch Park",
+    "lat": 42.5614648,
+    "lon": -70.884322,
+    "distanceMiles": 3.59,
+    "source": {
+      "osmType": "way",
+      "osmId": 29692899
+    }
+  },
+  {
+    "id": "877-Park-way-29830190",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Lisa Road Conservation Area",
+    "lat": 42.5578584,
+    "lon": -71.0015551,
+    "distanceMiles": 3.6,
+    "source": {
+      "osmType": "way",
+      "osmId": 29830190
+    }
+  },
+  {
+    "id": "877-Park-way-29744795",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Norris Brook Wetlands",
+    "lat": 42.5608379,
+    "lon": -71.0043779,
+    "distanceMiles": 3.6,
+    "source": {
+      "osmType": "way",
+      "osmId": 29744795
+    }
+  },
+  {
+    "id": "877-Park-way-29863020",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Norris Brook Wetlands",
+    "lat": 42.5592796,
+    "lon": -71.0032658,
+    "distanceMiles": 3.61,
+    "source": {
+      "osmType": "way",
+      "osmId": 29863020
+    }
+  },
+  {
+    "id": "877-Park-way-192583899",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Beverly Waterfront Park",
+    "lat": 42.5557684,
+    "lon": -70.8880913,
+    "distanceMiles": 3.66,
+    "source": {
+      "osmType": "way",
+      "osmId": 192583899
+    }
+  },
+  {
+    "id": "877-Park-way-29689298",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Lalikos Park",
+    "lat": 42.5389845,
+    "lon": -70.9701511,
+    "distanceMiles": 3.67,
+    "source": {
+      "osmType": "way",
+      "osmId": 29689298
+    }
+  },
+  {
+    "id": "877-Park-way-29830887",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Hocter Park",
+    "lat": 42.5813316,
+    "lon": -71.0160868,
+    "distanceMiles": 3.68,
+    "source": {
+      "osmType": "way",
+      "osmId": 29830887
+    }
+  },
+  {
+    "id": "877-Park-way-29690169",
+    "baseId": "877",
+    "category": "Park",
+    "name": "Marble Meadows Conservation Area",
+    "lat": 42.5371542,
+    "lon": -70.9634054,
+    "distanceMiles": 3.68,
+    "source": {
+      "osmType": "way",
+      "osmId": 29690169
+    }
+  },
+  {
+    "id": "877-International Airport-way-96761393",
+    "baseId": "877",
+    "category": "International Airport",
+    "name": "Beverly Municipal Airport",
+    "lat": 42.5860477,
+    "lon": -70.9161141,
+    "distanceMiles": 1.46,
+    "source": {
+      "osmType": "way",
+      "osmId": 96761393
+    }
+  }
+]
