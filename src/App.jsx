@@ -273,7 +273,7 @@ export default function MilitaryBasesDashboard() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-slate-900/60 bg-slate-900/80 border-b border-slate-800">
-        <div className="max-w-screen-2xl mx-auto px-4 py-4 flex items-center gap-4">
+        <div className="px-4 py-4 flex items-center gap-4">
           <div className="flex items-center gap-2">
             <MapPin className="w-6 h-6" />
             <h1 className="text-xl sm:text-2xl font-semibold tracking-tight">
@@ -286,16 +286,13 @@ export default function MilitaryBasesDashboard() {
         </div>
       </header>
 
-      <section className="max-w-screen-2xl mx-auto px-4 py-4 space-y-3">
+      <section className="px-4 py-4 space-y-3">
         <div className="flex flex-wrap gap-2 lg:items-center">
-          <div className="inline-flex h-11 items-center gap-3 px-4 rounded-xl border border-slate-800 bg-slate-900/60">
+          <div className="inline-flex h-11 items-center gap-3 px-4 rounded-xl border border-slate-800 bg-slate-900/60 max-w-full">
             <span className="text-xs uppercase tracking-wide text-slate-400">Filters</span>
             {activeCategories.length > 0 ? (
-              <div className="flex gap-2 items-center overflow-hidden">
-                {activeCategories.map((cat) => {
-                  const Icon = CATEGORY_META[cat].icon;
-                  return <Icon key={cat} className="w-4 h-4 text-slate-100" title={cat} />;
-                })}
+              <div className="flex-1 text-xs text-slate-100 truncate">
+                {activeCategories.join(", ")}
               </div>
             ) : (
               <span className="text-xs text-slate-500">None selected</span>
@@ -309,7 +306,7 @@ export default function MilitaryBasesDashboard() {
               className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
             >
               <Filter className="w-4 h-4" />
-              <span className="text-sm">{filtersApplied ? "Adjust filters" : "Set filters"}</span>
+              <span className="text-sm">Filters</span>
             </button>
             <button
               type="button"
@@ -327,27 +324,26 @@ export default function MilitaryBasesDashboard() {
       </section>
 
       {/* Data table section with centered, non-overlapping sticky header and compact columns */}
-      <section className="max-w-screen-2xl mx-auto px-4 pb-10">
-        <div className="mx-auto w-full">
-          <div className="relative rounded-2xl border border-slate-800 shadow-xl bg-slate-900">
+      <section className="px-4 pb-10">
+        <div className="flex flex-col lg:flex-row gap-4">
+          <div className="flex-1 rounded-2xl border border-slate-800 shadow-xl bg-slate-900 overflow-hidden">
             {filtersReady ? (
-              <div className="flex flex-col lg:flex-row">
-                <div className="flex-1 overflow-x-auto lg:overflow-x-hidden">
-                  <table className="w-full text-sm table-fixed text-[13px]">
-                    <colgroup>
-                      <col className="w-[320px]" />
-                      <col className="w-[140px]" />
-                      <col className="w-[100px]" />
-                      {activeCategories.map((_, i) => (
-                        <col key={i} className={COMPACT_CAT_W} />
-                      ))}
-                    </colgroup>
+              <div className="overflow-x-auto lg:overflow-x-hidden">
+                <table className="w-full text-sm table-fixed text-[13px]">
+                  <colgroup>
+                    <col className="w-[320px]" />
+                    <col className="w-[140px]" />
+                    <col className="w-[72px]" />
+                    {activeCategories.map((_, i) => (
+                      <col key={i} className={COMPACT_CAT_W} />
+                    ))}
+                  </colgroup>
 
-                    <thead className="sticky top-0 z-20 bg-slate-900">
+                  <thead className="sticky top-0 z-20 bg-slate-900">
                     <tr className="text-left text-slate-300">
-                      <Th label="Base"   now={sortBy} k="name"  onSort={setSort} />
+                      <Th label="Base" now={sortBy} k="name" onSort={setSort} />
                       <Th label="Branch" now={sortBy} k="branch" onSort={setSort} />
-                      <Th label="State"  now={sortBy} k="state"  onSort={setSort} />
+                      <Th label="State" now={sortBy} k="state" onSort={setSort} />
                       {activeCategories.map((c) => (
                         <Th key={c} label={shortHeader(c)} now={sortBy} k={c} onSort={setSort} />
                       ))}
@@ -370,15 +366,13 @@ export default function MilitaryBasesDashboard() {
                             </div>
                           </td>
                           <td className="px-3 py-3 align-top">{b.branch}</td>
-                          <td className="px-3 py-3 align-top">{normState(b.state)}</td>
+                          <td className="px-2 py-3 align-top text-center">{normState(b.state)}</td>
 
                           {activeCategories.map((c) => {
                             const Icon = CATEGORY_META[c].icon;
                             const count = stats.counts[c] || 0;
                             const isActiveDetail =
-                              detailSelection &&
-                              detailSelection.baseId === b.id &&
-                              detailSelection.category === c;
+                              detailSelection && detailSelection.baseId === b.id && detailSelection.category === c;
                             return (
                               <td key={c} className="px-2 py-2 text-center">
                                 <button
@@ -408,55 +402,53 @@ export default function MilitaryBasesDashboard() {
                     )}
                   </tbody>
                 </table>
-                </div>
-                <aside className="lg:w-96 border-t lg:border-t-0 lg:border-l border-slate-800 bg-slate-950/40 p-4 space-y-4">
-                  {detailData ? (
-                    <>
-                      <div className="flex items-start gap-3">
-                        {CATEGORY_META[detailData.category]?.icon && (
-                          <div className="p-2 rounded-xl bg-slate-900 border border-slate-800">
-                            {React.createElement(CATEGORY_META[detailData.category].icon, {
-                              className: "w-5 h-5 text-indigo-300"
-                            })}
-                          </div>
-                        )}
-                        <div>
-                          <p className="text-xs uppercase tracking-wide text-slate-500">{detailData.category}</p>
-                          <p className="text-base font-semibold text-slate-100">{detailData.base.name}</p>
-                          <p className="text-xs text-slate-400">{detailData.locationLabel}</p>
-                        </div>
-                      </div>
-                      <div className="text-sm text-slate-300">
-                        {detailData.amenities.length > 0
-                          ? `${detailData.amenities.length} result${detailData.amenities.length === 1 ? "" : "s"} within ${radius} miles.`
-                          : `No ${detailData.category.toLowerCase()} within ${radius} miles.`}
-                      </div>
-                      <div className="space-y-3 max-h-[360px] overflow-y-auto pr-1">
-                        {detailData.amenities.length > 0 ? (
-                          detailData.amenities.map((a) => (
-                            <div key={a.id} className="rounded-2xl border border-slate-800 bg-slate-900 p-3 text-sm">
-                              <p className="font-medium text-slate-100">{a.name || `${detailData.category} option`}</p>
-                              <p className="text-xs text-slate-400">
-                                {typeof a.distanceMiles === "number" ? `${a.distanceMiles.toFixed(1)} mi away` : "Distance unavailable"}
-                              </p>
-                              {a.address && <p className="text-xs text-slate-500 mt-1">{a.address}</p>}
-                            </div>
-                          ))
-                        ) : (
-                          <p className="text-xs text-slate-500">Try increasing the radius to find nearby locations.</p>
-                        )}
-                      </div>
-                    </>
-                  ) : (
-                    <div className="text-sm text-slate-400">
-                      Click any amenity count to view the specific locations that make up that number.
-                    </div>
-                  )}
-                </aside>
               </div>
             ) : (
-              <div className="p-10 text-center text-slate-400">
-                {filtersPrompt}
+              <div className="p-10 text-center text-slate-400">{filtersPrompt}</div>
+            )}
+          </div>
+
+          <div className="lg:w-96 rounded-2xl border border-slate-800 bg-slate-950/40 p-4 space-y-4">
+            {detailData ? (
+              <>
+                <div className="flex items-start gap-3">
+                  {CATEGORY_META[detailData.category]?.icon && (
+                    <div className="p-2 rounded-xl bg-slate-900 border border-slate-800">
+                      {React.createElement(CATEGORY_META[detailData.category].icon, {
+                        className: "w-5 h-5 text-indigo-300"
+                      })}
+                    </div>
+                  )}
+                  <div>
+                    <p className="text-xs uppercase tracking-wide text-slate-500">{detailData.category}</p>
+                    <p className="text-base font-semibold text-slate-100">{detailData.base.name}</p>
+                    <p className="text-xs text-slate-400">{detailData.locationLabel}</p>
+                  </div>
+                </div>
+                <div className="text-sm text-slate-300">
+                  {detailData.amenities.length > 0
+                    ? `${detailData.amenities.length} result${detailData.amenities.length === 1 ? "" : "s"} within ${radius} miles.`
+                    : `No ${detailData.category.toLowerCase()} within ${radius} miles.`}
+                </div>
+                <div className="space-y-3 max-h-[360px] overflow-y-auto pr-1">
+                  {detailData.amenities.length > 0 ? (
+                    detailData.amenities.map((a) => (
+                      <div key={a.id} className="rounded-2xl border border-slate-800 bg-slate-900 p-3 text-sm">
+                        <p className="font-medium text-slate-100">{a.name || `${detailData.category} option`}</p>
+                        <p className="text-xs text-slate-400">
+                          {typeof a.distanceMiles === "number" ? `${a.distanceMiles.toFixed(1)} mi away` : "Distance unavailable"}
+                        </p>
+                        {a.address && <p className="text-xs text-slate-500 mt-1">{a.address}</p>}
+                      </div>
+                    ))
+                  ) : (
+                    <p className="text-xs text-slate-500">Try increasing the radius to find nearby locations.</p>
+                  )}
+                </div>
+              </>
+            ) : (
+              <div className="text-sm text-slate-400">
+                Click any amenity count to view the specific locations that make up that number.
               </div>
             )}
           </div>
