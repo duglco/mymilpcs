@@ -84,8 +84,6 @@ export default function MilitaryBasesDashboard() {
   const [baseFilters, setBaseFilters] = useState([]);
   const [radius, setRadius] = useState(10);
   const [selectedCats, setSelectedCats] = useState(() => buildCategoryState());
-  const [requireHospital, setRequireHospital] = useState(false);
-  const [requireVA, setRequireVA] = useState(false);
   const [sortBy, setSortBy] = useState({ key: "name", dir: "asc" });
   const [filtersModalOpen, setFiltersModalOpen] = useState(true);
   const [filtersApplied, setFiltersApplied] = useState(false);
@@ -152,11 +150,9 @@ export default function MilitaryBasesDashboard() {
         if (branchFilters.length > 0 && !branchFilters.includes(b.branch)) return false;
         if (stateFilters.length > 0 && !stateFilters.includes(normState(b.state))) return false;
         if (baseFilters.length > 0 && !baseFilters.includes(b.id)) return false;
-        if (requireHospital && perBaseStats[b.id].counts["Hospital"] < 1) return false;
-        if (requireVA && perBaseStats[b.id].counts["VA"] < 1) return false;
         return true;
       }),
-    [branchFilters, stateFilters, baseFilters, requireHospital, requireVA, perBaseStats]
+    [branchFilters, stateFilters, baseFilters, perBaseStats]
   );
 
   const sorted = useMemo(() => {
@@ -178,11 +174,9 @@ export default function MilitaryBasesDashboard() {
       stateFilters,
       baseFilters,
       radius,
-      requireHospital,
-      requireVA,
       selectedCats
     }),
-    [branchFilters, stateFilters, baseFilters, radius, requireHospital, requireVA, selectedCats]
+    [branchFilters, stateFilters, baseFilters, radius, selectedCats]
   );
 
   const filtersReady = filtersApplied && activeCategories.length > 0;
@@ -233,8 +227,6 @@ export default function MilitaryBasesDashboard() {
     setStateFilters([...next.stateFilters]);
     setBaseFilters([...next.baseFilters]);
     setRadius(next.radius);
-    setRequireHospital(next.requireHospital);
-    setRequireVA(next.requireVA);
     setSelectedCats({ ...next.selectedCats });
     setFiltersModalOpen(false);
     setFiltersApplied(true);
@@ -710,25 +702,6 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
               />
             </label>
 
-            <div className="space-y-2 text-sm text-white">
-              <span className="block text-xs uppercase tracking-wide text-neutral-500">Must include</span>
-              <label className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-black border border-neutral-800">
-                <input
-                  type="checkbox"
-                  checked={draft.requireHospital}
-                  onChange={(e) => update('requireHospital', e.target.checked)}
-                />
-                <span>Hospital</span>
-              </label>
-              <label className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-black border border-neutral-800">
-                <input
-                  type="checkbox"
-                  checked={draft.requireVA}
-                  onChange={(e) => update('requireVA', e.target.checked)}
-                />
-                <span>VA facility</span>
-              </label>
-            </div>
           </div>
 
           <div>
