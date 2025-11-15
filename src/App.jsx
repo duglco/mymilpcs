@@ -532,7 +532,7 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
 
   return (
     <div className="fixed inset-0 z-50 bg-neutral-950/70 backdrop-blur-sm flex items-center justify-center px-4 py-6">
-      <div className="w-full max-w-3xl bg-neutral-900 border border-neutral-800 rounded-2xl shadow-2xl overflow-hidden">
+      <div className="w-full max-w-2xl bg-neutral-900 border border-neutral-800 rounded-2xl shadow-2xl overflow-hidden">
         <div className="flex items-center justify-between px-6 py-4 border-b border-neutral-800">
           <div>
             <p className="text-lg font-semibold">Choose filters</p>
@@ -735,18 +735,23 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
             <div className="flex items-center justify-between text-xs uppercase tracking-wide text-neutral-500 mb-2">
               <span>Amenities ({Object.values(draft.selectedCats).filter(Boolean).length} selected)</span>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
               {categoryList.map((cat) => {
                 const Icon = CATEGORY_META[cat].icon;
                 return (
-                  <label key={cat} className={`flex items-center gap-2 px-3 py-2 rounded-xl border ${draft.selectedCats[cat] ? 'border-indigo-500 bg-indigo-500/5' : 'border-neutral-800 bg-black'}`}>
+                  <label
+                    key={cat}
+                    className={`flex items-center gap-2 px-2 py-1.5 rounded-xl border ${
+                      draft.selectedCats[cat] ? 'border-indigo-500 bg-indigo-500/5' : 'border-neutral-800 bg-black'
+                    }`}
+                  >
                     <input
                       type="checkbox"
                       checked={draft.selectedCats[cat]}
                       onChange={() => toggleCategory(cat)}
                     />
                     <Icon className="w-4 h-4" />
-                    <span className="text-sm">{cat}</span>
+                    <span>{cat}</span>
                   </label>
                 );
               })}
