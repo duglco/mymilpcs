@@ -329,15 +329,7 @@ export default function MilitaryBasesDashboard() {
           <div className="flex-1 rounded-2xl border border-slate-800 shadow-xl bg-slate-900 overflow-hidden">
             {filtersReady ? (
               <div className="overflow-x-auto lg:overflow-x-hidden">
-                <table className="w-full text-sm table-fixed text-[13px]">
-                  <colgroup>
-                    <col className="w-[320px]" />
-                    <col className="w-[140px]" />
-                    <col className="w-[72px]" />
-                    {activeCategories.map((_, i) => (
-                      <col key={i} className={COMPACT_CAT_W} />
-                    ))}
-                  </colgroup>
+                <table className="w-full text-sm table-auto text-[13px] whitespace-nowrap">
 
                   <thead className="sticky top-0 z-20 bg-slate-900">
                     <tr className="text-left text-slate-300">
@@ -365,8 +357,8 @@ export default function MilitaryBasesDashboard() {
                               <MapPin className="w-3.5 h-3.5" /> {locationLabel}
                             </div>
                           </td>
-                          <td className="px-3 py-3 align-top">{b.branch}</td>
-                          <td className="px-2 py-3 align-top text-center">{normState(b.state)}</td>
+                          <td className="px-3 py-3 align-top whitespace-nowrap">{b.branch}</td>
+                          <td className="px-2 py-3 align-top text-center whitespace-nowrap">{normState(b.state)}</td>
 
                           {activeCategories.map((c) => {
                             const Icon = CATEGORY_META[c].icon;
@@ -477,7 +469,11 @@ export default function MilitaryBasesDashboard() {
 function Th({ label, now, k, onSort }) {
   const active = now.key === k;
   return (
-    <th className="px-3 py-2 font-medium text-xs tracking-wide uppercase select-none cursor-pointer" onClick={() => onSort(k)} title={`Sort by ${label}`}>
+    <th
+      className="px-3 py-2 font-medium text-xs tracking-wide uppercase select-none cursor-pointer whitespace-nowrap"
+      onClick={() => onSort(k)}
+      title={`Sort by ${label}`}
+    >
       <div className="flex items-center gap-1.5">
         <span>{label}</span>
         <span className={`transition ${active ? "opacity-100" : "opacity-30"}`}>{active ? (now.dir === "asc" ? "▲" : "▼") : "↕"}</span>
