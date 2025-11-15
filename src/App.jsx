@@ -493,9 +493,9 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
   useEffect(() => {
     if (open) {
       setDraft(cloneFilterState(initialFilters));
-      setBranchCandidate(branchChoices[0] ?? "");
-      setStateCandidate(stateChoices[0] ?? "");
-      setBaseCandidate(baseOptions[0]?.id ?? "");
+      setBranchCandidate("");
+      setStateCandidate("");
+      setBaseCandidate("");
     }
   }, [open, initialFilters, branchChoices, stateChoices, baseOptions]);
 
