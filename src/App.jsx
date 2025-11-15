@@ -271,8 +271,8 @@ export default function MilitaryBasesDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
-      <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-slate-900/60 bg-slate-900/80 border-b border-slate-800">
+    <div className="min-h-screen bg-black text-white">
+      <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-neutral-900/60 bg-neutral-900/80 border-b border-neutral-800">
         <div className="px-4 py-4 flex items-center gap-4">
           <div className="flex items-center gap-2">
             <MapPin className="w-6 h-6" />
@@ -280,7 +280,7 @@ export default function MilitaryBasesDashboard() {
               U.S. Military Bases & Nearby Amenities
             </h1>
           </div>
-          <div className="ml-auto text-xs sm:text-sm text-slate-400">
+          <div className="ml-auto text-xs sm:text-sm text-neutral-400">
             Prototype • demo dataset • client-side only
           </div>
         </div>
@@ -288,14 +288,14 @@ export default function MilitaryBasesDashboard() {
 
       <section className="px-4 py-4 space-y-3">
         <div className="flex flex-wrap gap-2 lg:items-center">
-          <div className="inline-flex h-11 items-center gap-3 px-4 rounded-xl border border-slate-800 bg-slate-900/60 max-w-full">
-            <span className="text-xs uppercase tracking-wide text-slate-400">Filters</span>
+          <div className="inline-flex h-11 items-center gap-3 px-4 rounded-xl border border-neutral-800 bg-neutral-900/60 max-w-full">
+            <span className="text-xs uppercase tracking-wide text-neutral-400">Filters</span>
             {activeCategories.length > 0 ? (
-              <div className="flex-1 text-xs text-slate-100 truncate">
+              <div className="flex-1 text-xs text-white truncate">
                 {activeCategories.join(", ")}
               </div>
             ) : (
-              <span className="text-xs text-slate-500">None selected</span>
+              <span className="text-xs text-neutral-500">None selected</span>
             )}
           </div>
 
@@ -303,7 +303,7 @@ export default function MilitaryBasesDashboard() {
             <button
               type="button"
               onClick={() => setFiltersModalOpen(true)}
-              className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-slate-800 border border-slate-700 hover:border-indigo-500 hover:text-indigo-200 transition"
+              className="inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl bg-neutral-800 border border-neutral-700 hover:border-indigo-500 hover:text-indigo-200 transition"
             >
               <Filter className="w-4 h-4" />
               <span className="text-sm">Filters</span>
@@ -313,7 +313,7 @@ export default function MilitaryBasesDashboard() {
               onClick={exportCSV}
               disabled={exportDisabled}
               className={`inline-flex h-11 items-center justify-center gap-2 px-4 rounded-xl shadow-sm ${
-                exportDisabled ? "bg-slate-800 text-slate-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"
+                exportDisabled ? "bg-neutral-800 text-neutral-500 cursor-not-allowed" : "bg-indigo-600 hover:bg-indigo-500"
               }`}
             >
               <Download className="w-4 h-4" />
@@ -326,13 +326,13 @@ export default function MilitaryBasesDashboard() {
       {/* Data table section with centered, non-overlapping sticky header and compact columns */}
       <section className="px-4 pb-10">
         <div className="flex flex-col lg:flex-row gap-4">
-          <div className="flex-1 rounded-2xl border border-slate-800 shadow-xl bg-slate-900 overflow-hidden">
+          <div className="rounded-2xl border border-neutral-800 shadow-xl bg-neutral-900 overflow-hidden">
             {filtersReady ? (
-              <div className="overflow-x-auto lg:overflow-x-hidden">
-                <table className="w-full text-sm table-auto text-[13px] whitespace-nowrap">
+              <div className="overflow-x-auto">
+                <table className="inline-table table-auto text-sm text-[13px] whitespace-nowrap">
 
-                  <thead className="sticky top-0 z-20 bg-slate-900">
-                    <tr className="text-left text-slate-300">
+                  <thead className="sticky top-0 z-20 bg-neutral-900">
+                    <tr className="text-left text-white">
                       <Th label="Base" now={sortBy} k="name" onSort={setSort} />
                       <Th label="Branch" now={sortBy} k="branch" onSort={setSort} />
                       <Th label="State" now={sortBy} k="state" onSort={setSort} />
@@ -349,11 +349,11 @@ export default function MilitaryBasesDashboard() {
                       return (
                         <tr
                           key={b.id}
-                          className={`border-t border-slate-800 ${idx % 2 === 1 ? "bg-slate-950/20" : ""} hover:bg-slate-800/40 transition`}
+                          className={`border-t border-neutral-800 ${idx % 2 === 1 ? "bg-black/20" : ""} hover:bg-neutral-800/40 transition`}
                         >
                           <td className="px-3 py-3 align-top">
-                            <div className="font-medium break-words whitespace-normal">{b.name}</div>
-                            <div className="text-xs text-slate-400 flex items-center gap-1 mt-1">
+                            <div className="font-medium whitespace-nowrap">{b.name}</div>
+                            <div className="text-xs text-neutral-400 flex items-center gap-1 mt-1 whitespace-nowrap">
                               <MapPin className="w-3.5 h-3.5" /> {locationLabel}
                             </div>
                           </td>
@@ -371,7 +371,7 @@ export default function MilitaryBasesDashboard() {
                                   type="button"
                                   onClick={() => handleCellClick(b, c)}
                                   className={`w-full inline-flex items-center justify-center gap-1 px-2 py-1 rounded-full text-[11px] transition focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 ${
-                                    count > 0 ? "bg-slate-800 text-slate-100" : "bg-slate-900 text-slate-500 border border-slate-800"
+                                    count > 0 ? "bg-neutral-800 text-white" : "bg-neutral-900 text-neutral-500 border border-neutral-800"
                                   } ${isActiveDetail ? "ring-2 ring-indigo-400" : ""}`}
                                   aria-label={`Show ${count} ${c} amenities near ${b.name}`}
                                 >
@@ -387,7 +387,7 @@ export default function MilitaryBasesDashboard() {
 
                     {sorted.length === 0 && (
                       <tr>
-                        <td colSpan={3 + activeCategories.length} className="px-3 py-8 text-center text-slate-400">
+                        <td colSpan={3 + activeCategories.length} className="px-3 py-8 text-center text-neutral-400">
                           No bases match your filters.
                         </td>
                       </tr>
@@ -396,28 +396,28 @@ export default function MilitaryBasesDashboard() {
                 </table>
               </div>
             ) : (
-              <div className="p-10 text-center text-slate-400">{filtersPrompt}</div>
+              <div className="p-10 text-center text-neutral-400">{filtersPrompt}</div>
             )}
           </div>
 
-          <div className="lg:w-96 rounded-2xl border border-slate-800 bg-slate-950/40 p-4 space-y-4">
+          <div className="lg:w-96 rounded-2xl border border-neutral-800 bg-neutral-950/40 p-4 space-y-4">
             {detailData ? (
               <>
                 <div className="flex items-start gap-3">
                   {CATEGORY_META[detailData.category]?.icon && (
-                    <div className="p-2 rounded-xl bg-slate-900 border border-slate-800">
+                    <div className="p-2 rounded-xl bg-neutral-900 border border-neutral-800">
                       {React.createElement(CATEGORY_META[detailData.category].icon, {
                         className: "w-5 h-5 text-indigo-300"
                       })}
                     </div>
                   )}
                   <div>
-                    <p className="text-xs uppercase tracking-wide text-slate-500">{detailData.category}</p>
-                    <p className="text-base font-semibold text-slate-100">{detailData.base.name}</p>
-                    <p className="text-xs text-slate-400">{detailData.locationLabel}</p>
+                    <p className="text-xs uppercase tracking-wide text-neutral-500">{detailData.category}</p>
+                    <p className="text-base font-semibold text-white">{detailData.base.name}</p>
+                    <p className="text-xs text-neutral-400">{detailData.locationLabel}</p>
                   </div>
                 </div>
-                <div className="text-sm text-slate-300">
+                <div className="text-sm text-white">
                   {detailData.amenities.length > 0
                     ? `${detailData.amenities.length} result${detailData.amenities.length === 1 ? "" : "s"} within ${radius} miles.`
                     : `No ${detailData.category.toLowerCase()} within ${radius} miles.`}
@@ -425,28 +425,28 @@ export default function MilitaryBasesDashboard() {
                 <div className="space-y-3 max-h-[360px] overflow-y-auto pr-1">
                   {detailData.amenities.length > 0 ? (
                     detailData.amenities.map((a) => (
-                      <div key={a.id} className="rounded-2xl border border-slate-800 bg-slate-900 p-3 text-sm">
-                        <p className="font-medium text-slate-100">{a.name || `${detailData.category} option`}</p>
-                        <p className="text-xs text-slate-400">
+                      <div key={a.id} className="rounded-2xl border border-neutral-800 bg-neutral-900 p-3 text-sm">
+                        <p className="font-medium text-white">{a.name || `${detailData.category} option`}</p>
+                        <p className="text-xs text-neutral-400">
                           {typeof a.distanceMiles === "number" ? `${a.distanceMiles.toFixed(1)} mi away` : "Distance unavailable"}
                         </p>
-                        {a.address && <p className="text-xs text-slate-500 mt-1">{a.address}</p>}
+                        {a.address && <p className="text-xs text-neutral-500 mt-1">{a.address}</p>}
                       </div>
                     ))
                   ) : (
-                    <p className="text-xs text-slate-500">Try increasing the radius to find nearby locations.</p>
+                    <p className="text-xs text-neutral-500">Try increasing the radius to find nearby locations.</p>
                   )}
                 </div>
               </>
             ) : (
-              <div className="text-sm text-slate-400">
+              <div className="text-sm text-neutral-400">
                 Click any amenity count to view the specific locations that make up that number.
               </div>
             )}
           </div>
         </div>
 
-        <div className="mt-4 text-xs text-slate-400">
+        <div className="mt-4 text-xs text-neutral-400">
           <p>Counts represent real amenities pulled from OpenStreetMap within the {radius}-mile radius you choose.</p>
           <p className="mt-2">Use Filters anytime to adjust branches, locations, distance, or amenity categories.</p>
         </div>
@@ -531,17 +531,17 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
   const hasAmenitySelection = Object.values(draft.selectedCats).some(Boolean);
 
   return (
-    <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center px-4 py-6">
-      <div className="w-full max-w-3xl bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden">
-        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-800">
+    <div className="fixed inset-0 z-50 bg-neutral-950/70 backdrop-blur-sm flex items-center justify-center px-4 py-6">
+      <div className="w-full max-w-3xl bg-neutral-900 border border-neutral-800 rounded-2xl shadow-2xl overflow-hidden">
+        <div className="flex items-center justify-between px-6 py-4 border-b border-neutral-800">
           <div>
             <p className="text-lg font-semibold">Choose filters</p>
-            <p className="text-sm text-slate-400">Pick branches, locations, radius, and the amenities to compare.</p>
+            <p className="text-sm text-neutral-400">Pick branches, locations, radius, and the amenities to compare.</p>
           </div>
           <button
             type="button"
             onClick={onClose}
-            className="p-2 rounded-full text-slate-400 hover:text-slate-100 hover:bg-slate-800 transition"
+            className="p-2 rounded-full text-neutral-400 hover:text-white hover:bg-neutral-800 transition"
           >
             <X className="w-5 h-5" />
           </button>
@@ -549,9 +549,9 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
 
         <div className="px-6 py-6 space-y-6 max-h-[80vh] overflow-y-auto">
           <div className="space-y-6">
-            <div className="space-y-2 text-sm text-slate-300">
+            <div className="space-y-2 text-sm text-white">
               <div className="flex items-center justify-between">
-                <span className="text-xs uppercase tracking-wide text-slate-500">Branches</span>
+                <span className="text-xs uppercase tracking-wide text-neutral-500">Branches</span>
                 <button
                   type="button"
                   className="text-xs text-indigo-300 hover:text-indigo-100"
@@ -564,7 +564,7 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
                 <select
                   value={branchCandidate}
                   onChange={(e) => setBranchCandidate(e.target.value)}
-                  className="flex-1 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="flex-1 px-3 py-2 rounded-xl bg-black border border-neutral-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <option value="">Select branch</option>
                   {branchChoices.map((opt) => (
@@ -583,22 +583,22 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
               </div>
               <div className="flex flex-wrap gap-2">
                 {(draft.branchFilters || []).map((value) => (
-                  <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs">
+                  <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-700 text-xs">
                     {value}
-                    <button type="button" onClick={() => removeValue("branchFilters", value)} className="text-slate-400 hover:text-white">
+                    <button type="button" onClick={() => removeValue("branchFilters", value)} className="text-neutral-400 hover:text-white">
                       ×
                     </button>
                   </span>
                 ))}
                 {(!draft.branchFilters || draft.branchFilters.length === 0) && (
-                  <span className="text-xs text-slate-500">All branches</span>
+                  <span className="text-xs text-neutral-500">All branches</span>
                 )}
               </div>
             </div>
 
-            <div className="space-y-2 text-sm text-slate-300">
+            <div className="space-y-2 text-sm text-white">
               <div className="flex items-center justify-between">
-                <span className="text-xs uppercase tracking-wide text-slate-500">States</span>
+                <span className="text-xs uppercase tracking-wide text-neutral-500">States</span>
                 <button
                   type="button"
                   className="text-xs text-indigo-300 hover:text-indigo-100"
@@ -611,7 +611,7 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
                 <select
                   value={stateCandidate}
                   onChange={(e) => setStateCandidate(e.target.value)}
-                  className="flex-1 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="flex-1 px-3 py-2 rounded-xl bg-black border border-neutral-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <option value="">Select state</option>
                   {stateChoices.map((opt) => (
@@ -630,22 +630,22 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
               </div>
               <div className="flex flex-wrap gap-2">
                 {(draft.stateFilters || []).map((value) => (
-                  <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs">
+                  <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-700 text-xs">
                     {value}
-                    <button type="button" onClick={() => removeValue("stateFilters", value)} className="text-slate-400 hover:text-white">
+                    <button type="button" onClick={() => removeValue("stateFilters", value)} className="text-neutral-400 hover:text-white">
                       ×
                     </button>
                   </span>
                 ))}
                 {(!draft.stateFilters || draft.stateFilters.length === 0) && (
-                  <span className="text-xs text-slate-500">All states</span>
+                  <span className="text-xs text-neutral-500">All states</span>
                 )}
               </div>
             </div>
 
-            <div className="space-y-2 text-sm text-slate-300">
+            <div className="space-y-2 text-sm text-white">
               <div className="flex items-center justify-between">
-                <span className="text-xs uppercase tracking-wide text-slate-500">Bases</span>
+                <span className="text-xs uppercase tracking-wide text-neutral-500">Bases</span>
                 <button
                   type="button"
                   className="text-xs text-indigo-300 hover:text-indigo-100"
@@ -658,7 +658,7 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
                 <select
                   value={baseCandidate}
                   onChange={(e) => setBaseCandidate(e.target.value)}
-                  className="flex-1 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="flex-1 px-3 py-2 rounded-xl bg-black border border-neutral-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <option value="">Select base</option>
                   {baseOptions.map((opt) => (
@@ -679,24 +679,24 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
                 {(draft.baseFilters || []).map((value) => {
                   const info = baseOptions.find((opt) => opt.id === value);
                   return (
-                    <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700 text-xs">
+                    <span key={value} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-700 text-xs">
                       {info?.label || value}
-                      <button type="button" onClick={() => removeValue("baseFilters", value)} className="text-slate-400 hover:text-white">
+                      <button type="button" onClick={() => removeValue("baseFilters", value)} className="text-neutral-400 hover:text-white">
                         ×
                       </button>
                     </span>
                   );
                 })}
                 {(!draft.baseFilters || draft.baseFilters.length === 0) && (
-                  <span className="text-xs text-slate-500">All bases</span>
+                  <span className="text-xs text-neutral-500">All bases</span>
                 )}
               </div>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <label className="space-y-1 text-sm text-slate-300">
-              <span className="text-xs uppercase tracking-wide text-slate-500">Radius ({draft.radius} mi)</span>
+            <label className="space-y-1 text-sm text-white">
+              <span className="text-xs uppercase tracking-wide text-neutral-500">Radius ({draft.radius} mi)</span>
               <input
                 type="range"
                 min={1}
@@ -710,9 +710,9 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
               />
             </label>
 
-            <div className="space-y-2 text-sm text-slate-300">
-              <span className="block text-xs uppercase tracking-wide text-slate-500">Must include</span>
-              <label className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800">
+            <div className="space-y-2 text-sm text-white">
+              <span className="block text-xs uppercase tracking-wide text-neutral-500">Must include</span>
+              <label className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-black border border-neutral-800">
                 <input
                   type="checkbox"
                   checked={draft.requireHospital}
@@ -720,7 +720,7 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
                 />
                 <span>Hospital</span>
               </label>
-              <label className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800">
+              <label className="inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-black border border-neutral-800">
                 <input
                   type="checkbox"
                   checked={draft.requireVA}
@@ -732,14 +732,14 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
           </div>
 
           <div>
-            <div className="flex items-center justify-between text-xs uppercase tracking-wide text-slate-500 mb-2">
+            <div className="flex items-center justify-between text-xs uppercase tracking-wide text-neutral-500 mb-2">
               <span>Amenities ({Object.values(draft.selectedCats).filter(Boolean).length} selected)</span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {categoryList.map((cat) => {
                 const Icon = CATEGORY_META[cat].icon;
                 return (
-                  <label key={cat} className={`flex items-center gap-2 px-3 py-2 rounded-xl border ${draft.selectedCats[cat] ? 'border-indigo-500 bg-indigo-500/5' : 'border-slate-800 bg-slate-950'}`}>
+                  <label key={cat} className={`flex items-center gap-2 px-3 py-2 rounded-xl border ${draft.selectedCats[cat] ? 'border-indigo-500 bg-indigo-500/5' : 'border-neutral-800 bg-black'}`}>
                     <input
                       type="checkbox"
                       checked={draft.selectedCats[cat]}
@@ -757,11 +757,11 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
           </div>
         </div>
 
-        <div className="px-6 py-4 border-t border-slate-800 flex justify-end gap-2">
+        <div className="px-6 py-4 border-t border-neutral-800 flex justify-end gap-2">
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 rounded-xl border border-slate-700 text-sm text-slate-200 hover:border-slate-500"
+            className="px-4 py-2 rounded-xl border border-neutral-700 text-sm text-white hover:border-neutral-500"
           >
             Cancel
           </button>
@@ -769,7 +769,7 @@ function FilterModal({ open, initialFilters, stateOptions, branchOptions, baseOp
             type="button"
             disabled={!hasAmenitySelection}
             onClick={() => onApply(draft)}
-            className={`px-4 py-2 rounded-xl text-sm font-medium ${hasAmenitySelection ? 'bg-indigo-600 hover:bg-indigo-500' : 'bg-slate-800 text-slate-500 cursor-not-allowed'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-medium ${hasAmenitySelection ? 'bg-indigo-600 hover:bg-indigo-500' : 'bg-neutral-800 text-neutral-500 cursor-not-allowed'}`}
           >
             Apply filters
           </button>
